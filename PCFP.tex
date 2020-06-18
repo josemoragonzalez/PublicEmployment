@@ -1,0 +1,1339 @@
+\documentclass[11pt]{article}
+
+    \usepackage[breakable]{tcolorbox}
+    \usepackage{parskip} % Stop auto-indenting (to mimic markdown behaviour)
+    
+    \usepackage{iftex}
+    \ifPDFTeX
+    	\usepackage[T1]{fontenc}
+    	\usepackage{mathpazo}
+    \else
+    	\usepackage{fontspec}
+    \fi
+
+    % Basic figure setup, for now with no caption control since it's done
+    % automatically by Pandoc (which extracts ![](path) syntax from Markdown).
+    \usepackage{graphicx}
+    % Maintain compatibility with old templates. Remove in nbconvert 6.0
+    \let\Oldincludegraphics\includegraphics
+    % Ensure that by default, figures have no caption (until we provide a
+    % proper Figure object with a Caption API and a way to capture that
+    % in the conversion process - todo).
+    \usepackage{caption}
+    \DeclareCaptionFormat{nocaption}{}
+    \captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}
+
+    \usepackage[Export]{adjustbox} % Used to constrain images to a maximum size
+    \adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}
+    \usepackage{float}
+    \floatplacement{figure}{H} % forces figures to be placed at the correct location
+    \usepackage{xcolor} % Allow colors to be defined
+    \usepackage{enumerate} % Needed for markdown enumerations to work
+    \usepackage{geometry} % Used to adjust the document margins
+    \usepackage{amsmath} % Equations
+    \usepackage{amssymb} % Equations
+    \usepackage{textcomp} % defines textquotesingle
+    % Hack from http://tex.stackexchange.com/a/47451/13684:
+    \AtBeginDocument{%
+        \def\PYZsq{\textquotesingle}% Upright quotes in Pygmentized code
+    }
+    \usepackage{upquote} % Upright quotes for verbatim code
+    \usepackage{eurosym} % defines \euro
+    \usepackage[mathletters]{ucs} % Extended unicode (utf-8) support
+    \usepackage{fancyvrb} % verbatim replacement that allows latex
+    \usepackage{grffile} % extends the file name processing of package graphics 
+                         % to support a larger range
+    \makeatletter % fix for grffile with XeLaTeX
+    \def\Gread@@xetex#1{%
+      \IfFileExists{"\Gin@base".bb}%
+      {\Gread@eps{\Gin@base.bb}}%
+      {\Gread@@xetex@aux#1}%
+    }
+    \makeatother
+
+    % The hyperref package gives us a pdf with properly built
+    % internal navigation ('pdf bookmarks' for the table of contents,
+    % internal cross-reference links, web links for URLs, etc.)
+    \usepackage{hyperref}
+    % The default LaTeX title has an obnoxious amount of whitespace. By default,
+    % titling removes some of it. It also provides customization options.
+    \usepackage{titling}
+    \usepackage{longtable} % longtable support required by pandoc >1.10
+    \usepackage{booktabs}  % table support for pandoc > 1.12.2
+    \usepackage[inline]{enumitem} % IRkernel/repr support (it uses the enumerate* environment)
+    \usepackage[normalem]{ulem} % ulem is needed to support strikethroughs (\sout)
+                                % normalem makes italics be italics, not underlines
+    \usepackage{mathrsfs}
+    
+
+    
+    % Colors for the hyperref package
+    \definecolor{urlcolor}{rgb}{0,.145,.698}
+    \definecolor{linkcolor}{rgb}{.71,0.21,0.01}
+    \definecolor{citecolor}{rgb}{.12,.54,.11}
+
+    % ANSI colors
+    \definecolor{ansi-black}{HTML}{3E424D}
+    \definecolor{ansi-black-intense}{HTML}{282C36}
+    \definecolor{ansi-red}{HTML}{E75C58}
+    \definecolor{ansi-red-intense}{HTML}{B22B31}
+    \definecolor{ansi-green}{HTML}{00A250}
+    \definecolor{ansi-green-intense}{HTML}{007427}
+    \definecolor{ansi-yellow}{HTML}{DDB62B}
+    \definecolor{ansi-yellow-intense}{HTML}{B27D12}
+    \definecolor{ansi-blue}{HTML}{208FFB}
+    \definecolor{ansi-blue-intense}{HTML}{0065CA}
+    \definecolor{ansi-magenta}{HTML}{D160C4}
+    \definecolor{ansi-magenta-intense}{HTML}{A03196}
+    \definecolor{ansi-cyan}{HTML}{60C6C8}
+    \definecolor{ansi-cyan-intense}{HTML}{258F8F}
+    \definecolor{ansi-white}{HTML}{C5C1B4}
+    \definecolor{ansi-white-intense}{HTML}{A1A6B2}
+    \definecolor{ansi-default-inverse-fg}{HTML}{FFFFFF}
+    \definecolor{ansi-default-inverse-bg}{HTML}{000000}
+
+    % commands and environments needed by pandoc snippets
+    % extracted from the output of `pandoc -s`
+    \providecommand{\tightlist}{%
+      \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+    % Add ',fontsize=\small' for more characters per line
+    \newenvironment{Shaded}{}{}
+    \newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+    \newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+    \newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+    \newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+    \newcommand{\RegionMarkerTok}[1]{{#1}}
+    \newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\NormalTok}[1]{{#1}}
+    
+    % Additional commands for more recent versions of Pandoc
+    \newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{{#1}}}
+    \newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{{#1}}}
+    \newcommand{\ImportTok}[1]{{#1}}
+    \newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{{#1}}}}
+    \newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{{#1}}}
+    \newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{{#1}}}
+    \newcommand{\BuiltInTok}[1]{{#1}}
+    \newcommand{\ExtensionTok}[1]{{#1}}
+    \newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{{#1}}}
+    \newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{{#1}}}
+    \newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    
+    
+    % Define a nice break command that doesn't care if a line doesn't already
+    % exist.
+    \def\br{\hspace*{\fill} \\* }
+    % Math Jax compatibility definitions
+    \def\gt{>}
+    \def\lt{<}
+    \let\Oldtex\TeX
+    \let\Oldlatex\LaTeX
+    \renewcommand{\TeX}{\textrm{\Oldtex}}
+    \renewcommand{\LaTeX}{\textrm{\Oldlatex}}
+    % Document parameters
+    % Document title
+    \title{PCFP}
+    
+    
+    
+    
+    
+% Pygments definitions
+\makeatletter
+\def\PY@reset{\let\PY@it=\relax \let\PY@bf=\relax%
+    \let\PY@ul=\relax \let\PY@tc=\relax%
+    \let\PY@bc=\relax \let\PY@ff=\relax}
+\def\PY@tok#1{\csname PY@tok@#1\endcsname}
+\def\PY@toks#1+{\ifx\relax#1\empty\else%
+    \PY@tok{#1}\expandafter\PY@toks\fi}
+\def\PY@do#1{\PY@bc{\PY@tc{\PY@ul{%
+    \PY@it{\PY@bf{\PY@ff{#1}}}}}}}
+\def\PY#1#2{\PY@reset\PY@toks#1+\relax+\PY@do{#2}}
+
+\expandafter\def\csname PY@tok@w\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
+\expandafter\def\csname PY@tok@c\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.74,0.48,0.00}{##1}}}
+\expandafter\def\csname PY@tok@k\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.69,0.00,0.25}{##1}}}
+\expandafter\def\csname PY@tok@o\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ow\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@ne\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.82,0.25,0.23}{##1}}}
+\expandafter\def\csname PY@tok@nv\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@no\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ni\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.60,0.60,0.60}{##1}}}
+\expandafter\def\csname PY@tok@na\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.49,0.56,0.16}{##1}}}
+\expandafter\def\csname PY@tok@nt\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@s\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sd\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@si\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@se\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sr\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@ss\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sx\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@m\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@gh\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gu\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.50,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gr\endcsname{\def\PY@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ge\endcsname{\let\PY@it=\textit}
+\expandafter\def\csname PY@tok@gs\endcsname{\let\PY@bf=\textbf}
+\expandafter\def\csname PY@tok@gp\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@go\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\expandafter\def\csname PY@tok@gt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.27,0.87}{##1}}}
+\expandafter\def\csname PY@tok@err\endcsname{\def\PY@bc##1{\setlength{\fboxsep}{0pt}\fcolorbox[rgb]{1.00,0.00,0.00}{1,1,1}{\strut ##1}}}
+\expandafter\def\csname PY@tok@kc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kd\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kr\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@bp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@fm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@vc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vg\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sa\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@dl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s2\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s1\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@mb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@il\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mo\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ch\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cm\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cpf\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@c1\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cs\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+
+\def\PYZbs{\char`\\}
+\def\PYZus{\char`\_}
+\def\PYZob{\char`\{}
+\def\PYZcb{\char`\}}
+\def\PYZca{\char`\^}
+\def\PYZam{\char`\&}
+\def\PYZlt{\char`\<}
+\def\PYZgt{\char`\>}
+\def\PYZsh{\char`\#}
+\def\PYZpc{\char`\%}
+\def\PYZdl{\char`\$}
+\def\PYZhy{\char`\-}
+\def\PYZsq{\char`\'}
+\def\PYZdq{\char`\"}
+\def\PYZti{\char`\~}
+% for compatibility with earlier versions
+\def\PYZat{@}
+\def\PYZlb{[}
+\def\PYZrb{]}
+\makeatother
+
+
+    % For linebreaks inside Verbatim environment from package fancyvrb. 
+    \makeatletter
+        \newbox\Wrappedcontinuationbox 
+        \newbox\Wrappedvisiblespacebox 
+        \newcommand*\Wrappedvisiblespace {\textcolor{red}{\textvisiblespace}} 
+        \newcommand*\Wrappedcontinuationsymbol {\textcolor{red}{\llap{\tiny$\m@th\hookrightarrow$}}} 
+        \newcommand*\Wrappedcontinuationindent {3ex } 
+        \newcommand*\Wrappedafterbreak {\kern\Wrappedcontinuationindent\copy\Wrappedcontinuationbox} 
+        % Take advantage of the already applied Pygments mark-up to insert 
+        % potential linebreaks for TeX processing. 
+        %        {, <, #, %, $, ' and ": go to next line. 
+        %        _, }, ^, &, >, - and ~: stay at end of broken line. 
+        % Use of \textquotesingle for straight quote. 
+        \newcommand*\Wrappedbreaksatspecials {% 
+            \def\PYGZus{\discretionary{\char`\_}{\Wrappedafterbreak}{\char`\_}}% 
+            \def\PYGZob{\discretionary{}{\Wrappedafterbreak\char`\{}{\char`\{}}% 
+            \def\PYGZcb{\discretionary{\char`\}}{\Wrappedafterbreak}{\char`\}}}% 
+            \def\PYGZca{\discretionary{\char`\^}{\Wrappedafterbreak}{\char`\^}}% 
+            \def\PYGZam{\discretionary{\char`\&}{\Wrappedafterbreak}{\char`\&}}% 
+            \def\PYGZlt{\discretionary{}{\Wrappedafterbreak\char`\<}{\char`\<}}% 
+            \def\PYGZgt{\discretionary{\char`\>}{\Wrappedafterbreak}{\char`\>}}% 
+            \def\PYGZsh{\discretionary{}{\Wrappedafterbreak\char`\#}{\char`\#}}% 
+            \def\PYGZpc{\discretionary{}{\Wrappedafterbreak\char`\%}{\char`\%}}% 
+            \def\PYGZdl{\discretionary{}{\Wrappedafterbreak\char`\$}{\char`\$}}% 
+            \def\PYGZhy{\discretionary{\char`\-}{\Wrappedafterbreak}{\char`\-}}% 
+            \def\PYGZsq{\discretionary{}{\Wrappedafterbreak\textquotesingle}{\textquotesingle}}% 
+            \def\PYGZdq{\discretionary{}{\Wrappedafterbreak\char`\"}{\char`\"}}% 
+            \def\PYGZti{\discretionary{\char`\~}{\Wrappedafterbreak}{\char`\~}}% 
+        } 
+        % Some characters . , ; ? ! / are not pygmentized. 
+        % This macro makes them "active" and they will insert potential linebreaks 
+        \newcommand*\Wrappedbreaksatpunct {% 
+            \lccode`\~`\.\lowercase{\def~}{\discretionary{\hbox{\char`\.}}{\Wrappedafterbreak}{\hbox{\char`\.}}}% 
+            \lccode`\~`\,\lowercase{\def~}{\discretionary{\hbox{\char`\,}}{\Wrappedafterbreak}{\hbox{\char`\,}}}% 
+            \lccode`\~`\;\lowercase{\def~}{\discretionary{\hbox{\char`\;}}{\Wrappedafterbreak}{\hbox{\char`\;}}}% 
+            \lccode`\~`\:\lowercase{\def~}{\discretionary{\hbox{\char`\:}}{\Wrappedafterbreak}{\hbox{\char`\:}}}% 
+            \lccode`\~`\?\lowercase{\def~}{\discretionary{\hbox{\char`\?}}{\Wrappedafterbreak}{\hbox{\char`\?}}}% 
+            \lccode`\~`\!\lowercase{\def~}{\discretionary{\hbox{\char`\!}}{\Wrappedafterbreak}{\hbox{\char`\!}}}% 
+            \lccode`\~`\/\lowercase{\def~}{\discretionary{\hbox{\char`\/}}{\Wrappedafterbreak}{\hbox{\char`\/}}}% 
+            \catcode`\.\active
+            \catcode`\,\active 
+            \catcode`\;\active
+            \catcode`\:\active
+            \catcode`\?\active
+            \catcode`\!\active
+            \catcode`\/\active 
+            \lccode`\~`\~ 	
+        }
+    \makeatother
+
+    \let\OriginalVerbatim=\Verbatim
+    \makeatletter
+    \renewcommand{\Verbatim}[1][1]{%
+        %\parskip\z@skip
+        \sbox\Wrappedcontinuationbox {\Wrappedcontinuationsymbol}%
+        \sbox\Wrappedvisiblespacebox {\FV@SetupFont\Wrappedvisiblespace}%
+        \def\FancyVerbFormatLine ##1{\hsize\linewidth
+            \vtop{\raggedright\hyphenpenalty\z@\exhyphenpenalty\z@
+                \doublehyphendemerits\z@\finalhyphendemerits\z@
+                \strut ##1\strut}%
+        }%
+        % If the linebreak is at a space, the latter will be displayed as visible
+        % space at end of first line, and a continuation symbol starts next line.
+        % Stretch/shrink are however usually zero for typewriter font.
+        \def\FV@Space {%
+            \nobreak\hskip\z@ plus\fontdimen3\font minus\fontdimen4\font
+            \discretionary{\copy\Wrappedvisiblespacebox}{\Wrappedafterbreak}
+            {\kern\fontdimen2\font}%
+        }%
+        
+        % Allow breaks at special characters using \PYG... macros.
+        \Wrappedbreaksatspecials
+        % Breaks at punctuation characters . , ; ? ! and / need catcode=\active 	
+        \OriginalVerbatim[#1,codes*=\Wrappedbreaksatpunct]%
+    }
+    \makeatother
+
+    % Exact colors from NB
+    \definecolor{incolor}{HTML}{303F9F}
+    \definecolor{outcolor}{HTML}{D84315}
+    \definecolor{cellborder}{HTML}{CFCFCF}
+    \definecolor{cellbackground}{HTML}{F7F7F7}
+    
+    % prompt
+    \makeatletter
+    \newcommand{\boxspacing}{\kern\kvtcb@left@rule\kern\kvtcb@boxsep}
+    \makeatother
+    \newcommand{\prompt}[4]{
+        \ttfamily\llap{{\color{#2}[#3]:\hspace{3pt}#4}}\vspace{-\baselineskip}
+    }
+    
+
+    
+    % Prevent overflowing lines due to hard-to-break entities
+    \sloppy 
+    % Setup hyperref package
+    \hypersetup{
+      breaklinks=true,  % so long urls are correctly broken across lines
+      colorlinks=true,
+      urlcolor=urlcolor,
+      linkcolor=linkcolor,
+      citecolor=citecolor,
+      }
+    % Slightly bigger margins than the latex defaults
+    
+    \geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+    
+    
+
+\begin{document}
+    
+    \maketitle
+    
+    
+
+    
+    El presente documento pretende dar a conocer la realidad de los datos
+abiertos existentes relacionados con los \textbf{funcionarios públicos},
+para ello me remití a usar como fuente de análisis los datos publicados
+por el Consejo Para La Transparencia (CPLT), en su
+\href{https://www.portaltransparencia.cl/PortalPdT/web/guest/opendata}{repositorio}
+
+La información presentada en este portal corresponde a la de aquellos
+Servicios Públicos que han adoptado el sistema de publicación de
+Transparencia Activa que promueve el CPLT, y que por lo tanto, es
+posible de disponibilizar de manera estándar. En este punto se produce
+el primer hallazgo del análisis, puesto que de acuerdo a lo señalado por
+el CPLT, los organismos están obligados a generar portales de
+Transparencia Activa, esto según la ley 20.285, sin embargo, no se
+indica en esta ley, que deba ser usando la plataforma que disponibiliza
+el CPLT, y de la cual se obtienen los datos que son puesto a
+disponibilidad en el sitio de datos abiertos. Con ellos nos surge de
+inmediato la siguiente duda, \textbf{¿Por qué no usan esta plataforma
+todos los servicios obligados?}
+
+En los siguientes acápites revisaremos problemáticas asociadas a la
+coherencia y fiabilidad de la información publicada, que hacen difícil
+poder sacar conclusiones de la información disponible.
+
+    \hypertarget{diccionario-de-datos}{%
+\section{Diccionario de datos}\label{diccionario-de-datos}}
+
+Uno de los primeros puntos a destacar es la falta de un diccionario en
+el
+\href{https://www.portaltransparencia.cl/PortalPdT/web/guest/opendata}{repositorio
+de datos abiertos}, lo que significa una dificultad extra a la hora de
+poder analizar los datos, ya que se deben hacer supuestos respecto del
+significado de cada variable, y dichos supuestos se hacen en base a
+obviamente el nombre dado, el contenido y el contexto, por lo tanto,
+requieren de un esfuerzo extra y añaden un riesgo de error a los
+resultados. - En conclusión como primera sugerencia se invita al CPLT a
+\textbf{añadir un diccionario de variables en su repositorio de datos
+abiertos}
+
+    \hypertarget{ambiente-de-anuxe1lisis-de-datos}{%
+\section{Ambiente de análisis de
+datos}\label{ambiente-de-anuxe1lisis-de-datos}}
+
+    Para los posteriores análisis se asume que el lector ha montado un
+ambiente de análisis de los datos de funcionarios del sector público
+provenientes del repositorio de datos abiertos del CPLT, y se encuentran
+en una base de datos de MySQL.
+
+Para quienes deseen simplificar este paso, en el siguiente
+\href{https://www.repositorio.com/actualizaralterminar}{repositorio
+personal de GitHub} se encuentra un notebook llamado
+``DescargayRespaldo'', el cual realiza la descarga, limpieza parcial y
+posterior carga en la base de datos de los datos, se requiere como
+prerequisito lo siguiente:
+
+\begin{itemize}
+\tightlist
+\item
+  Tener instalado el gestor de base de datos MySQL en algún servidor
+  accesible por el usuario con permisos de escritura.
+\item
+  Tener instalado Anaconda Python y creado un ambiente que contenga las
+  siguientes librerías: pandas, numpy, time, date, datetime, functools,
+  urllib, json, mysql.connector, sqlalchemy
+\end{itemize}
+
+    \hypertarget{fechas-de-publicaciuxf3n}{%
+\section{Fechas de publicación}\label{fechas-de-publicaciuxf3n}}
+
+    Es esencial para poder comenzar el análisis conocer la periodicidad con
+que se publica la información, esto porque los datos que se publican son
+acumulativos, es decir en la medida que se publica una actualización, se
+añade a la información ya publicada, dentro del mismo archivo.
+Actualmente existen en el archivo varios campos que contienen datos de
+fecha, sin embargo, los que podrían estar relacionados con la fecha de
+publicación:
+
+\begin{itemize}
+\tightlist
+\item
+  Fecha de publicación:
+\item
+  Anyo
+\item
+  Mes
+\end{itemize}
+
+Aparentemente esos tres datos deberían coincidir ya que el Anyo, debería
+ser el año de publicación, y el mes correspondería al mes de
+publicación. En vista de las definiciones anteriores realicé la consulta
+respectiva para verificar la hipótesis.
+
+    Al revisar el porcentaje de coincidencia de fechas, año y mes vemos que
+el año de la fecha de publicación y el campo año difieren en un
+\textbf{89.17\%} las veces, asimismo, el campo mes tiene una divergencia
+del mes de publicación de \textbf{92.88\%} y un \textbf{91.03\%} en que
+ambos difieren.
+
+Por lo que, es posible afirmar que estos campos no se encuentran
+relacionados. Frente a esto se hace necesario determinar cual campo
+representa de mejor manera la fecha de publicación.
+
+La mejor forma de lograr esta estimación se obtiene luego de visitar
+cualquier sitio de transparencia de los servicios que usan la
+plataforma, en este caso lo hice con la Subsecretaría de Salud Pública,
+para verificarlo realicé los siguiente:
+
+\begin{itemize}
+\tightlist
+\item
+  Ingresé a la \href{https://www.minsal.cl/}{página de la subsecretaría}
+\item
+  Bajé hasta encontrar el banner de Transparencia Activa,
+  \href{https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=AO001}{pinché}
+\item
+  Finalmente dentro del sitio, seleccioné
+  \href{https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/AO001/PR/PCONT}{Personal
+  a Contrata}, luego
+  \href{https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/AO001/PR/PCONT/46305762}{2020},
+  y finalmente
+  \href{https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/AO001/PR/PCONT/46305831}{Marzo}
+\end{itemize}
+
+Dentro de la dirección descrita, se presenta una página como la mostrada
+en la imagen 1, donde queda en evidencia que los campos Anyo y Mes son
+los que se utilizan para definir el periodo o fecha de publicación.
+
+\textbf{\emph{Imagen 1: Página de Transparencia Activa de la
+Subsecretaría de Salud Pública, sección Personal Contrata, 2020, Marzo}}
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{PCFP_files/image1.png}
+    \end{center}
+
+    \hypertarget{distribuciuxf3n-de-las-fechas-de-publicaciuxf3n}{%
+\subsection{Distribución de las fechas de
+publicación}\label{distribuciuxf3n-de-las-fechas-de-publicaciuxf3n}}
+
+Asumiendo entonces, en base a los resultados de la sección anterior, que
+los campos Anyo y Mes son los adecuados para analizar la fecha de
+publicación, surge otro de los puntos de interés, el cual corresponde a
+los años y meses que se han reportado, analizando cosas como desde
+cuando se ha reportado, y cuanta información se ha reportado.
+
+    \textbf{\emph{Figura 1: Distibución de registros por Año-Mes}}
+
+    
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{PCFP_files/PCFP_12_1.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    Como se aprecia en la figura 1, los datos presentan considerables
+problemas, pues se tienen registros desde el año 0 hasta 2021, y pese a
+que son pocos los registros que están asociados a un año fuera de los
+normal, su sola existencia ya genera alteraciones.
+
+Por otro lado, se aprecia en el gráfico que a partir de enero de 2014 ya
+comienzan a aparecer una cantidad de registros importantes (más de
+10.000), y desde entonces el sistema ha ido aumentando la cantidad de
+registros por cada periodo. Este gráfico nos deja claro que será
+necesario considerar un filtro que excluya del análisis datos previos a
+2014 y posteriores al último mes con una cantidad de registro similar a
+la tendencia de los último tres meses ya cerrados, en este caso es marzo
+2020.
+
+    \hypertarget{quiuxe9nes-informan}{%
+\section{¿Quiénes informan?}\label{quiuxe9nes-informan}}
+
+El siguiente punto a analizar corresponde a conocer cuáles son los
+Servicios que informan a través del sistema de transparencia activa que
+promueve el CPLT, y describiendo el comportamiento de información de
+estos. Lo primero es saber que Servicios están obligados a informar vía
+Transparencia Activa, para ello el CPLT dispone de un
+\textbf{\href{https://www.portaltransparencia.cl/PortalPdT/web/guest/opendata\#_48_INSTANCE_GI66ozEZ7DNy_=dataset\%2Forganismos\%2Fresource\%2F527e355d-f401-48c7-b984-2d2971db9713}{listado}}
+accesible en sus página de datos abiertos, el cual será la base para
+conocer quiénes informan utilizando la plataforma del CPLT y quienes no.
+
+    \hypertarget{servicios-obligados}{%
+\subsection{Servicios Obligados}\label{servicios-obligados}}
+
+La Ley 20.285 es la que establece que Servicios están obligados a
+informar a través de transparencia activa y quienes quedan excluidos,
+específicamente en el
+\href{https://www.leychile.cl/Navegar?idNorma=276363}{articulo 2º}. El
+problema es que ese artículo enumera a los Servicios de manera genérica,
+por ejemplo, señala: \textgreater Las disposiciones de esta ley serán
+aplicables a los ministerios, las intendencias, las gobernaciones, los
+gobiernos regionales, las municipalidades, las Fuerzas Armadas, de Orden
+y Seguridad Pública, y \textbf{los órganos y servicios públicos creados
+para el cumplimiento de la función administrativa}.
+
+Como se puede apreciar en lo que está resaltado no se da en la ley un
+listado extensivo.
+
+Realizando diferentes búsquedas, no fue posible encontrar aproximaciones
+aceptables de ese listado, por lo que utilizaremos el
+\textbf{\href{https://www.portaltransparencia.cl/PortalPdT/web/guest/opendata\#_48_INSTANCE_GI66ozEZ7DNy_=dataset\%2Forganismos\%2Fresource\%2F527e355d-f401-48c7-b984-2d2971db9713}{listado}}
+que disponibiliza el CPLT como proxy de ese listado.
+
+    En este listado se declaran \textbf{966 Instituciones}, donde además
+vemos que existe un campo que aparentemente señala aquellos que
+realmente están obligados (obligadorecibir\_sai), según este campo, los
+obligados serían \textbf{897 Instituciones}, además el campo
+``interopera'' aparentemente entrega la información respecto a si los
+organismos informan usando la plataforma promovida por el CPLT, y de
+acuerdo a esto aquellos que estarían obligados y que además interoperan
+serían \textbf{107 Instituciones}, es decir un 11.93\%
+
+    
+    Estas instituciones quedarían distribuidas según categoría de la
+siguiente manera:
+
+    
+    \textbf{\emph{Tabla 1: distribución de instituciones que están obligadas
+a disponer Transparencia Activa}}
+
+    
+    \begin{longtable}[]{@{}lrr@{}}
+\toprule
+Categoría & Obligados & Obligados que Interoperan\tabularnewline
+\midrule
+\endhead
+Agricultura & 11 & 0\tabularnewline
+Asociación Municipal & 57 & 0\tabularnewline
+Bienes Nacionales & 1 & 1\tabularnewline
+Centro de Formación Técnica & 8 & 0\tabularnewline
+Ciencia Tecnología e Innovación & 1 & 0\tabularnewline
+Congreso Nacional & 3 & 0\tabularnewline
+Consejo Defensa del Estado & 1 & 0\tabularnewline
+Consejo Fiscal Autónomo & 1 & 0\tabularnewline
+Consejo de Cultura y Artes & 1 & 0\tabularnewline
+Consejo para la Transparencia & 1 & 0\tabularnewline
+Contraloría de la República & 1 & 0\tabularnewline
+Corporaciones Municipales & 57 & 0\tabularnewline
+Culturas y las Artes & 3 & 1\tabularnewline
+Defensa Nacional & 13 & 0\tabularnewline
+Defensoría de los Derechos de la Niñez & 1 & 0\tabularnewline
+Deporte & 2 & 0\tabularnewline
+Desarrollo Social & 8 & 0\tabularnewline
+Economía Fomento y Turismo & 15 & 2\tabularnewline
+Educación & 23 & 1\tabularnewline
+Empresas y Sociedades & 4 & 0\tabularnewline
+Energía & 4 & 0\tabularnewline
+Fundaciones y corporaciones & 9 & 0\tabularnewline
+Hacienda & 12 & 2\tabularnewline
+Instituto Derechos Humanos & 1 & 0\tabularnewline
+Instituto Nacional de Hidráulica (INH) & 1 & 0\tabularnewline
+Interior y Seguridad Pública & 97 & 69\tabularnewline
+Justicia & 11 & 0\tabularnewline
+La Mujer y Equidad de Género & 2 & 0\tabularnewline
+Medio Ambiente & 3 & 0\tabularnewline
+Minería & 3 & 0\tabularnewline
+Municipios de Antofagasta & 9 & 0\tabularnewline
+Municipios de Arica y Parinacota & 4 & 0\tabularnewline
+Municipios de Atacama & 9 & 0\tabularnewline
+Municipios de Aysen del General Carlos Ibáñez del Campo & 10 &
+0\tabularnewline
+Municipios de Coquimbo & 15 & 0\tabularnewline
+Municipios de La Araucanía & 32 & 0\tabularnewline
+Municipios de Los Lagos & 30 & 0\tabularnewline
+Municipios de Los Ríos & 12 & 0\tabularnewline
+Municipios de Magallanes y de la Antártica Chilena & 10 &
+0\tabularnewline
+Municipios de R. Metropolitana de Santiago & 52 & 0\tabularnewline
+Municipios de Tarapacá & 7 & 0\tabularnewline
+Municipios de Valparaíso & 38 & 0\tabularnewline
+Municipios de Ñuble & 21 & 0\tabularnewline
+Municipios del Bíobio & 33 & 0\tabularnewline
+Municipios del Libertador General Bernardo OHiggins & 33 &
+0\tabularnewline
+Municipios del Maule & 30 & 0\tabularnewline
+Obras Públicas & 12 & 12\tabularnewline
+Partidos Políticos & 9 & 0\tabularnewline
+Poder Judicial & 1 & 0\tabularnewline
+Presidencia de la República & 1 & 0\tabularnewline
+Relaciones Exteriores & 7 & 0\tabularnewline
+Salud & 112 & 0\tabularnewline
+Secretaría General de Gobierno & 2 & 0\tabularnewline
+Secretaría General de la Presidencia & 1 & 0\tabularnewline
+Servicio Electoral & 1 & 0\tabularnewline
+Superintendencia de Servicios Sanitarios & 1 & 0\tabularnewline
+Trabajo y Previsión Social & 10 & 2\tabularnewline
+Transportes y Telecomunicaciones & 3 & 0\tabularnewline
+Tribunal Constitucional & 1 & 0\tabularnewline
+Universidades & 18 & 0\tabularnewline
+Vivienda y Urbanismo & 18 & 17\tabularnewline
+Total & 897 & 107\tabularnewline
+\bottomrule
+\end{longtable}
+
+    
+    \hypertarget{cantidad-de-servicios-que-han-informado}{%
+\subsection{Cantidad de Servicios que han
+informado}\label{cantidad-de-servicios-que-han-informado}}
+
+    De acuerdo a la sección anterior, 107 son los servicios que informan,
+sin embargo, de ser así esto no ha sido así siempre a través del tiempo,
+o al menos eso se sospecha a partir de la figura 1. Para ratificar que
+mi sospecha fuera correcta, generé la figura 2, en ella se puede ver a
+través del tiempo, como se han ido incorporando instituciones a la
+plataforma (para este análisis solo se tomaron datos cuya fecha fuera
+superior a diciembre 2013 y menor a abril 2020)
+
+\textbf{\emph{Figura 2: Evolución de Servicios que utilizan la
+plataforma del CPLT para disponer su información de Transparencia
+Activa}}
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{PCFP_files/PCFP_23_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    Como podemos apreciar en la figura 2, la cantidad de instituciones que
+publican información en la plataforma del CPLT ha ido creciendo
+considerablemente, y de hecho, superan con creces las 107 declaradas en
+el
+\textbf{\href{https://www.portaltransparencia.cl/PortalPdT/web/guest/opendata\#_48_INSTANCE_GI66ozEZ7DNy_=dataset\%2Forganismos\%2Fresource\%2F527e355d-f401-48c7-b984-2d2971db9713}{listado}},
+por lo que quizás esté mal interpretando el significado de lo que
+significa el campo ``interopera'' o simplemente los datos no se
+encuentran actualizados. Cualquiera sea el caso, el punto es que en la
+plataforma se encuentran publicando una cantidad considerable de
+servicios obligados, sin embargo, de los 895, aún faltan más de 200 por
+incorporarse. Aquí surge una duda, aquellos Servicios que no publicaron
+corresponde a instituciones que no utilizan las plataforma y por lo
+tanto, sus datos nunca han estado en el dataset, o hay servicios que
+informan de manera intermitente. Mirando la figura 2 se aprecia que la
+respuesta debe estar compuesta por un poco de ambas afirmaciones, ya
+que, en marzo 2020 informaron menos Servicios que en febrero del mismo
+año, por lo que hay Servicios que no informaron en el último mes pero
+que si lo hicieron el mes anterior. Asimismo, nunca se ha alcanzado el
+máximo de 895 Servicios, por lo que deben haber instituciones que no se
+han informado nunca porque no están integrados en la plataforma del
+CPLT.
+
+En la tabla 2 se presentan los Servicios que algunas vez informaron a
+través del dataset, pero que en marzo no tienen registros.
+
+    \textbf{\emph{Tabla 2: Servicios que han publicado datos en el dataset,
+pero que no publicaron el último mes}}
+
+    
+    \begin{tabular}{ p{5cm} | p{5cm} | p{5cm} }
+\toprule
+                       Municipalidad de Puchuncaví &                            Municipalidad de Camiña &     Asociación de Municipalidades Nahuelbuta (AMN) \\
+ Ex Consejo Nacional de la Cultura y las Artes ... &                Corporación Municipal Isla de Maipo &                               Carabineros de Chile \\
+ Superintendencia de Bancos e Instituciones Fin... &                         Municipalidad de Vichuquén &  Fundación de Comunicación Capacitación y Cultu... \\
+                         Municipalidad de Vallenar &                          SERVIU Región de Coquimbo &  Asociación de Municipalidades de la Provincia ... \\
+ Dirección General de Relaciones Económicas Int... &                            Municipalidad de Malloa &                      CFT de la Región de los Lagos \\
+                        Municipalidad de Llay Llay &                          Municipalidad de Valdivia &                       CFT de la Región de Coquimbo \\
+ Dirección Nacional de Fronteras y Límites del ... &                         Municipalidad de El Carmen &  Asociación de Municipalidades de la Región de ... \\
+                            Municipalidad de Maule &                            Universidad de Ohiggins &  Asociación de Municipalidades del Valle del Maipo \\
+                            Municipalidad de Putre &                           Municipalidad de Carahue &  Asociación Municipalidades Provincia de Llanqu... \\
+                        Municipalidad de Melipilla &                       SEREMI de Salud de Los Lagos &  Asociación de Municipalidades Quinta Región Co... \\
+                       SEREMI de Salud del Bío Bío &                           Hospital Roberto del Río &  Asociación de Municipalidades Desarrollo Apicu... \\
+                    Municipalidad de Independencia &                       Municipalidad de San Ignacio &  Asociación de Municipalidades de la Provincia ... \\
+                   Corporación Municipal de Pirque &                           Municipalidad de Iquique &                   Municipalidad de Padre Las Casas \\
+                           Municipalidad de Antuco &                            Municipalidad de Ninhue &   Asociación de Municipalidades del Norte de Chile \\
+                    Corporación Municipal de Ancud &                          Municipalidad de Colchane &                                                    \\
+                           Municipalidad de Retiro &                       Municipalidad de Santa María &                                                    \\
+                       Municipalidad de Llanquihue &                         Municipalidad de Río Verde &                                                    \\
+              Hospital Mauricio Heyermann de Angol &           Corporación Municipal de Maipú (CODEDUC) &                                                    \\
+                         Municipalidad de Litueche &                               Gendarmería de Chile &                                                    \\
+       Servicio Nacional del Adulto Mayor (SENAMA) &                             Defensa Civil de Chile &                                                    \\
+                          Municipalidad de Negrete &                            Municipalidad de Vicuña &                                                    \\
+                         Municipalidad de Porvenir &  Asociación de Municipalidades Territorio de Ri... &                                                    \\
+                          Municipalidad de Cochamó &  Asociación de Municipalidades para la Preserva... &                                                    \\
+ Gobierno Regional de La Araucanía (Gore Arauca... &  Asociación de Municipalidades Paisajes de Cons... &                                                    \\
+                     Municipalidad de San Fernando &  Asociación de Municipios Cordillera de la Cost... &                                                    \\
+\bottomrule
+\end{tabular}
+
+    
+    Por otro lado tenemos los Servicios que nunca han informado en el
+dataset, probablemente debido a que no están integrados en la plataforma
+que dispone el CPLT.
+
+Estos alcanzan la cifra de 216 de los 895, es decir, aún falta que un
+24\% de los Servicios se incorpore a la plataforma. En el anexo 1 se
+encuentra el detalle de los Servicios que nunca ha publicado en el
+dataset.
+
+    Como vemos hay una gran cantidad de Servicios que ya reportan por la
+plataforma del CPLT, pero aún faltan algunos que son de tamaño
+considerable, como el Servicio de Impuestos Internos o la Contraloría
+General entre otros, por lo que se hace un llamado a estas instituciones
+a hacer los esfuerzos necesarios para incorporarse a la plataforma.
+
+    \hypertarget{regularidad-de-publicaciuxf3n-de-los-servicios}{%
+\subsection{Regularidad de Publicación de los
+Servicios}\label{regularidad-de-publicaciuxf3n-de-los-servicios}}
+
+Otro punto importante es la regularidad con que los servicios publican
+su información, para ello se elaboró un indicador para rankear los más y
+los menos regulares. El indicador es simple, y se calcula de la
+siguiente manera:
+
+a: Cantidad de veces que ha publicado desde la primera publicación
+
+b: Cantidad de periodos ocurridos desde la primera publicación
+
+\[\frac{a}{b}*100\]
+
+    Antes de pasar a revisar el ranking, es importante dar un poco de
+contexto de las cifras, por ejemplo, existen \textbf{3} Servicios que se
+incorporaron al dataset hace sólo \textbf{1} meses publicando
+información, estos son los que aparecen en la tabla 3:
+
+\textbf{Tabla 3: Servicios que se incorporaron recientemente al dataset}
+
+    \begin{tabular}{l}
+\toprule
+ Dirección de Compras y Contratación Pública (C... \\
+                        Hospital Exequiel González \\
+                      SERVIU Región de Antofagasta \\
+\bottomrule
+\end{tabular}
+
+    
+    Por otro lado tenemos los Servicios que llevan mucho tiempo en la
+plataforma, estos ascienden a \textbf{18} Servicios que se incorporaron
+hace \textbf{76} meses al dataset, estos son los que aparecen en la
+tabla 4:
+
+\textbf{Tabla 4: Servicios con mayor antigüedad de incorporación al
+dataset}
+
+    \begin{tabular}{l}
+\toprule
+ Asociación de Municipalidades Paisajes de Cons... \\
+ Corporación Municipal de Educación y Servicios... \\
+                      Municipalidad de Antofagasta \\
+                          Municipalidad de Calbuco \\
+                         Municipalidad de Graneros \\
+                        Municipalidad de La Granja \\
+                        Municipalidad de Los Andes \\
+                            Municipalidad de Macul \\
+                    Municipalidad de Padre Hurtado \\
+                            Municipalidad de Peumo \\
+                         Municipalidad de Peñaflor \\
+                       Municipalidad de Pitrufquén \\
+                         Municipalidad de Porvenir \\
+                        Municipalidad de Quilicura \\
+                         Municipalidad de Requínoa \\
+                        Municipalidad de Rio Bueno \\
+                      Municipalidad de San Rosendo \\
+                     Municipalidad de Sierra Gorda \\
+\bottomrule
+\end{tabular}
+
+    
+    Adicionalmente respecto de este contexto, es importante señalar que
+existen \textbf{477} Servicios que han publicado en todos los periodos
+desde que se incorporaron al dataset, esto corresponde a un
+\textbf{70.04}\% de los 681 que alguna vez han publicado. En el anexo 2
+se encuentra el listado detallado de estos Servicios.
+
+    Finalmente en la tabla 5 se presentan los 25 Servicios peor rankeados en
+el indicador, es decir que porcentualmente menos han publicado.
+
+\textbf{Tabla 5: Servicios que con peor indicador de regularidad de
+publicación.}
+
+    \begin{tabular}{lr}
+\toprule
+                       Municipalidad de Puchuncaví &   1.4 \\
+                        Municipalidad de El Carmen &   1.7 \\
+          Corporación Municipal de Maipú (CODEDUC) &   2.1 \\
+                           Municipalidad de Vicuña &   2.5 \\
+                              Carabineros de Chile &   2.7 \\
+ Asociación de Municipalidades del Valle del Maipo &   2.9 \\
+ Asociación Municipalidades Provincia de Llanqu... &   3.3 \\
+ Asociación de Municipalidades Territorio de Ri... &   4.0 \\
+ Asociación de Municipalidades para la Preserva... &   5.9 \\
+                          Municipalidad de Pelarco &   8.3 \\
+ Asociación de Municipalidades Desarrollo Apicu... &   9.1 \\
+ Ex Consejo Nacional de la Cultura y las Artes ... &  14.3 \\
+                      Municipalidad de Santa María &  14.3 \\
+                            Defensa Civil de Chile &  16.0 \\
+ Dirección General de Relaciones Económicas Int... &  16.7 \\
+                    Municipalidad de Independencia &  25.0 \\
+ Dirección Nacional de Fronteras y Límites del ... &  33.3 \\
+                Subsecretaría de Transportes (MTT) &  35.3 \\
+                         Municipalidad de Valdivia &  37.3 \\
+ Asociación de Municipalidades Paisajes de Cons... &  40.8 \\
+ Asociación de Municipalidades de la Provincia ... &  42.1 \\
+ Asociación Municipal para la sustentabilidad a... &  46.4 \\
+ Asociación de Municipalidades Quinta Región Co... &  46.7 \\
+ Fundación de Comunicación Capacitación y Cultu... &  50.0 \\
+                  Municipalidad de Sagrada Familia &  60.7 \\
+\bottomrule
+\end{tabular}
+
+    
+    \hypertarget{falta-de-estandarizaciuxf3n-de-datos}{%
+\section{Falta de estandarización de
+datos}\label{falta-de-estandarizaciuxf3n-de-datos}}
+
+    Como último punto a analizar, se revisó el estado de la estandarización
+de algunos de los principales campos de descriptivos de cada uno de los
+funcionarios pertenecientes al dataset. Entiendase como estandarización
+al nivel de ordenamiento y agrupación de datos similares, ejemplo: si el
+campo profesión tiene entre sus valores los siguiente: Ingeniero
+Comercial MBA en Universidad xX, Ingeniero Comercial Mención Economía.
+Entonces nos encontramos con un campo ``profesión'' con bajo nivel de
+estandarización, esto probablemente se debe a que el ingreso de estos
+datos es digitado y no a partir de una lista pregenerada. Entre los
+campos que se analizaron están:
+
+\begin{itemize}
+\tightlist
+\item
+  Tipo Estamento
+\item
+  Tipo Cargo
+\item
+  Grado
+\item
+  Tipo de Calificación
+\end{itemize}
+
+    \hypertarget{tipo-de-estamento}{%
+\subsection{Tipo de Estamento}\label{tipo-de-estamento}}
+
+    El primer campo analizado corresponde a Tipo de Estamento, el cual
+contiene información respecto del estamento al cual pertenece el
+funcionario. Actualmente ese campo contiene 34 elementos distintos, lo
+que pareciera ser un número bastante razonable de elementos, sin y de
+hecho si vemos los primeros 5 elementos, que aparecen en la tabla 6,
+podríamos pensar que así es, si embargo, en la tabla 7 se muestran los
+últimos 5 elementos, y ahí la calidad de la información acerca del
+Estamento no es tan evidente, ya que hay elementos como ``Técnico'',
+``Técnicopedagógico'', ``Técnico de Salud'' y ``Técnicos de nivel
+superior'', que aparentemente podrían estar agrupados en un estamento
+más genérico.
+
+    \textbf{Tabla 6: primeros cinco elementos del campo Tipo Estamento}
+
+    
+    \begin{tabular}{l}
+\toprule
+ (1) Presidente del Consejo Directivo \\
+                       Administrativo \\
+             Administrativos de Salud \\
+                              Alcalde \\
+                Autoridad de Gobierno \\
+\bottomrule
+\end{tabular}
+
+    
+    \textbf{Tabla 7: últimos cinco elementos del campo Tipo Estamento}
+
+    
+    \begin{tabular}{l}
+\toprule
+                                 Técnico \\
+                       Técnicopedagógico \\
+                       Técnicos de Salud \\
+ Técnicos de nivel superior (Ley 19.378) \\
+                                    None \\
+\bottomrule
+\end{tabular}
+
+    
+    \hypertarget{tipo-cargo}{%
+\subsection{Tipo Cargo}\label{tipo-cargo}}
+
+    El campo Tipo Cargo, el cual aparentemente contiene información respecto
+del \textbf{nombre del cargo} al cual pertenece el funcionario.
+Actualmente ese campo contiene \textbf{315394} elementos distintos, lo
+que pareciera ser un número inmanejable de elementos como para
+efectivamente realizar algún tipo de análisis, y esto probablemente se
+deba a la falta de estandarización del campo, de hecho en la tabla 8, se
+puede ver una muestra de los que se encuentra en ese campo, y se puede
+apreciar que efectivamente los datos contiene bajo nivel de
+estandarización, y mucho dato mal ingresado. En conclusión se requiere
+hacer una análisis respecto de este campo para que se cree una lista
+seleccionable que permita generar información comparable entre las
+distintas instituciones.
+
+    \textbf{Tabla 8: muestra de 25 elementos del campo Tipo Cargo}
+
+    
+    \begin{tabular}{l}
+\toprule
+                                    (01)Chero \\
+                                    (1)+I8:L9 \\
+            (131)(26)(51)(37)(43)(46)(08)(09) \\
+            (A999 ) Departamento De Educacion \\
+                 (C095 ) Liceo De La Frontera \\
+        (C950 ) Liceo La Frontera Educ. Media \\
+                        (F1051) Escuela Rihue \\
+                       (F1052) Escuela Coigue \\
+                  (G1049) Escuela De Vaqueria \\
+               (S) Director Seguridad Publica \\
+ (Servicio De Orientación Médico Estadístico) \\
+                               ************** \\
+                       ********************** \\
+                    ************************* \\
+                   ************************** \\
+            *Tec En Tto Y Transporte Publicio \\
+                                            . \\
+      . Encargado  Escuela Rural La Illahuape \\
+        . Profesor Filosofía Y Religión Liceo \\
+                                            0 \\
+\bottomrule
+\end{tabular}
+
+    
+    \hypertarget{grados}{%
+\subsection{Grados}\label{grados}}
+
+    Otro campo de alto interés para realizar análisis evolutivos y
+comparativos dentro de los funcionarios públicos corresponde al grado,
+sin embargo, este campo también presenta problemas de estandarización,
+de hecho, el campo contiene 15122 elementos, lo que nuevamente hace que
+las comparativas sean prácticamente imposibles de realizar. En la tabla
+9 se puede apreciar luna muestra del contenido de este campo, donde es
+posible visualizar que dentro de los elementos incluso se pueden
+encontrar nombres o cantidad de horas. Frente a este problema nuevamente
+se invita a los responsables a desarrollar un análisis que permita
+generar estándares en este campo.
+
+    \textbf{Tabla 9: muestra de 20 elementos del campo Grado}
+
+    
+    \begin{tabular}{l}
+\toprule
+              no asmiliado a grado \\
+             no asmilidado a grado \\
+                    no corresponde \\
+               o Asimilado a Grado \\
+                                 p \\
+                 pago asignaciones \\
+                         pago bono \\
+                pago de asignacion \\
+              pago de asignaciones \\
+                      pago de bono \\
+                  pago retroactivo \\
+                                sg \\
+                         sociologo \\
+                                uh \\
+                                xx \\
+                              xxxx \\
+                                 y \\
+                                 \} \\
+ ÑANCUCHEO PAILAHUEQUE ARTURO LUIS \\
+                              None \\
+\bottomrule
+\end{tabular}
+
+    
+    \hypertarget{tipo-calificaciuxf3n}{%
+\subsection{Tipo Calificación}\label{tipo-calificaciuxf3n}}
+
+    Finalmente se revisó el campo tipo de calificación, que contiene
+información a cerca del nivel de estudios de los funcionarios públicos,
+especificando la profesión u oficio. Nuevamente, este campo contiene un
+nivel de falta de estandarización extraordinariamente alto, de hecho el
+campo contiene 130942 elementos distintos. En la tabla 10 se presentan
+una muestra del contenido de este campo, en ella se puede apreciar, por
+ejemplo, la palabra técnico mal escrita en varias ocasiones, lo que
+implica que estos elementos no se agrupen correctamente y por lo tanto
+no sea posible realizar un análisis preciso de la información de este
+campo.
+
+En vista del resultado encontrado en este y los campos anteriores, se
+conmina al CPLT y los servicios afiliados a su plataforma a trabajar
+sobre esta información con la finalidad que la información producida sea
+de utilidad para la toma de decisiones relativas a personal del Estado.
+
+    \textbf{Tabla 10: muestra de 20 elementos del campo Tipo de
+Calificación}
+
+    
+    \begin{tabular}{l}
+\toprule
+                            Árbitro Nivel Nacional \\
+           Árbitro Y Mesa De Control De Basquetbol \\
+         Árbitro Y Mesa De Control Fútbol Y Futsal \\
+   Árbitro Y Oficial De Mesa De Control Basquetbol \\
+                                          Árbitros \\
+                       Área Ambiental Agripecuario \\
+                               Área De Convivencia \\
+                           Área De La Construcción \\
+                             Área De Participación \\
+                                  Área Informatica \\
+                                Áreas De Servicios \\
+                         Áreas De Servicios Dideco \\
+                        Áreas De Servicios Dideco. \\
+                                Áribitro De Futbol \\
+ Écnico  Técnica De Nivel Superior En Administr... \\
+            Écnico De Nivel Superior En Enfermería \\
+  Écnico Industrial Con Mención En Electromecánica \\
+     Écnico Nivel Superior En Educación Parvularia \\
+ Écnico Universitario En Construcciones (Univer... \\
+                                              None \\
+\bottomrule
+\end{tabular}
+
+    
+    \hypertarget{anexos}{%
+\section{ANEXOS}\label{anexos}}
+
+    
+    \hypertarget{anexo-1-servicios-obligados-que-nunca-han-publicado-en-el-dataset}{%
+\subsection{ANEXO 1: Servicios obligados que nunca han publicado en el
+dataset}\label{anexo-1-servicios-obligados-que-nunca-han-publicado-en-el-dataset}}
+
+    
+    \begin{longtable}{ p{5cm} | p{5cm} | p{5cm} }
+\toprule
+            Agencia Nacional de Inteligencia (ANI) &                     Gobernación de General Carrera &                       Municipalidad de Los Muermos \\
+             Asociación Chilena de Municipalidades &                              Gobernación de Huasco &                              Municipalidad de Lota \\
+ Asociación Regional de Municipalidades de Maga... &                             Gobernación de Iquique &                       Municipalidad de María Elena \\
+     Asociación de Municipalidades Región de Aysén &                      Gobernación de Isla de Pascua &                    Municipalidad de Nueva Imperial \\
+ Asociación de Municipalidades Turísticas lacus... &                               Gobernación de Itata &                             Municipalidad de Paine \\
+ Asociación de Municipalidades de la Provincia ... &                Gobernación de La Antártica Chilena &                         Municipalidad de Panquehue \\
+ Asociación de Municipalidades de la Región del... &                              Gobernación de Limarí &                           Municipalidad de Petorca \\
+ Asociación de Municipalidades de la Zona Orien... &                             Gobernación de Linares &                       Municipalidad de Providencia \\
+ Asociación de Municipalidades de la cuenca del... &                          Gobernación de Llanquihue &                       Municipalidad de Puente Alto \\
+ Asociación de Municipalidades para la Segurida... &                           Gobernación de Los Andes &                             Municipalidad de Purén \\
+       Asociación de Municipios Mapocho  La Chimba &                          Gobernación de Magallanes &                           Municipalidad de Quilaco \\
+ Asociación de Municipios Rurales Regiones de T... &                               Gobernación de Maipo &                           Municipalidad de Quillón \\
+ Asociación de Municipios de Desarrollo Interco... &                             Gobernación de Malleco &                          Municipalidad de Quinchao \\
+ Asociación de Municipios para el Desarrollo Tu... &                           Gobernación de Melipilla &                 Municipalidad de Quinta de Tilcoco \\
+ Asociación de municipalidades con casinos de j... &                              Gobernación de Osorno &                          Municipalidad de Recoleta \\
+            Biblioteca del Congreso Nacional (BCN) &                              Gobernación de Palena &                         Municipalidad de Rinconada \\
+                    CFT de la región metropolitana &                          Gobernación de Parinacota &              Municipalidad de San Pedro de Atacama \\
+ Centro de Información de Recursos Naturales (C... &                             Gobernación de Petorca &                        Municipalidad de San Rafael \\
+      Centro de Investigación Minera y Metalúrgica &                        Gobernación de Puerto Aysén &                     Municipalidad de Santa Bárbara \\
+           Consejo de Calificación Cinematográfica &                             Gobernación de Punilla &                        Municipalidad de Santa Cruz \\
+         Contraloría General de la República (CGR) &                            Gobernación de Quillota &                            Municipalidad de Temuco \\
+          Corporación Municipal de Calera De Tango &                               Gobernación de Ranco &                          Municipalidad de Victoria \\
+                 Corporación Municipal de Conchali &                         Gobernación de San Antonio &                          Municipalidad de Vitacura \\
+ Corporación Municipal de Deportes Recreación y... &                          Gobernación de San Felipe &                      Municipalidad de Viña del Mar \\
+ Corporación Municipal de Fomento y Desarrollo ... &                           Gobernación de Talagante &                                Partido ANDHA Chile \\
+                  Corporación Municipal de Iquique &                               Gobernación de Talca &  Partido Federación Regionalista Verde Social  ... \\
+               Corporación Municipal de La Florida &                           Gobernación de Tamarugal &  Partido Izquierda Anticapitalista de los Traba... \\
+                Corporación Municipal de La Serena &                    Gobernación de Tierra del Fuego &                        Partido Izquierda Ciudadana \\
+               Corporación Municipal de Las Condes &                           Gobernación de Tocopilla &                                 Partido MAS Región \\
+       Corporación Municipal de Peñalolén (CORMUP) &                            Gobernación de Valdivia &                           Partido Pais Progresista \\
+              Corporación Municipal de Providencia &                          Gobernación de Valparaíso &                Partido Por La Integración Regional \\
+           Corporación Municipal de Puerto Natales &                    Gobernación de última Esperanza &  Partido Regionalista Independiente Demócrata (... \\
+   Corporación Municipal de Punta Arenas (CORMUPA) &    Gobierno Regional de Los Lagos (Gore Los Lagos) &            Partido de Trabajadores Revolucionarios \\
+                 Corporación Municipal de Quinchao &                         Instituto Forestal (INFOR) &                                     Poder Judicial \\
+  Corporación Municipal de San Fernando (CORMUSAF) &             Instituto Nacional de Hidráulica (INH) &                   Policía de Investigaciones (PDI) \\
+        Corporación Municipal de San Jose De Maipo &  Instituto de Investigaciones Agropecuarias (INIA) &                            SERVIU Región del Ñuble \\
+               Corporación Municipal de San Miguel &                     Intendencia Arica y Parinacota &                                             Senado \\
+             Corporación Municipal de Viña Del Mar &                          Intendencia Metropolitana &             Servicio Aerofotogramétrico FACH (SAF) \\
+ Corporación Municipal de deportes y recreación... &                         Intendencia de Antofagasta &                        Servicio Electoral (SERVEL) \\
+ Corporación Municipal del Desarrollo Social de... &                             Intendencia de Atacama &  Servicio Hidrográfico y Oceanográfico de La Ar... \\
+             Corporación Nacional Forestal (CONAF) &                               Intendencia de Aysén &      Servicio Local de Educación Pública Colchagua \\
+ Corporación Regional de Desarrollo Productivo ... &                            Intendencia de Coquimbo &        Servicio Nacional de Discapacidad (SENADIS) \\
+                               Cámara de Diputados &                        Intendencia de La Araucanía &                      Servicio de Gobierno Interior \\
+   Dirección General de Promoción de Exportaciones &                           Intendencia de Los Lagos &               Servicio de Impuestos Internos (SII) \\
+ Dirección General del Territorio Marítimo y Ma... &                            Intendencia de Los Ríos &                 Sistema de Empresas Públicas (SEP) \\
+                               Fundación Chilenter &                          Intendencia de Magallanes &  Subsecretaría de Relaciones Económicas Interna... \\
+                                 Fundación Integra &                           Intendencia de O Higgins &                         Subsecretaría del Interior \\
+ Fundación de Orquestas Juveniles e Infantiles ... &                            Intendencia de Tarapacá &                       Tribunal Constitucional (TC) \\
+                         Fundación de las Familias &                          Intendencia de Valparaíso &            Tribunal de Propiedad Industrial (TDPI) \\
+        Fundación para la Innovación Agraria (FIA) &                               Intendencia de Ñuble &                     Universidad Arturo Prat (UNAP) \\
+ Fundación para la Promoción y Desarrollo de la... &                            Intendencia del Bío Bío &  Universidad Metropolitana de Ciencias de la Ed... \\
+       Fábricas y Maestranzas del Ejército (FAMAE) &                              Intendencia del Maule &       Universidad Tecnológica Metropolitana (UTEM) \\
+             Gobernación Provincial de Marga Marga &                         Municipalidad de Algarrobo &                         Universidad de Antofagasta \\
+                        Gobernación de Antofagasta &                     Municipalidad de Alto Hospicio &                             Universidad de Atacama \\
+                             Gobernación de Arauco &                             Municipalidad de Ancud &                      Universidad de Chile (UCHILE) \\
+                              Gobernación de Arica &                             Municipalidad de Arica &                  Universidad de La Frontera (UFRO) \\
+                             Gobernación de Bíobío &                           Municipalidad de Cabrero &                           Universidad de La Serena \\
+                          Gobernación de Cachapoal &                            Municipalidad de Calama &                           Universidad de Los Lagos \\
+                       Gobernación de Capitán Prat &                            Municipalidad de Castro &                          Universidad de Magallanes \\
+                      Gobernación de Cardenal Caro &                     Municipalidad de Chillán Viejo &                  Universidad de Playa Ancha (UPLA) \\
+                          Gobernación de Cauquenes &                            Municipalidad de Concón &           Universidad de Santiago de Chile (USACH) \\
+                             Gobernación de Cautín &                          Municipalidad de Contulmo &                      Universidad de Talca (UTALCA) \\
+                          Gobernación de Chacabuco &                           Municipalidad de Copiapó &                            Universidad de Tarapacá \\
+                           Gobernación de Chañaral &                          Municipalidad de Curacaví &                          Universidad de Valparaíso \\
+                             Gobernación de Chiloé &                   Municipalidad de Curaco de Vélez &                      Universidad del Bío Bío (UBB) \\
+                             Gobernación de Choapa &                           Municipalidad de Curepto &                                ZOFRI S.A.  (ZOFRI) \\
+                          Gobernación de Colchagua &                            Municipalidad de Freire &                                                    \\
+                         Gobernación de Concepción &                           Municipalidad de Hualañé &                                                    \\
+                            Gobernación de Copiapó &                         Municipalidad de La Calera &                                                    \\
+                         Gobernación de Cordillera &                        Municipalidad de La Florida &                                                    \\
+                          Gobernación de Coyhaique &                         Municipalidad de La Serena &                                                    \\
+                             Gobernación de Curicó &                        Municipalidad de Las Condes &                                                    \\
+                          Gobernación de Diguillín &                           Municipalidad de Linares &                                                    \\
+                             Gobernación de El Loa &                      Municipalidad de Lo Barnechea &                                                    \\
+                              Gobernación de Elqui &                           Municipalidad de Longaví &                                                    \\
+\end{longtable}
+
+    
+    \hypertarget{anexo-2-servicios-obligados-que-han-publicado-todos-los-meses-desde-que-se-integraron-a-la-plataforma-de-cplt}{%
+\subsection{ANEXO 2: Servicios obligados que han publicado todos los
+meses desde que se integraron a la plataforma de
+CPLT}\label{anexo-2-servicios-obligados-que-han-publicado-todos-los-meses-desde-que-se-integraron-a-la-plataforma-de-cplt}}
+
+    
+    \begin{longtable}{ p{5cm} | p{5cm} | p{5cm} }
+\toprule
+ AGENCIA CHILENA DE COOPERACIÓN INTERNACIONAL P... &                                   Hospital de Tomé &                           Municipalidad de Quilpué \\
+ Administradora de los Tribunales Tributarios y... &                           Hospital de las Higueras &                     Municipalidad de Quinta Normal \\
+                Agencia de Calidad de la Educación &                              Hospital del Salvador &                          Municipalidad de Quintero \\
+   Agencia de Promoción de la Inversión Extranjera &      Instituto Nacional de Derechos Humanos (INDH) &                          Municipalidad de Quirihue \\
+                                   Armada de Chile &  Instituto Nacional de Desarrollo Sustentable d... &                          Municipalidad de Rancagua \\
+ Asociación Chilena de Municipalidades con Farm... &           Instituto Nacional de Estadisticas (INE) &                           Municipalidad de Renaico \\
+ Asociación Nacional de Municipalidades de Ciud... &              Instituto Nacional de Geriatría (ING) &                             Municipalidad de Renca \\
+      Asociación Regional de Municipios de Atacama &  Instituto Nacional de Rehabilitación Pedro Agu... &                             Municipalidad de Rengo \\
+      Asociación de Municipalidades Bio Bio Centro &                      Instituto Nacional del Cáncer &                         Municipalidad de Rio Bueno \\
+ Asociación de Municipalidades Cordilleranas de... &               Instituto Nacional del Deporte (IND) &                           Municipalidad de Romeral \\
+   Asociación de Municipalidades Parque Cordillera &                       Instituto Nacional del Tórax &                           Municipalidad de Ránquil \\
+ Asociación de Municipalidades Rurales de la Re... &                             Instituto Psiquiátrico &                         Municipalidad de Río Claro \\
+ Asociación de Municipalidades con Alcalde Mapuche &                           Instituto Traumatológico &                       Municipalidad de Río Hurtado \\
+      Asociación de Municipalidades de Chile AMUCH &       Instituto de Desarrollo Agropecuario (INDAP) &                        Municipalidad de Río Ibáñez \\
+ Asociación de Municipalidades de Ciudades Puer... &                          Instituto de Neurocirugía &                         Municipalidad de Río Negro \\
+ Asociación de Municipalidades de la Provincia ... &                Instituto de Previsión Social (IPS) &                          Municipalidad de Saavedra \\
+ Asociación de Municipalidades de la Región de ... &                   Instituto de Salud Pública (ISP) &                         Municipalidad de Salamanca \\
+ Asociación de Municipalidades de la Región de ... &               Instituto de Seguridad Laboral (ISL) &                       Municipalidad de San Antonio \\
+ Asociación de Municipalidades de la Región de ... &  Junta Nacional de Auxilio Escolar y Becas (JUN... &                      Municipalidad de San Bernardo \\
+ Asociación de Municipalidades de la Región del... &      Junta Nacional de Jardines Infantiles (JUNJI) &                        Municipalidad de San Carlos \\
+ Asociación de Municipalidades del Valle del Itata &                   Junta de Aeronáutica Civil (JAC) &                      Municipalidad de San Clemente \\
+ Asociación de Municipalidades para el Desarrol... &                             Municipalidad de Alhué &                        Municipalidad de San Fabián \\
+               Asociación de Municipios Ciudad Sur &                       Municipalidad de Alto Biobío &                      Municipalidad de San Gregorio \\
+ Asociación de Municipios de La Región de Los Ríos &                   Municipalidad de Alto del Carmen &                        Municipalidad de San Javier \\
+                    CFT de la Región de Valparaíso &                         Municipalidad de Andacollo &                 Municipalidad de San José de Maipo \\
+                  CFT de la Región de la Araucanía &                             Municipalidad de Angol &              Municipalidad de San Juan de la Costa \\
+                      CFT de la Región de los Ríos &                            Municipalidad de Arauco &                        Municipalidad de San Miguel \\
+                        CFT de la Región del Maule &                             Municipalidad de Aysen &                       Municipalidad de San Nicolás \\
+                     CFT de la Región del Tarapacá &                              Municipalidad de Buin &                         Municipalidad de San Pedro \\
+ Caja de Previsión de la Defensa Nacional (CAPR... &                           Municipalidad de Cabildo &        Municipalidad de San Vicente de Tagua Tagua \\
+ Central de Abastecimiento del Sistema Nacional... &        Municipalidad de Cabo de Hornos y Antártica &                       Municipalidad de Santa Juana \\
+     Centro de Referencia de Salud de Maipú (CRSM) &                           Municipalidad de Calbuco &                          Municipalidad de Santiago \\
+ Centro de Referencia de Salud de Peñalolén Cor... &                           Municipalidad de Caldera &                      Municipalidad de Sierra Gorda \\
+       Comisión Chilena de Energía Nuclear (CCHEN) &                   Municipalidad de Calera de Tango &                         Municipalidad de Talagante \\
+             Comisión Chilena del Cobre (COCHILCO) &                       Municipalidad de Calle Larga &                             Municipalidad de Talca \\
+           Comisión Nacional de Acreditación (CNA) &                         Municipalidad de Camarones &                            Municipalidad de Taltal \\
+                Comisión Nacional de Energía (CNE) &                            Municipalidad de Canela &                   Municipalidad de Teodoro Schmidt \\
+ Comisión Nacional de Investigación Científica ... &                         Municipalidad de Cartagena &                            Municipalidad de Tiltil \\
+                  Comisión Nacional de Riego (CNR) &                        Municipalidad de Casablanca &                             Municipalidad de Tirúa \\
+ Comisión del Sistema Nacional de Certificación... &                            Municipalidad de Catemu &                         Municipalidad de Tocopilla \\
+ Comisión para el Mercado Financiero (CMF  ex SVS) &                         Municipalidad de Cauquenes &                            Municipalidad de Toltén \\
+                           Consejo Fiscal Autónomo &                            Municipalidad de Cañete &                              Municipalidad de Tome \\
+              Consejo Nacional de Educación (CNED) &                       Municipalidad de Cerro Navia &                  Municipalidad de Torres del Paine \\
+             Consejo Nacional de Televisión (CNTV) &                          Municipalidad de Chañaral &                            Municipalidad de Tortel \\
+               Consejo de Defensa del Estado (CDE) &                       Municipalidad de Chiguayante &                           Municipalidad de Tucapel \\
+                               Consejo de Rectores &                       Municipalidad de Chile Chico &                        Municipalidad de Valparaíso \\
+              Consejo para la Transparencia (CPLT) &                           Municipalidad de Chillán &                            Municipalidad de Vilcún \\
+ Corporación Municipal Cultural y Patrimonial d... &                       Municipalidad de Chimbarongo &                      Municipalidad de Villa Alegre \\
+                     Corporación Municipal de Buin &                          Municipalidad de Cholchol &                     Municipalidad de Villa Alemana \\
+                   Corporación Municipal de Castro &                           Municipalidad de Chépica &                     Municipalidad de Yerbas Buenas \\
+              Corporación Municipal de Cerro Navia &                            Municipalidad de Cisnes &                            Municipalidad de Yumbel \\
+                   Corporación Municipal de Colina &                          Municipalidad de Cochrane &                            Municipalidad de Yungay \\
+          Corporación Municipal de Curaco De Velez &                           Municipalidad de Codegua &  Oficinas de Estudios y Políticas Agrarias (ODEPA) \\
+ Corporación Municipal de Desarrollo Social de ... &                           Municipalidad de Coelemu &                   Parque Metropolitano de Santiago \\
+ Corporación Municipal de Desarrollo Social de ... &                            Municipalidad de Coinco &                        Presidencia de la República \\
+ Corporación Municipal de Desarrollo Social de ... &                            Municipalidad de Colbún &         SEREMI de Salud  Metropolitano de Santiago \\
+ Corporación Municipal de Desarrollo Social de ... &                            Municipalidad de Colina &                    SEREMI de Salud  de Antofagasta \\
+ Corporación Municipal de Educación y Servicios... &                        Municipalidad de Collipulli &                        SEREMI de Salud  de Atacama \\
+                 Corporación Municipal de La Reina &                          Municipalidad de Coltauco &                       SEREMI de Salud  de Tarapacá \\
+              Corporación Municipal de Maria Pinto &                        Municipalidad de Combarbalá &                     SEREMI de Salud  de Valparaíso \\
+                Corporación Municipal de Melipilla &                        Municipalidad de Concepción &                           SEREMI de Salud de Aysén \\
+              Corporación Municipal de Panguipulli &                          Municipalidad de Conchalí &                    SEREMI de Salud de La Araucanía \\
+             Corporación Municipal de Pozo Almonte &                      Municipalidad de Constitución &                        SEREMI de Salud de Los Ríos \\
+              Corporación Municipal de Puente Alto &                           Municipalidad de Coronel &                        SEREMI de Salud de OHiggins \\
+                Corporación Municipal de Puqueldón &                         Municipalidad de Coyhaique &                          SEREMI de Salud del Maule \\
+                  Corporación Municipal de Queilen &                             Municipalidad de Cunco &                          SEREMI de Salud del Ñuble \\
+                  Corporación Municipal de Quellón &                        Municipalidad de Curacautín &            SERVIU Región Metropolitana de Santiago \\
+                  Corporación Municipal de Quilpué &                          Municipalidad de Dalcahue &                       SERVIU Región de Antofagasta \\
+        Corporación Municipal de Rancagua (CORMUN) &                  Municipalidad de Diego de Almagro &  SERVIU Región de Aysén del General Carlos Ibáñ... \\
+             Corporación Municipal de San Bernardo &                           Municipalidad de Doñihue &                         SERVIU Región de Los Lagos \\
+              Corporación Municipal de San Joaquin &                         Municipalidad de El Bosque &  SERVIU Región de Magallanes y la Antártica Chi... \\
+              Corporación Municipal de San Vicente &                          Municipalidad de El Monte &                        SERVIU Región de Valparaíso \\
+                Corporación Municipal de Talagante &                         Municipalidad de El Quisco &                      SERVIU Región de la Araucanía \\
+               Corporación Municipal de Valparaíso &                         Municipalidad de Empedrado &     SERVIU Región del Libertador Bernardo OHiggins \\
+ Corporación Municipal para el Desarrollo Socia... &                          Municipalidad de Freirina &                            SERVIU Región del Maule \\
+ Corporación de Asistencia Judicial Regiones Ta... &                         Municipalidad de Frutillar &                 Servicio Agrícola y Ganadero (SAG) \\
+ Corporación de Asistencia Judicial Región Bío ... &                         Municipalidad de Futaleufú &   Servicio Local de Educación Pública Andalién Sur \\
+ Corporación de Asistencia Judicial Región Valp... &                           Municipalidad de Futrono &     Servicio Local de Educación Pública Chinchorro \\
+ Corporación de Fomento Para La Producción (CORFO) &                         Municipalidad de Galvarino &  Servicio Local de Educación Pública Costa Arau... \\
+                    Defensoría Penal Pública (DPP) &                     Municipalidad de General Lagos &  Servicio Local de Educación Pública Gabriela M... \\
+     Dirección General de Aeronáutica Civil (DGAC) &                          Municipalidad de Graneros &         Servicio Local de Educación Pública Huasco \\
+                  Dirección General de Aguas (DGA) &                          Municipalidad de Hijuelas &   Servicio Local de Educación Pública de Barrancas \\
+ Dirección General de Concesiones de Obras Públ... &                         Municipalidad de Hualaihué &                        Servicio Médico Legal (SML) \\
+   Dirección General de Crédito Prendario (DICREP) &                           Municipalidad de Hualpén &                       Servicio Nacional de Aduanas \\
+        Dirección General de Obras Públicas (DGOP) &                           Municipalidad de Hualqui &  Servicio Nacional de Capacitación y Empleo (SE... \\
+             Dirección Nacional del Servicio Civil &                     Municipalidad de Isla de Maipo &  Servicio Nacional de Geología y Minería (SERNA... \\
+                    Dirección de Aeropuertos (DAP) &         Municipalidad de Isla de Pascua (Rapa Nui) &              Servicio Nacional de Menores (SENAME) \\
+                  Dirección de Arquitectura (DARQ) &                    Municipalidad de Juan Fernández &  Servicio Nacional de Pesca y Acuicultura (SERN... \\
+ Dirección de Compras y Contratación Pública (C... &                       Municipalidad de La Cisterna &  Servicio Nacional de la Mujer y la Equidad de ... \\
+       Dirección de Contabilidad y Finanzas (DCYF) &                       Municipalidad de La Estrella &          Servicio Nacional del Consumidor (SERNAC) \\
+                    Dirección de Educación Pública &                         Municipalidad de La Granja &          Servicio Nacional del Patrimonio Cultural \\
+              Dirección de Obras Hidráulicas (DOH) &                          Municipalidad de La Ligua &         Servicio de Cooperación Técnica (SERCOTEC) \\
+               Dirección de Obras Portuarias (DOP) &                        Municipalidad de La Pintana &             Servicio de Evaluación Ambiental (SEA) \\
+               Dirección de Planeamiento (DIRPLAN) &                          Municipalidad de La Unión &        Servicio de Registro Civil e Identificación \\
+                Dirección de Presupuestos (DIPRES) &                        Municipalidad de Lago Ranco &                        Servicio de Salud Aconcagua \\
+ Dirección de Previsión de Carabineros de Chile... &                        Municipalidad de Lago Verde &                      Servicio de Salud Antofagasta \\
+                  Dirección de Vialidad (VIALIDAD) &                     Municipalidad de Laguna Blanca &                  Servicio de Salud Araucanía Norte \\
+                        Dirección del Trabajo (DT) &                              Municipalidad de Laja &                            Servicio de Salud Arica \\
+                                 Ejército de Chile &                             Municipalidad de Lampa &                            Servicio de Salud Aysén \\
+                      Estado Mayor Conjunto (EMCO) &                             Municipalidad de Lanco &                           Servicio de Salud Bíobío \\
+                                      Fiscalía MOP &                        Municipalidad de Las Cabras &                         Servicio de Salud Coquimbo \\
+                 Fiscalía Nacional Económica (FNE) &                           Municipalidad de Lautaro &                          Servicio de Salud Iquique \\
+                  Fondo Nacional de Salud (FONASA) &                              Municipalidad de Lebu &                       Servicio de Salud Magallanes \\
+   Fondo de Solidaridad e Inversión Social (FOSIS) &                           Municipalidad de Limache &                            Servicio de Salud Maule \\
+ Fuerza Aérea de Chile (Incluye al Servicio Aer... &                         Municipalidad de Lo Espejo &            Servicio de Salud Metropolitano Central \\
+                     Fundación Artesanías de Chile &                             Municipalidad de Lolol &              Servicio de Salud Metropolitano Norte \\
+                    Fundación Cultural Providencia &                         Municipalidad de Lonquimay &          Servicio de Salud Metropolitano Occidente \\
+                    Fundación Tiempos Nuevos (MIM) &                        Municipalidad de Los Alamos &                Servicio de Salud Metropolitano Sur \\
+ Gobierno Regional Metropolitano de Santiago  (... &                         Municipalidad de Los Vilos &                         Servicio de Salud OHiggins \\
+           Gobierno Regional de Arica y Parinacota &                            Municipalidad de Lumaco &                           Servicio de Salud Osorno \\
+                      Gobierno Regional de Atacama &                             Municipalidad de Macul &                       Servicio de Salud Talcahuano \\
+           Gobierno Regional de Aysén (GORE Aysén) &                             Municipalidad de Maipú &                         Servicio de Salud Valdivia \\
+                     Gobierno Regional de Coquimbo &                         Municipalidad de Mariquina &          Servicio de Salud Valparaíso  San Antonio \\
+ Gobierno Regional de Magallanes y de la Antárt... &                       Municipalidad de María Pinto &           Servicio de Salud Viña del Mar  Quillota \\
+     Gobierno Regional de OHiggins (Gore OHiggins) &                        Municipalidad de Mejillones &                    Servicio de Salud del Reloncaví \\
+                     Gobierno Regional de Tarapacá &                          Municipalidad de Mostazal &                  Subsecretaria de Derechos Humanos \\
+ Gobierno Regional de Valparaíso  ( GORE Valpar... &                        Municipalidad de Nacimiento &                 Subsecretaria de Evaluación Social \\
+                        Gobierno Regional de Ñuble &                           Municipalidad de Navidad &        Subsecretaría General de Gobierno (SEGEGOB) \\
+      Gobierno Regional del Bío Bío (Gore Bío Bío) &                           Municipalidad de Ollague &  Subsecretaría General de La Presidencia (SEGPRES) \\
+          Gobierno Regional del Maule (Gore Maule) &                            Municipalidad de Osorno &                 Subsecretaría de Bienes Nacionales \\
+                         Hospital Base de Valdivia &                            Municipalidad de Ovalle &  Subsecretaría de Ciencia Tecnología Conocimien... \\
+                         Hospital Carlos Van Buren &                     Municipalidad de Padre Hurtado &                           Subsecretaría de Defensa \\
+            Hospital Claudio Vicuña de San Antonio &                          Municipalidad de Paihuano &     Subsecretaría de Desarrollo Regional (SUBDERE) \\
+ Hospital Clínico Magallanes Dr Lautaro Navarro... &                          Municipalidad de Paillaco &                Subsecretaría de Economía (MINECON) \\
+            Hospital Dr. Augusto Riffart de Castro &                          Municipalidad de Palmilla &               Subsecretaría de Educación (MINEDUC) \\
+   Hospital Dr. Hernán Henríquez Aravena de Temuco &                       Municipalidad de Panguipulli &              Subsecretaría de Educación Parvularia \\
+            Hospital Eduardo Pereira de Valparaíso &                            Municipalidad de Papudo &                Subsecretaría de Educación Superior \\
+      Hospital El Carmen Dr. Luis Valentín Ferrada &                         Municipalidad de Paredones &                           Subsecretaría de Energía \\
+                Hospital Ernesto Torres de Iquique &                            Municipalidad de Parral &                          Subsecretaría de Hacienda \\
+                        Hospital Exequiel González &               Municipalidad de Pedro Aguirre Cerda &                          Subsecretaría de Justicia \\
+                             Hospital Félix Bulnes &                          Municipalidad de Pelluhue &                           Subsecretaría de Minería \\
+  Hospital Guillermo Grant Benavente de Concepción &                            Municipalidad de Pemuco &              Subsecretaría de Obras Públicas (MOP) \\
+                          Hospital Herminda Martin &                          Municipalidad de Pencahue &               Subsecretaría de Pesca y Acuicultura \\
+                        Hospital Juan Noé de Arica &                             Municipalidad de Penco &             Subsecretaría de Prevención del Delito \\
+           Hospital Leonardo Guzmán de Antofagasta &                         Municipalidad de Peralillo &            Subsecretaría de Previsión Social (SPS) \\
+                      Hospital Luis Calvo Mackenna &                             Municipalidad de Peumo &               Subsecretaría de Redes Asistenciales \\
+                               Hospital Luis Tisné &                          Municipalidad de Peñaflor &            Subsecretaría de Salud Pública (MINSAL) \\
+                            Hospital Padre Hurtado &                         Municipalidad de Peñalolén &                Subsecretaría de Servicios Sociales \\
+                       Hospital Regional Coyhaique &                              Municipalidad de Pica &       Subsecretaría de Telecomunicaciones (SUBTEL) \\
+                     Hospital Regional de Rancagua &                         Municipalidad de Pichilemu &                           Subsecretaría de Turismo \\
+                        Hospital Regional de Talca &                             Municipalidad de Pinto &   Subsecretaría de la Mujer y la Equidad de Género \\
+                      Hospital San José de Coronel &                            Municipalidad de Pirque &          Subsecretaría de las Culturas y las Artes \\
+                         Hospital San Juan de Dios &                        Municipalidad de Pitrufquén &              Subsecretaría del Patrimonio Cultural \\
+            Hospital San Juan de Dios de Los Andes &                          Municipalidad de Placilla &                Subsecretaría del Trabajo (MINTRAB) \\
+         Hospital San Juan de Dios de San Fernando &                        Municipalidad de Portezuelo &    Subsecretaría para las Fuerzas Armadas (SSFFAA) \\
+                   Hospital San Martín de Quillota &                      Municipalidad de Pozo Almonte &         Superintendencia de Casinos de Juego (SCJ) \\
+                    Hospital San Pablo de Coquimbo &                         Municipalidad de Primavera &                      Superintendencia de Educación \\
+                           Hospital Sótero del Río &                             Municipalidad de Pucón &             Superintendencia de Educación Superior \\
+       Hospital Urgencia Asistencia Pública (HUAP) &                      Municipalidad de Puerto Montt &  Superintendencia de Electricidad y Combustible... \\
+          Hospital Víctor Ríos Ruiz de Los Angeles &                    Municipalidad de Puerto Natales &  Superintendencia de Insolvencia y Reemprendimi... \\
+                                Hospital de Curicó &                      Municipalidad de Puerto Octay &                 Superintendencia de Pensiones (SP) \\
+                               Hospital de Linares &                         Municipalidad de Punitaqui &      Superintendencia de Seguridad Social (SUSESO) \\
+                                  Hospital de Lota &                         Municipalidad de Purranque &    Superintendencia de Servicios Sanitarios (SISS) \\
+                             Hospital de Melipilla &                          Municipalidad de Putaendo &          Superintendencia del Medio Ambiente (SMA) \\
+                                Hospital de Osorno &                           Municipalidad de Puyehue &            Tesorería General de la República (TGR) \\
+                                Hospital de Ovalle &                           Municipalidad de Queilén &                      Unidad de Análisis Financiero \\
+                          Hospital de Puerto Montt &                           Municipalidad de Quellón &                               Universidad de Aysén \\
+\end{longtable}
+
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+fin
+    \end{Verbatim}
+
+
+    % Add a bibliography block to the postdoc
+    
+    
+    
+\end{document}

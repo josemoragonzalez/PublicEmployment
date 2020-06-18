@@ -1,0 +1,615 @@
+;organismo_codigo;Organismo;obligadorecibir_sai;
+17151;AA001;Presidencia de la República;SÍ;SÍ
+13335;AB002;Subsecretaría de Desarrollo Regional (SUBDERE);SÍ;SÍ
+10751;AB004;Oficina Nacional de Emergencia (ONEMI);SÍ;SÍ
+12144;AB075;Gobierno Regional de Arica y Parinacota;SÍ;SÍ
+7856;AB076;Gobierno Regional de Tarapacá;SÍ;SÍ
+11699;AB077;Gobierno Regional de Antofagasta;SÍ;SÍ
+11649;AB078;Gobierno Regional de Atacama;SÍ;SÍ
+5031;AB079;Gobierno Regional de Coquimbo;SÍ;SÍ
+8168;AB080;Gobierno Regional de Valparaíso  ( GORE Valparaíso);SÍ;SÍ
+4140;AB081;Gobierno Regional Metropolitano de Santiago  (GORE Metropolitano);SÍ;SÍ
+20637;AB082;Gobierno Regional de OHiggins (Gore OHiggins);SÍ;SÍ
+4467;AB083;Gobierno Regional del Maule (Gore Maule);SÍ;SÍ
+4998;AB084;Gobierno Regional del Bío Bío (Gore Bío Bío);SÍ;SÍ
+14748;AB085;Gobierno Regional de La Araucanía (Gore Araucanía);SÍ;SÍ
+2616;AB086;Gobierno Regional de Los Ríos (GORE de Los Ríos);SÍ;SÍ
+7723;AB088;Gobierno Regional de Aysén (GORE Aysén);SÍ;SÍ
+21105;AB089;Gobierno Regional de Magallanes y de la Antártica Chilena (GORE Magallanes);SÍ;SÍ
+10254;AB091;Subsecretaría de Prevención del Delito;SÍ;SÍ
+4468;AB092;Servicio Nacional para la Prevención y Rehabilitación del Consumo de Drogas y Alcohol (SENDA);SÍ;SÍ
+10468;AB098;Gobierno Regional de Ñuble;SÍ;SÍ
+24942;AC001;Subsecretaría de Relaciones Exteriores (MINREL);SÍ;SÍ
+9550;AC004;AGENCIA CHILENA DE COOPERACIÓN INTERNACIONAL PARA EL DESARROLLO (AGCID);SÍ;SÍ
+5014;AC005;Instituto Antártico Chileno (INACH);SÍ;SÍ
+23909;AD006;Ejército de Chile;SÍ;SÍ
+23171;AD007;Armada de Chile;SÍ;SÍ
+22946;AD008;Fuerza Aérea de Chile (Incluye al Servicio Aerofotogramétrico);SÍ;SÍ
+3354;AD013;Dirección General de Movilización Nacional (DGMN);SÍ;SÍ
+19132;AD015;Caja de Previsión de la Defensa Nacional (CAPREDENA);SÍ;SÍ
+4443;AD016;Dirección de Previsión de Carabineros de Chile (DIPRECA);SÍ;SÍ
+10571;AD020;Dirección General de Aeronáutica Civil (DGAC);SÍ;SÍ
+4086;AD021;Subsecretaría de Defensa;SÍ;SÍ
+9535;AD022;Subsecretaría para las Fuerzas Armadas (SSFFAA);SÍ;SÍ
+24678;AD023;Estado Mayor Conjunto (EMCO);SÍ;SÍ
+11434;AE001;Subsecretaría de Hacienda;SÍ;SÍ
+9986;AE002;Dirección de Presupuestos (DIPRES);SÍ;SÍ
+7044;AE003;Tesorería General de la República (TGR);SÍ;SÍ
+11781;AE004;Dirección Nacional del Servicio Civil;SÍ;SÍ
+2325;AE005;Unidad de Análisis Financiero;SÍ;SÍ
+17834;AE007;Servicio Nacional de Aduanas;SÍ;SÍ
+1623;AE009;Comisión para el Mercado Financiero (CMF  ex SVS);SÍ;SÍ
+10919;AE011;Dirección de Compras y Contratación Pública (CHILECOMPRA);SÍ;SÍ
+17310;AE012;Superintendencia de Casinos de Juego (SCJ);SÍ;SÍ
+8298;AE013;Administradora de los Tribunales Tributarios y Aduaneros (ATTA);SÍ;SÍ
+3769;AF001;Subsecretaría General de La Presidencia (SEGPRES);SÍ;SÍ
+3406;AG001;Subsecretaría General de Gobierno (SEGEGOB);SÍ;SÍ
+3519;AG003;Consejo Nacional de Televisión (CNTV);SÍ;SÍ
+14339;AH001;Subsecretaría de Economía (MINECON);SÍ;SÍ
+14728;AH002;Subsecretaría de Pesca y Acuicultura;SÍ;SÍ
+18490;AH003;Agencia de Promoción de la Inversión Extranjera;SÍ;SÍ
+4397;AH004;Corporación de Fomento Para La Producción (CORFO);SÍ;SÍ
+8415;AH005;Fiscalía Nacional Económica (FNE);SÍ;SÍ
+8147;AH007;Instituto Nacional de Estadisticas (INE);SÍ;SÍ
+4726;AH008;Servicio Nacional de Turismo (SERNATUR);SÍ;SÍ
+8643;AH009;Servicio Nacional del Consumidor (SERNAC);SÍ;SÍ
+14097;AH010;Servicio Nacional de Pesca y Acuicultura (SERNAPESCA);SÍ;SÍ
+15190;AH011;Subsecretaría de Turismo;SÍ;SÍ
+24280;AH012;Servicio de Cooperación Técnica (SERCOTEC);SÍ;SÍ
+14883;AH013;Superintendencia de Insolvencia y Reemprendimiento;SÍ;SÍ
+10228;AI001;Subsecretaria de Evaluación Social;SÍ;SÍ
+8126;AI002;Corporación Nacional de Desarrollo Indígena (CONADI);SÍ;SÍ
+4746;AI004;Fondo de Solidaridad e Inversión Social (FOSIS);SÍ;SÍ
+7015;AI005;Instituto Nacional de la Juventud (INJUV);SÍ;SÍ
+6786;AI008;Subsecretaría de Servicios Sociales;SÍ;SÍ
+21526;AI009;Subsecretaría de la Niñez;SÍ;SÍ
+11890;AJ001;Subsecretaría de Educación (MINEDUC);SÍ;SÍ
+4414;AJ002;Consejo de Rectores;SÍ;SÍ
+23632;AJ003;Consejo Nacional de Educación (CNED);SÍ;SÍ
+22795;AJ004;Comisión Administradora del Sistema de Créditos para Estudios Superiores (INGRESA);SÍ;SÍ
+19945;AJ008;Comisión Nacional de Investigación Científica y Tecnológica (CONICYT);SÍ;SÍ
+24613;AJ009;Junta Nacional de Auxilio Escolar y Becas (JUNAEB);SÍ;SÍ
+6094;AJ010;Junta Nacional de Jardines Infantiles (JUNJI);SÍ;SÍ
+6142;AJ011;Superintendencia de Educación;SÍ;SÍ
+20639;AJ012;Agencia de Calidad de la Educación;SÍ;SÍ
+6285;AJ014;Subsecretaría de Educación Parvularia;SÍ;SÍ
+14976;AJ016;Servicio Local de Educación Pública de Barrancas;SÍ;SÍ
+7883;AJ017;Servicio Local de Educación Pública Puerto Cordillera;SÍ;SÍ
+12169;AJ018;Dirección de Educación Pública;SÍ;SÍ
+10077;AJ019;Servicio Local de Educación Pública Huasco;SÍ;SÍ
+16401;AJ020;Servicio Local de Educación Pública Costa Araucanía;SÍ;SÍ
+15289;AJ021;Superintendencia de Educación Superior;SÍ;SÍ
+10333;AJ022;Servicio Local de Educación Pública Gabriela Mistral;SÍ;SÍ
+16331;AJ023;Servicio Local de Educación Pública Chinchorro;SÍ;SÍ
+7168;AJ024;Servicio Local de Educación Pública Andalién Sur;SÍ;SÍ
+15792;AJ025;Subsecretaría de Educación Superior;SÍ;SÍ
+15400;AK001;Subsecretaría de Justicia;SÍ;SÍ
+18235;AK002;Servicio de Registro Civil e Identificación;SÍ;SÍ
+8054;AK003;Servicio Médico Legal (SML);SÍ;SÍ
+20864;AK004;Servicio Nacional de Menores (SENAME);SÍ;SÍ
+3382;AK005;Defensoría Penal Pública (DPP);SÍ;SÍ
+23830;AK008;Corporación de Asistencia Judicial de la Región Metropolitana (CAJMETRO);SÍ;SÍ
+23298;AK009;Corporación de Asistencia Judicial Región Valparaíso (CAJVAL);SÍ;SÍ
+23224;AK010;Corporación de Asistencia Judicial Regiones Tarapacá y Antofagasta (CAJTA);SÍ;SÍ
+24259;AK011;Corporación de Asistencia Judicial Región Bío Bío (CAJBIOBIO);SÍ;SÍ
+5809;AK012;Subsecretaria de Derechos Humanos;SÍ;SÍ
+4950;AL001;Subsecretaría del Trabajo (MINTRAB);SÍ;SÍ
+10450;AL002;Subsecretaría de Previsión Social (SPS);SÍ;SÍ
+8368;AL003;Dirección del Trabajo (DT);SÍ;SÍ
+5810;AL004;Dirección General de Crédito Prendario (DICREP);SÍ;SÍ
+12669;AL005;Instituto de Previsión Social (IPS);SÍ;SÍ
+6847;AL006;Instituto de Seguridad Laboral (ISL);SÍ;SÍ
+8515;AL007;Servicio Nacional de Capacitación y Empleo (SENCE);SÍ;SÍ
+6805;AL008;Superintendencia de Pensiones (SP);SÍ;SÍ
+2908;AL009;Superintendencia de Seguridad Social (SUSESO);SÍ;SÍ
+23771;AL010;Comisión del Sistema Nacional de Certificación de Competencias Laborales (CHILEVALORA);SÍ;SÍ
+1736;AM001;Subsecretaría de Obras Públicas (MOP);SÍ;SÍ
+14319;AM002;Dirección General de Obras Públicas (DGOP);SÍ;SÍ
+10828;AM003;Dirección de Contabilidad y Finanzas (DCYF);SÍ;SÍ
+5050;AM004;Dirección de Aeropuertos (DAP);SÍ;SÍ
+4382;AM005;Dirección de Arquitectura (DARQ);SÍ;SÍ
+7653;AM006;Dirección General de Aguas (DGA);SÍ;SÍ
+10963;AM007;Dirección de Obras Hidráulicas (DOH);SÍ;SÍ
+9812;AM008;Dirección de Obras Portuarias (DOP);SÍ;SÍ
+10516;AM009;Dirección de Planeamiento (DIRPLAN);SÍ;SÍ
+9327;AM010;Dirección de Vialidad (VIALIDAD);SÍ;SÍ
+16258;AM011;Superintendencia de Servicios Sanitarios (SISS);SÍ;SÍ
+15528;AM013;Fiscalía MOP;SÍ;SÍ
+3115;AM014;Dirección General de Concesiones de Obras Públicas (DGC);SÍ;SÍ
+11333;AN001;Subsecretaría de Transportes (MTT);SÍ;SÍ
+14514;AN002;Subsecretaría de Telecomunicaciones (SUBTEL);SÍ;SÍ
+12303;AN003;Junta de Aeronáutica Civil (JAC);SÍ;SÍ
+13717;AO001;Subsecretaría de Salud Pública (MINSAL);SÍ;SÍ
+13822;AO002;Subsecretaría de Redes Asistenciales;SÍ;SÍ
+11677;AO003;Central de Abastecimiento del Sistema Nacional de Servicios de Salud (CENABAST);SÍ;SÍ
+10544;AO004;Fondo Nacional de Salud (FONASA);SÍ;SÍ
+13793;AO005;Instituto de Salud Pública (ISP);SÍ;SÍ
+14458;AO006;Superintendencia de Salud (SdS);SÍ;SÍ
+11180;AO007;Servicio de Salud Metropolitano Central;SÍ;SÍ
+14123;AO008;Servicio de Salud Metropolitano Norte;SÍ;SÍ
+20763;AO009;Servicio de Salud Metropolitano Occidente;SÍ;SÍ
+1715;AO010;Servicio de Salud Metropolitano Oriente;SÍ;SÍ
+18156;AO012;Servicio de Salud Metropolitano Sur Oriente;SÍ;SÍ
+12980;AO013;Hospital Padre Hurtado;SÍ;SÍ
+11973;AO014;Centro de Referencia de Salud de Peñalolén Cordillera Oriente (CRSORIENTE);SÍ;SÍ
+21630;AO015;Centro de Referencia de Salud de Maipú (CRSM);SÍ;SÍ
+8083;AO016;Servicio de Salud Arica;SÍ;SÍ
+15428;AO017;Servicio de Salud Iquique;SÍ;SÍ
+12623;AO018;Servicio de Salud Antofagasta;SÍ;SÍ
+8217;AO019;Servicio de Salud Atacama;SÍ;SÍ
+14542;AO020;Servicio de Salud Coquimbo;SÍ;SÍ
+11945;AO021;Servicio de Salud Aconcagua;SÍ;SÍ
+9424;AO022;Servicio de Salud Valparaíso  San Antonio;SÍ;SÍ
+16429;AO023;Servicio de Salud Viña del Mar  Quillota;SÍ;SÍ
+12670;AO024;Servicio de Salud OHiggins;SÍ;SÍ
+22071;AO025;Servicio de Salud Maule;SÍ;SÍ
+8798;AO026;Servicio de Salud Ñuble;SÍ;SÍ
+13153;AO027;Servicio de Salud Concepción;SÍ;SÍ
+19204;AO028;Servicio de Salud Talcahuano;SÍ;SÍ
+1926;AO029;Servicio de Salud Bíobío;SÍ;SÍ
+17687;AO030;Servicio de Salud Arauco;SÍ;SÍ
+18473;AO031;Servicio de Salud Araucanía Norte;SÍ;SÍ
+21803;AO032;Servicio de Salud Araucanía Sur;SÍ;SÍ
+11433;AO033;Servicio de Salud Valdivia;SÍ;SÍ
+4305;AO034;Servicio de Salud Osorno;SÍ;SÍ
+5413;AO035;Servicio de Salud de Chiloé;SÍ;SÍ
+15456;AO036;Servicio de Salud Aysén;SÍ;SÍ
+22433;AO037;Servicio de Salud del Reloncaví;SÍ;SÍ
+7911;AO038;Servicio de Salud Magallanes;SÍ;SÍ
+7807;AO039;SEREMI de Salud  de Arica y Parinacota;SÍ;SÍ
+13851;AO040;SEREMI de Salud  de Tarapacá;SÍ;SÍ
+4653;AO041;SEREMI de Salud  de Antofagasta;SÍ;SÍ
+9396;AO042;SEREMI de Salud  de Atacama;SÍ;SÍ
+13474;AO043;SEREMI de Salud  de Coquimbo;SÍ;SÍ
+15821;AO044;SEREMI de Salud  de Valparaíso;SÍ;SÍ
+10217;AO045;SEREMI de Salud  Metropolitano de Santiago;SÍ;SÍ
+5107;AO046;SEREMI de Salud de OHiggins;SÍ;SÍ
+5078;AO047;SEREMI de Salud del Maule;SÍ;SÍ
+11463;AO049;SEREMI de Salud de La Araucanía;SÍ;SÍ
+5492;AO050;SEREMI de Salud de Los Ríos;SÍ;SÍ
+7258;AO051;SEREMI de Salud de Los Lagos;SÍ;SÍ
+5999;AO052;SEREMI de Salud de Aysén;SÍ;SÍ
+15784;AO053;SEREMI de Salud de Magallanes y Antártica Chilena;SÍ;SÍ
+19972;AO054;Hospital de San Camilo;SÍ;SÍ
+9095;AO056;Hospital de Victoria;SÍ;SÍ
+22471;AO057;Hospital Mauricio Heyermann de Angol;SÍ;SÍ
+7836;AO058;Hospital Juan Noé de Arica;SÍ;SÍ
+2298;AO059;Hospital Regional Coyhaique;SÍ;SÍ
+11889;AO060;Hospital Víctor Ríos Ruiz de Los Angeles;SÍ;SÍ
+11808;AO061;Hospital Dr. Augusto Riffart de Castro;SÍ;SÍ
+13075;AO062;Hospital San José de Coronel;SÍ;SÍ
+10495;AO063;Hospital de Lota;SÍ;SÍ
+13047;AO064;Hospital Guillermo Grant Benavente de Concepción;SÍ;SÍ
+12529;AO065;Hospital de Ovalle;SÍ;SÍ
+22304;AO066;Hospital La Serena;SÍ;SÍ
+14862;AO067;Hospital San Pablo de Coquimbo;SÍ;SÍ
+3796;AO068;Hospital Ernesto Torres de Iquique;SÍ;SÍ
+7938;AO069;Hospital Urgencia Asistencia Pública (HUAP);SÍ;SÍ
+13309;AO070;Hospital San Borja Arriarán;SÍ;SÍ
+7441;AO071;Hospital San José;SÍ;SÍ
+21471;AO073;Hospital Félix Bulnes;SÍ;SÍ
+19066;AO074;Hospital de Melipilla;SÍ;SÍ
+10304;AO076;Instituto Nacional de Rehabilitación Pedro Aguirre Cerda;SÍ;SÍ
+14910;AO077;Instituto de Neurocirugía;SÍ;SÍ
+9240;AO078;Instituto Nacional de Geriatría (ING);SÍ;SÍ
+2687;AO079;Hospital del Salvador;SÍ;SÍ
+8771;AO080;Hospital Barros Luco;SÍ;SÍ
+12782;AO081;Hospital Sótero del Río;SÍ;SÍ
+7570;AO082;Hospital Clínico Magallanes Dr Lautaro Navarro Aravia;SÍ;SÍ
+12528;AO083;Hospital de Curicó;SÍ;SÍ
+12242;AO084;Hospital de Linares;SÍ;SÍ
+17279;AO085;Hospital Regional de Talca;SÍ;SÍ
+6439;AO086;Hospital de San Carlos;SÍ;SÍ
+5970;AO087;Hospital San Juan de Dios de San Fernando;SÍ;SÍ
+13644;AO088;Hospital Regional de Rancagua;SÍ;SÍ
+8541;AO089;Hospital de Osorno;SÍ;SÍ
+21175;AO091;Hospital de Tomé;SÍ;SÍ
+12966;AO092;Hospital de las Higueras;SÍ;SÍ
+11972;AO093;Hospital Base de Valdivia;SÍ;SÍ
+21355;AO094;Hospital Claudio Vicuña de San Antonio;SÍ;SÍ
+18517;AO095;Hospital Carlos Van Buren;SÍ;SÍ
+22420;AO096;Hospital Eduardo Pereira de Valparaíso;SÍ;SÍ
+12649;AO097;Hospital de Quilpué;SÍ;SÍ
+18674;AO098;Hospital Gustavo Fricke;SÍ;SÍ
+10129;AO099;Hospital San Martín de Quillota;SÍ;SÍ
+9746;AO100;Instituto Psiquiátrico;SÍ;SÍ
+15003;AO101;Hospital San Juan de Dios de Los Andes;SÍ;SÍ
+8169;AO102;Hospital Exequiel González;SÍ;SÍ
+9162;AO104;Hospital Herminda Martin;SÍ;SÍ
+7490;AO105;Instituto Nacional del Tórax;SÍ;SÍ
+10103;AO106;Hospital Luis Tisné;SÍ;SÍ
+20789;AO107;Instituto Traumatológico;SÍ;SÍ
+2651;AO108;Instituto Nacional del Cáncer;SÍ;SÍ
+4218;AO109;Hospital Luis Calvo Mackenna;SÍ;SÍ
+13285;AO110;Hospital Dr. Hernán Henríquez Aravena de Temuco;SÍ;SÍ
+14835;AO111;Hospital El Carmen Dr. Luis Valentín Ferrada;SÍ;SÍ
+19223;AO117;SEREMI de Salud del Ñuble;SÍ;SÍ
+19248;AP001;Subsecretaría de Vivienda y Urbanismo (MINVU);SÍ;SÍ
+9957;AP002;SERVIU Región de Tarapacá;SÍ;SÍ
+21523;AP003;SERVIU Región de Antofagasta;SÍ;SÍ
+9186;AP004;SERVIU Región de Atacama;SÍ;SÍ
+9721;AP005;SERVIU Región de Coquimbo;SÍ;SÍ
+5590;AP006;SERVIU Región de Valparaíso;SÍ;SÍ
+4774;AP007;SERVIU Región Metropolitana de Santiago;SÍ;SÍ
+4556;AP008;SERVIU Región del Libertador Bernardo OHiggins;SÍ;SÍ
+12403;AP009;SERVIU Región del Maule;SÍ;SÍ
+3824;AP010;SERVIU Región del Bío Bío;SÍ;SÍ
+19277;AP011;SERVIU Región de la Araucanía;SÍ;SÍ
+3288;AP012;SERVIU Región de Los Lagos;SÍ;SÍ
+4798;AP013;SERVIU Región de Aysén del General Carlos Ibáñez del Campo;SÍ;SÍ
+12374;AP014;SERVIU Región de Magallanes y la Antártica Chilena;SÍ;SÍ
+15628;AP015;SERVIU Región de Los Ríos;SÍ;SÍ
+19531;AP016;SERVIU Región de Arica y Parinacota;SÍ;SÍ
+15215;AP017;Parque Metropolitano de Santiago;SÍ;SÍ
+10007;AQ001;Subsecretaría de Bienes Nacionales;SÍ;SÍ
+21266;AR001;Subsecretaría de Agricultura;SÍ;SÍ
+5670;AR002;Comisión Nacional de Riego (CNR);SÍ;SÍ
+8006;AR004;Instituto de Desarrollo Agropecuario (INDAP);SÍ;SÍ
+7159;AR005;Oficinas de Estudios y Políticas Agrarias (ODEPA);SÍ;SÍ
+13021;AR006;Servicio Agrícola y Ganadero (SAG);SÍ;SÍ
+12406;AS001;Subsecretaría de Minería;SÍ;SÍ
+6576;AS002;Comisión Chilena del Cobre (COCHILCO);SÍ;SÍ
+6438;AS004;Servicio Nacional de Geología y Minería (SERNAGEOMIN);SÍ;SÍ
+8055;AT001;Servicio Nacional de la Mujer y la Equidad de Género (SERNAMEG);SÍ;SÍ
+9259;AU001;Comisión Nacional de Energía (CNE);SÍ;SÍ
+1601;AU002;Subsecretaría de Energía;SÍ;SÍ
+15649;AU003;Comisión Chilena de Energía Nuclear (CCHEN);SÍ;SÍ
+3334;AU004;Superintendencia de Electricidad y Combustibles (SEC);SÍ;SÍ
+10941;AW002;Subsecretaría del Medio Ambiente (MMA);SÍ;SÍ
+8088;AW003;Superintendencia del Medio Ambiente (SMA);SÍ;SÍ
+8104;AW004;Servicio de Evaluación Ambiental (SEA);SÍ;SÍ
+17665;AX001;Consejo de Defensa del Estado (CDE);SÍ;SÍ
+10429;AY001;Instituto Nacional de Propiedad Industrial (INAPI);SÍ;SÍ
+22967;AZ001;Comisión Nacional de Acreditación (CNA);SÍ;SÍ
+5386;BA001;Subsecretaría del Deporte;SÍ;SÍ
+10942;BA002;Instituto Nacional del Deporte (IND);SÍ;SÍ
+9516;BB001;Subsecretaría de la Mujer y la Equidad de Género;SÍ;SÍ
+10277;BC001;Subsecretaría de las Culturas y las Artes;SÍ;SÍ
+19760;BC002;Subsecretaría del Patrimonio Cultural;SÍ;SÍ
+20037;BC003;Servicio Nacional del Patrimonio Cultural;SÍ;SÍ
+22250;BD001;Subsecretaría de Ciencia Tecnología Conocimiento e Innovación;SÍ;SÍ
+23429;CF001;CFT de la Región de la Araucanía;SÍ;SÍ
+23829;CF002;CFT de la Región del Maule;SÍ;SÍ
+23806;CF003;CFT de la Región del Tarapacá;SÍ;SÍ
+23651;CF004;CFT de la Región de los Ríos;SÍ;SÍ
+22836;CF005;CFT de la Región de los Lagos;SÍ;SÍ
+23069;CF006;CFT de la Región de Coquimbo;SÍ;SÍ
+24106;CF007;CFT de la Región de Valparaíso;SÍ;SÍ
+15148;CM002;Corporación Municipal de Desarrollo Social de Antofagasta (CMDS);SÍ;SÍ
+21777;CM003;Corporación Municipal Isla de Maipo;SÍ;SÍ
+8745;CM006;Corporación Municipal de Puqueldón;SÍ;SÍ
+13572;CM008;Corporación Municipal de Rancagua (CORMUN);SÍ;SÍ
+8349;CM009;Corporación Municipal para el Desarrollo Social de Villa Alemana;SÍ;SÍ
+12288;CM011;Corporación Municipal de Castro;SÍ;SÍ
+6625;CM012;Corporación Municipal de Educación y Servicios Ramón Freire Dalcahue;SÍ;SÍ
+17357;CM013;Corporación Municipal de Quellón;SÍ;SÍ
+23299;CM014;Corporación Municipal de Pirque;SÍ;SÍ
+14298;CM015;Corporación Municipal de Valparaíso;SÍ;SÍ
+9601;CM016;Corporación Municipal de Desarrollo Social de Til Til;SÍ;SÍ
+16380;CM017;Corporación Municipal de La Reina;SÍ;SÍ
+20570;CM018;Corporación Municipal de Desarrollo Social de Calama (COMDES);SÍ;SÍ
+9862;CM019;Corporación Municipal de Quilpué;SÍ;SÍ
+24984;CM020;Corporación de Educación Salud y Atención de Menores Chonchi Chiloé;SÍ;SÍ
+3481;CM022;Corporación Municipal de Cerro Navia;SÍ;SÍ
+13765;CM025;Corporación Municipal de Buin;SÍ;SÍ
+15734;CM026;Corporación Municipal de Colina;SÍ;SÍ
+13123;CM028;Corporación Municipal de Maria Pinto;SÍ;SÍ
+9792;CM029;Corporación Municipal de Quinta Normal;SÍ;SÍ
+10678;CM030;Corporación Municipal de San Joaquin;SÍ;SÍ
+9307;CM032;Corporación Municipal de Pudahuel;SÍ;SÍ
+21600;CM033;Corporación Municipal de San Bernardo;SÍ;SÍ
+18207;CM034;Corporación Municipal de Pozo Almonte;SÍ;SÍ
+9135;CM037;Corporación Municipal de Curaco De Velez;SÍ;SÍ
+16185;CM040;Corporación Municipal de Lo Prado;SÍ;SÍ
+20128;CM041;Corporación Municipal de Macul;SÍ;SÍ
+4775;CM042;Corporación Municipal de Melipilla;SÍ;SÍ
+8005;CM043;Corporación Municipal de Panguipulli;SÍ;SÍ
+2846;CM044;Corporación Municipal de Puente Alto;SÍ;SÍ
+22701;CM048;Corporación Municipal de Renca;SÍ;SÍ
+14644;CM051;Corporación Municipal de San Vicente;SÍ;SÍ
+10926;CM052;Corporación Municipal de Talagante;SÍ;SÍ
+23783;CM055;Corporación Municipal Cultural y Patrimonial de San Bernardo;SÍ;SÍ
+23565;CO001;Instituto Nacional de Derechos Humanos (INDH);SÍ;SÍ
+23451;CO005;Defensoría de los Derechos de la Niñez;SÍ;SÍ
+23523;CT001;Consejo para la Transparencia (CPLT);SÍ;SÍ
+23058;FU002;Fundación Tiempos Nuevos (MIM);SÍ;SÍ
+24041;FU005;Fundación Artesanías de Chile;SÍ;SÍ
+23957;FU008;Fundación Cultural Providencia;SÍ;SÍ
+22987;MA001;Asociación de Municipalidades Rurales de la Región Metropolitana de Santiago (AMUR);SÍ;SÍ
+22991;MA004;Asociación de Municipios de La Región de Los Ríos;SÍ;SÍ
+24027;MA005;Asociación de Municipalidades de la Región de Los Ríos para el Manejo sustentable de Residuos y la Gestión Ambiental;SÍ;SÍ
+23367;MA006;Asociación de Municipalidades Parque Cordillera;SÍ;SÍ
+23674;MA008;Asociación de Municipalidades Malleco Norte AMMN;SÍ;SÍ
+24079;MA010;Asociación de Municipalidades para el Desarrollo Económico Local;SÍ;SÍ
+23122;MA014;Asociación Regional de Municipios de Atacama;SÍ;SÍ
+23197;MA018;Asociación de Municipalidades de Chile AMUCH;SÍ;SÍ
+23156;MA021;Asociación de Municipalidades de la Región de OHiggins;SÍ;SÍ
+22739;MA022;Asociación de Municipalidades del Punilla;SÍ;SÍ
+23996;MA024;Asociación de Municipalidades de la Provincia de Osorno para el Manejo Sustentable de Residuos y la Gestión Ambiental;SÍ;SÍ
+23890;MA026;Asociación de Municipalidades con Alcalde Mapuche;SÍ;SÍ
+24822;MA027;Asociación Municipal para la sustentabilidad ambiental AMUSA;SÍ;SÍ
+23607;MA029;Asociación de Municipalidades de Ciudades Puerto y Borde Costero;SÍ;SÍ
+23751;MA031;Asociación de Municipios Ciudad Sur;SÍ;SÍ
+23033;MA033;Asociación de Municipios Costa Araucanía;SÍ;SÍ
+23942;MA034;Asociación de Municipalidades Rurales del Norte Chico;SÍ;SÍ
+24217;MA035;Asociación de Municipalidades de la Región de  Coquimbo;SÍ;SÍ
+23404;MA036;Asociación de Municipalidades de la Región del Biobío;SÍ;SÍ
+24105;MA037;Asociación de Municipios Cordilleranos AMCORDI;SÍ;SÍ
+22890;MA038;Asociación de Municipalidades Bio Bio Centro;SÍ;SÍ
+24320;MA040;Asociación de Municipalidades del Valle del Itata;SÍ;SÍ
+22926;MA042;Asociación de Municipalidades de la Zona Central y Costa (AMUCC);SÍ;SÍ
+23092;MA044;Asociación Nacional de Municipalidades de Ciudades Puerto Concesionados;SÍ;SÍ
+22776;MA048;Asociación de Municipalidades de Arauco y Curanilahue;SÍ;SÍ
+23334;MA050;Asociación Metropolitana de Municipalidades de Santiago Sur para la Gestión Ambiental y de Residuos (MSUR);SÍ;SÍ
+23276;MA053;Asociación Chilena de Municipalidades con Farmacias Populares (ACHIFARP);SÍ;SÍ
+23248;MA056;Asociación de Municipios Metropolitanos para la Seguridad Ciudadana (AMMSeguridad);SÍ;SÍ
+23703;MA058;Asociación de Municipalidades Cordilleranas de la Araucanía;SÍ;SÍ
+5440;MU002;Municipalidad de Alhué;SÍ;SÍ
+22604;MU003;Municipalidad de Alto Biobío;SÍ;SÍ
+3671;MU004;Municipalidad de Alto del Carmen;SÍ;SÍ
+2494;MU007;Municipalidad de Andacollo;SÍ;SÍ
+19587;MU008;Municipalidad de Angol;SÍ;SÍ
+24190;MU009;Municipalidad de Antofagasta;SÍ;SÍ
+2152;MU011;Municipalidad de Arauco;SÍ;SÍ
+3851;MU013;Municipalidad de Aysen;SÍ;SÍ
+17952;MU014;Municipalidad de Buin;SÍ;SÍ
+5726;MU015;Municipalidad de Bulnes;SÍ;SÍ
+9696;MU016;Municipalidad de Cabildo;SÍ;SÍ
+24080;MU017;Municipalidad de Cabo de Hornos y Antártica;SÍ;SÍ
+12042;MU020;Municipalidad de Calbuco;SÍ;SÍ
+20097;MU021;Municipalidad de Caldera;SÍ;SÍ
+19714;MU022;Municipalidad de Calera de Tango;SÍ;SÍ
+21981;MU023;Municipalidad de Calle Larga;SÍ;SÍ
+6785;MU024;Municipalidad de Camarones;SÍ;SÍ
+20694;MU026;Municipalidad de Canela;SÍ;SÍ
+23198;MU027;Municipalidad de Cañete;SÍ;SÍ
+21007;MU029;Municipalidad de Cartagena;SÍ;SÍ
+6496;MU030;Municipalidad de Casablanca;SÍ;SÍ
+8607;MU032;Municipalidad de Catemu;SÍ;SÍ
+1689;MU033;Municipalidad de Cauquenes;SÍ;SÍ
+17857;MU034;Municipalidad de Cerrillos;SÍ;SÍ
+8431;MU035;Municipalidad de Cerro Navia;SÍ;SÍ
+15872;MU036;Municipalidad de Chaitén;SÍ;SÍ
+20173;MU037;Municipalidad de Chanco;SÍ;SÍ
+20527;MU038;Municipalidad de Chañaral;SÍ;SÍ
+15147;MU039;Municipalidad de Chépica;SÍ;SÍ
+4983;MU040;Municipalidad de Chiguayante;SÍ;SÍ
+3203;MU041;Municipalidad de Chile Chico;SÍ;SÍ
+16323;MU042;Municipalidad de Chillán;SÍ;SÍ
+5307;MU044;Municipalidad de Chimbarongo;SÍ;SÍ
+17534;MU045;Municipalidad de Cholchol;SÍ;SÍ
+20879;MU046;Municipalidad de Chonchi;SÍ;SÍ
+7414;MU047;Municipalidad de Cisnes;SÍ;SÍ
+4022;MU048;Municipalidad de Cobquecura;SÍ;SÍ
+14712;MU049;Municipalidad de Cochamó;SÍ;SÍ
+16934;MU050;Municipalidad de Cochrane;SÍ;SÍ
+13899;MU051;Municipalidad de Codegua;SÍ;SÍ
+2056;MU052;Municipalidad de Coelemu;SÍ;SÍ
+16235;MU053;Municipalidad de Coihueco;SÍ;SÍ
+3154;MU054;Municipalidad de Coinco;SÍ;SÍ
+16907;MU055;Municipalidad de Colbún;SÍ;SÍ
+6993;MU057;Municipalidad de Colina;SÍ;SÍ
+5774;MU058;Municipalidad de Collipulli;SÍ;SÍ
+12476;MU059;Municipalidad de Coltauco;SÍ;SÍ
+4704;MU060;Municipalidad de Combarbalá;SÍ;SÍ
+10885;MU061;Municipalidad de Concepción;SÍ;SÍ
+14011;MU062;Municipalidad de Conchalí;SÍ;SÍ
+25073;MU064;Municipalidad de Constitución;SÍ;SÍ
+18910;MU067;Municipalidad de Coquimbo;SÍ;SÍ
+2388;MU068;Municipalidad de Coronel;SÍ;SÍ
+13519;MU069;Municipalidad de Corral;SÍ;SÍ
+11306;MU070;Municipalidad de Coyhaique;SÍ;SÍ
+20206;MU071;Municipalidad de Cunco;SÍ;SÍ
+20834;MU072;Municipalidad de Curacautín;SÍ;SÍ
+16597;MU075;Municipalidad de Curanilahue;SÍ;SÍ
+15529;MU076;Municipalidad de Curarrehue;SÍ;SÍ
+7463;MU078;Municipalidad de Curicó;SÍ;SÍ
+4367;MU079;Municipalidad de Dalcahue;SÍ;SÍ
+15557;MU080;Municipalidad de Diego de Almagro;SÍ;SÍ
+17133;MU081;Municipalidad de Doñihue;SÍ;SÍ
+7808;MU082;Municipalidad de El Bosque;SÍ;SÍ
+10045;MU084;Municipalidad de El Monte;SÍ;SÍ
+2739;MU085;Municipalidad de El Quisco;SÍ;SÍ
+12135;MU086;Municipalidad de El Tabo;SÍ;SÍ
+4065;MU087;Municipalidad de Empedrado;SÍ;SÍ
+20622;MU088;Municipalidad de Ercilla;SÍ;SÍ
+16847;MU089;Municipalidad de Estación Central;SÍ;SÍ
+22029;MU090;Municipalidad de Florida;SÍ;SÍ
+21527;MU092;Municipalidad de Freirina;SÍ;SÍ
+2795;MU093;Municipalidad de Fresia;SÍ;SÍ
+7313;MU094;Municipalidad de Frutillar;SÍ;SÍ
+3740;MU095;Municipalidad de Futaleufú;SÍ;SÍ
+15216;MU096;Municipalidad de Futrono;SÍ;SÍ
+21890;MU097;Municipalidad de Galvarino;SÍ;SÍ
+17586;MU098;Municipalidad de General Lagos;SÍ;SÍ
+6910;MU099;Municipalidad de Gorbea;SÍ;SÍ
+20406;MU100;Municipalidad de Graneros;SÍ;SÍ
+18853;MU101;Municipalidad de Guaitecas;SÍ;SÍ
+19039;MU102;Municipalidad de Hijuelas;SÍ;SÍ
+17093;MU103;Municipalidad de Hualaihué;SÍ;SÍ
+2209;MU105;Municipalidad de Hualpén;SÍ;SÍ
+8516;MU106;Municipalidad de Hualqui;SÍ;SÍ
+8644;MU107;Municipalidad de Huara;SÍ;SÍ
+20254;MU109;Municipalidad de Huechuraba;SÍ;SÍ
+10918;MU110;Municipalidad de Illapel;SÍ;SÍ
+24866;MU112;Municipalidad de Iquique;SÍ;SÍ
+9008;MU113;Municipalidad de Isla de Maipo;SÍ;SÍ
+10061;MU115;Municipalidad de Juan Fernández;SÍ;SÍ
+11628;MU117;Municipalidad de La Cisterna;SÍ;SÍ
+9070;MU118;Municipalidad de La Cruz;SÍ;SÍ
+18786;MU119;Municipalidad de La Estrella;SÍ;SÍ
+7705;MU121;Municipalidad de La Granja;SÍ;SÍ
+21603;MU122;Municipalidad de La Higuera;SÍ;SÍ
+24246;MU123;Municipalidad de La Ligua;SÍ;SÍ
+20737;MU124;Municipalidad de La Pintana;SÍ;SÍ
+15339;MU125;Municipalidad de La Reina;SÍ;SÍ
+18445;MU127;Municipalidad de La Unión;SÍ;SÍ
+21519;MU128;Municipalidad de Lago Ranco;SÍ;SÍ
+20034;MU129;Municipalidad de Lago Verde;SÍ;SÍ
+7543;MU130;Municipalidad de Laguna Blanca;SÍ;SÍ
+19741;MU131;Municipalidad de Laja;SÍ;SÍ
+19445;MU132;Municipalidad de Lampa;SÍ;SÍ
+4866;MU133;Municipalidad de Lanco;SÍ;SÍ
+17255;MU134;Municipalidad de Las Cabras;SÍ;SÍ
+17738;MU136;Municipalidad de Lautaro;SÍ;SÍ
+7704;MU137;Municipalidad de Lebu;SÍ;SÍ
+6095;MU138;Municipalidad de Licantén;SÍ;SÍ
+13251;MU139;Municipalidad de Limache;SÍ;SÍ
+13615;MU145;Municipalidad de Lo Espejo;SÍ;SÍ
+9369;MU146;Municipalidad de Lo Prado;SÍ;SÍ
+8856;MU147;Municipalidad de Lolol;SÍ;SÍ
+16743;MU148;Municipalidad de Loncoche;SÍ;SÍ
+2444;MU150;Municipalidad de Lonquimay;SÍ;SÍ
+12876;MU151;Municipalidad de Los Alamos;SÍ;SÍ
+21014;MU152;Municipalidad de Los Andes;SÍ;SÍ
+24914;MU154;Municipalidad de Los Lagos;SÍ;SÍ
+19498;MU156;Municipalidad de Los Sauces;SÍ;SÍ
+11152;MU157;Municipalidad de Los Vilos;SÍ;SÍ
+20458;MU159;Municipalidad de Lumaco;SÍ;SÍ
+15980;MU160;Municipalidad de Machalí;SÍ;SÍ
+14023;MU161;Municipalidad de Macul;SÍ;SÍ
+10216;MU162;Municipalidad de Máfil;SÍ;SÍ
+5358;MU163;Municipalidad de Maipú;SÍ;SÍ
+22950;MU164;Municipalidad de Malloa;SÍ;SÍ
+18015;MU165;Municipalidad de Marchige;SÍ;SÍ
+20174;MU167;Municipalidad de María Pinto;SÍ;SÍ
+2269;MU168;Municipalidad de Mariquina;SÍ;SÍ
+8996;MU170;Municipalidad de Maullín;SÍ;SÍ
+11243;MU171;Municipalidad de Mejillones;SÍ;SÍ
+14290;MU172;Municipalidad de Melipeuco;SÍ;SÍ
+23369;MU173;Municipalidad de Melipilla;SÍ;SÍ
+16143;MU174;Municipalidad de Molina;SÍ;SÍ
+19084;MU175;Municipalidad de Monte Patria;SÍ;SÍ
+4278;MU176;Municipalidad de Mostazal;SÍ;SÍ
+12862;MU177;Municipalidad de Mulchén;SÍ;SÍ
+21419;MU178;Municipalidad de Nacimiento;SÍ;SÍ
+18295;MU179;Municipalidad de Nancagua;SÍ;SÍ
+7835;MU180;Municipalidad de Navidad;SÍ;SÍ
+7134;MU181;Municipalidad de Negrete;SÍ;SÍ
+22459;MU182;Municipalidad de Ninhue;SÍ;SÍ
+12091;MU183;Municipalidad de Nogales;SÍ;SÍ
+6266;MU185;Municipalidad de Ñiquén;SÍ;SÍ
+22312;MU186;Municipalidad de Ñuñoa;SÍ;SÍ
+11627;MU187;Municipalidad de OHiggins;SÍ;SÍ
+11752;MU188;Municipalidad de Olivar;SÍ;SÍ
+2885;MU189;Municipalidad de Ollague;SÍ;SÍ
+9662;MU190;Municipalidad de Olmué;SÍ;SÍ
+19593;MU191;Municipalidad de Osorno;SÍ;SÍ
+16094;MU192;Municipalidad de Ovalle;SÍ;SÍ
+17741;MU193;Municipalidad de Padre Hurtado;SÍ;SÍ
+25087;MU194;Municipalidad de Padre Las Casas;SÍ;SÍ
+9930;MU195;Municipalidad de Paihuano;SÍ;SÍ
+17204;MU198;Municipalidad de Palena;SÍ;SÍ
+19654;MU199;Municipalidad de Palmilla;SÍ;SÍ
+19834;MU200;Municipalidad de Panguipulli;SÍ;SÍ
+6066;MU202;Municipalidad de Papudo;SÍ;SÍ
+21731;MU203;Municipalidad de Paredones;SÍ;SÍ
+7632;MU204;Municipalidad de Parral;SÍ;SÍ
+14404;MU205;Municipalidad de Pedro Aguirre Cerda;SÍ;SÍ
+3457;MU207;Municipalidad de Pelluhue;SÍ;SÍ
+2636;MU208;Municipalidad de Pemuco;SÍ;SÍ
+13048;MU209;Municipalidad de Pencahue;SÍ;SÍ
+6395;MU210;Municipalidad de Penco;SÍ;SÍ
+16489;MU211;Municipalidad de Peñaflor;SÍ;SÍ
+2055;MU212;Municipalidad de Peñalolén;SÍ;SÍ
+20894;MU213;Municipalidad de Peralillo;SÍ;SÍ
+21839;MU214;Municipalidad de Perquenco;SÍ;SÍ
+18569;MU216;Municipalidad de Peumo;SÍ;SÍ
+20461;MU217;Municipalidad de Pica;SÍ;SÍ
+12802;MU218;Municipalidad de Pichidegua;SÍ;SÍ
+5813;MU219;Municipalidad de Pichilemu;SÍ;SÍ
+17637;MU220;Municipalidad de Pinto;SÍ;SÍ
+13258;MU221;Municipalidad de Pirque;SÍ;SÍ
+16663;MU222;Municipalidad de Pitrufquén;SÍ;SÍ
+15277;MU223;Municipalidad de Placilla;SÍ;SÍ
+21356;MU224;Municipalidad de Portezuelo;SÍ;SÍ
+9213;MU225;Municipalidad de Porvenir;SÍ;SÍ
+5645;MU226;Municipalidad de Pozo Almonte;SÍ;SÍ
+18294;MU227;Municipalidad de Primavera;SÍ;SÍ
+15507;MU230;Municipalidad de Pucón;SÍ;SÍ
+3261;MU231;Municipalidad de Pudahuel;SÍ;SÍ
+23433;MU233;Municipalidad de Puerto Montt;SÍ;SÍ
+2661;MU234;Municipalidad de Puerto Natales;SÍ;SÍ
+6554;MU235;Municipalidad de Puerto Octay;SÍ;SÍ
+15921;MU236;Municipalidad de Puerto Varas;SÍ;SÍ
+4624;MU237;Municipalidad de Pumanque;SÍ;SÍ
+6134;MU238;Municipalidad de Punitaqui;SÍ;SÍ
+1793;MU239;Municipalidad de Punta Arenas;SÍ;SÍ
+1987;MU242;Municipalidad de Purranque;SÍ;SÍ
+16571;MU243;Municipalidad de Putaendo;SÍ;SÍ
+10634;MU245;Municipalidad de Puyehue;SÍ;SÍ
+21237;MU247;Municipalidad de Quellón;SÍ;SÍ
+4930;MU248;Municipalidad de Quemchi;SÍ;SÍ
+15698;MU250;Municipalidad de Quilicura;SÍ;SÍ
+18732;MU251;Municipalidad de Quilleco;SÍ;SÍ
+15556;MU253;Municipalidad de Quillota;SÍ;SÍ
+5923;MU254;Municipalidad de Quilpué;SÍ;SÍ
+2969;MU257;Municipalidad de Quinta Normal;SÍ;SÍ
+9115;MU258;Municipalidad de Quintero;SÍ;SÍ
+14199;MU259;Municipalidad de Quirihue;SÍ;SÍ
+4219;MU260;Municipalidad de Rancagua;SÍ;SÍ
+5500;MU261;Municipalidad de Ránquil;SÍ;SÍ
+22030;MU262;Municipalidad de Rauco;SÍ;SÍ
+22131;MU264;Municipalidad de Renaico;SÍ;SÍ
+4531;MU266;Municipalidad de Rengo;SÍ;SÍ
+12595;MU267;Municipalidad de Requínoa;SÍ;SÍ
+20331;MU270;Municipalidad de Rio Bueno;SÍ;SÍ
+13374;MU271;Municipalidad de Río Claro;SÍ;SÍ
+6093;MU272;Municipalidad de Río Hurtado;SÍ;SÍ
+3906;MU274;Municipalidad de Río Negro;SÍ;SÍ
+19331;MU276;Municipalidad de Romeral;SÍ;SÍ
+11862;MU277;Municipalidad de Saavedra;SÍ;SÍ
+8945;MU279;Municipalidad de Salamanca;SÍ;SÍ
+19383;MU280;Municipalidad de San Antonio;SÍ;SÍ
+14808;MU281;Municipalidad de San Bernardo;SÍ;SÍ
+21446;MU282;Municipalidad de San Carlos;SÍ;SÍ
+17424;MU283;Municipalidad de San Clemente;SÍ;SÍ
+17043;MU284;Municipalidad de San Esteban;SÍ;SÍ
+12755;MU285;Municipalidad de San Fabián;SÍ;SÍ
+7229;MU286;Municipalidad de San Felipe;SÍ;SÍ
+15027;MU287;Municipalidad de San Fernando;SÍ;SÍ
+18647;MU288;Municipalidad de San Gregorio;SÍ;SÍ
+21936;MU289;Municipalidad de San Ignacio;SÍ;SÍ
+11151;MU290;Municipalidad de San Javier;SÍ;SÍ
+21689;MU291;Municipalidad de San Joaquín;SÍ;SÍ
+10401;MU292;Municipalidad de San José de Maipo;SÍ;SÍ
+13447;MU294;Municipalidad de San Miguel;SÍ;SÍ
+8614;MU295;Municipalidad de San Nicolás;SÍ;SÍ
+20638;MU296;Municipalidad de San Pablo;SÍ;SÍ
+7047;MU297;Municipalidad de San Pedro;SÍ;SÍ
+8282;MU299;Municipalidad de San Pedro De La Paz;SÍ;SÍ
+6526;MU301;Municipalidad de San Ramón;SÍ;SÍ
+4826;MU302;Municipalidad de San Rosendo;SÍ;SÍ
+7130;MU303;Municipalidad de San Vicente de Tagua Tagua;SÍ;SÍ
+6694;MU306;Municipalidad de Santa Juana;SÍ;SÍ
+22462;MU307;Municipalidad de Santa María;SÍ;SÍ
+11087;MU308;Municipalidad de Santiago;SÍ;SÍ
+19894;MU309;Municipalidad de Santo Domingo;SÍ;SÍ
+19038;MU310;Municipalidad de Sierra Gorda;SÍ;SÍ
+14557;MU312;Municipalidad de Talca;SÍ;SÍ
+3051;MU313;Municipalidad de Talcahuano;SÍ;SÍ
+7355;MU314;Municipalidad de Taltal;SÍ;SÍ
+18348;MU316;Municipalidad de Teno;SÍ;SÍ
+13688;MU317;Municipalidad de Teodoro Schmidt;SÍ;SÍ
+20946;MU318;Municipalidad de Tierra Amarilla;SÍ;SÍ
+11022;MU319;Municipalidad de Tiltil;SÍ;SÍ
+17042;MU320;Municipalidad de Timaukel;SÍ;SÍ
+3034;MU321;Municipalidad de Tirúa;SÍ;SÍ
+16803;MU322;Municipalidad de Tocopilla;SÍ;SÍ
+13573;MU323;Municipalidad de Toltén;SÍ;SÍ
+14492;MU324;Municipalidad de Tome;SÍ;SÍ
+14078;MU325;Municipalidad de Torres del Paine;SÍ;SÍ
+5246;MU326;Municipalidad de Tortel;SÍ;SÍ
+3966;MU327;Municipalidad de Traiguén;SÍ;SÍ
+17477;MU328;Municipalidad de Trehuaco;SÍ;SÍ
+14140;MU329;Municipalidad de Tucapel;SÍ;SÍ
+3095;MU332;Municipalidad de Valparaíso;SÍ;SÍ
+23910;MU333;Municipalidad de Vichuquén;SÍ;SÍ
+15078;MU336;Municipalidad de Vilcún;SÍ;SÍ
+11517;MU337;Municipalidad de Villa Alegre;SÍ;SÍ
+16037;MU338;Municipalidad de Villa Alemana;SÍ;SÍ
+6394;MU339;Municipalidad de Villarrica;SÍ;SÍ
+6695;MU342;Municipalidad de Yerbas Buenas;SÍ;SÍ
+10723;MU343;Municipalidad de Yumbel;SÍ;SÍ
+14297;MU345;Municipalidad de Zapallar;SÍ;SÍ
+19176;UN017;Universidad de Aysén;SÍ;SÍ
