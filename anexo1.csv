@@ -1,0 +1,77 @@
+;Organismo;Organismo;Organismo
+;0;1;2
+0;Agencia Nacional de Inteligencia (ANI);Gobernación de General Carrera;Municipalidad de Los Muermos
+1;Asociación Chilena de Municipalidades;Gobernación de Huasco;Municipalidad de Lota
+2;Asociación Regional de Municipalidades de Magallanes y Antártica Chilena (AMUMAG);Gobernación de Iquique;Municipalidad de María Elena
+3;Asociación de Municipalidades Región de Aysén;Gobernación de Isla de Pascua;Municipalidad de Nueva Imperial
+4;Asociación de Municipalidades Turísticas lacustres AMTL;Gobernación de Itata;Municipalidad de Paine
+5;Asociación de Municipalidades de la Provincia de Iquique Para La Gestión Ambiental y de Residuos;Gobernación de La Antártica Chilena;Municipalidad de Panquehue
+6;Asociación de Municipalidades de la Región del Maule;Gobernación de Limarí;Municipalidad de Petorca
+7;Asociación de Municipalidades de la Zona Oriente de la Región Metropolitana;Gobernación de Linares;Municipalidad de Providencia
+8;Asociación de Municipalidades de la cuenca del Lago Llanquihue;Gobernación de Llanquihue;Municipalidad de Puente Alto
+9;Asociación de Municipalidades para la Seguridad Ciudadana en la Zona Oriente;Gobernación de Los Andes;Municipalidad de Purén
+10;Asociación de Municipios Mapocho  La Chimba;Gobernación de Magallanes;Municipalidad de Quilaco
+11;Asociación de Municipios Rurales Regiones de Tarapacá y AricaParinacota;Gobernación de Maipo;Municipalidad de Quillón
+12;Asociación de Municipios de Desarrollo Intercomunal de Chiloé;Gobernación de Malleco;Municipalidad de Quinchao
+13;Asociación de Municipios para el Desarrollo Turístico de las Comunas de Cabrero Los Ángeles y Yumbel;Gobernación de Melipilla;Municipalidad de Quinta de Tilcoco
+14;Asociación de municipalidades con casinos de juegos;Gobernación de Osorno;Municipalidad de Recoleta
+15;Biblioteca del Congreso Nacional (BCN);Gobernación de Palena;Municipalidad de Rinconada
+16;CFT de la región metropolitana;Gobernación de Parinacota;Municipalidad de San Pedro de Atacama
+17;Centro de Información de Recursos Naturales (CIREN);Gobernación de Petorca;Municipalidad de San Rafael
+18;Centro de Investigación Minera y Metalúrgica;Gobernación de Puerto Aysén;Municipalidad de Santa Bárbara
+19;Consejo de Calificación Cinematográfica;Gobernación de Punilla;Municipalidad de Santa Cruz
+20;Contraloría General de la República (CGR);Gobernación de Quillota;Municipalidad de Temuco
+21;Corporación Municipal de Calera De Tango;Gobernación de Ranco;Municipalidad de Victoria
+22;Corporación Municipal de Conchali;Gobernación de San Antonio;Municipalidad de Vitacura
+23;Corporación Municipal de Deportes Recreación y Cultura de Coquimbo;Gobernación de San Felipe;Municipalidad de Viña del Mar
+24;Corporación Municipal de Fomento y Desarrollo Comunal de Sierra Gorda;Gobernación de Talagante;Partido ANDHA Chile
+25;Corporación Municipal de Iquique;Gobernación de Talca;Partido Federación Regionalista Verde Social  (FREVS)
+26;Corporación Municipal de La Florida;Gobernación de Tamarugal;Partido Izquierda Anticapitalista de los Trabajadores (IAT)
+27;Corporación Municipal de La Serena;Gobernación de Tierra del Fuego;Partido Izquierda Ciudadana
+28;Corporación Municipal de Las Condes;Gobernación de Tocopilla;Partido MAS Región
+29;Corporación Municipal de Peñalolén (CORMUP);Gobernación de Valdivia;Partido Pais Progresista
+30;Corporación Municipal de Providencia;Gobernación de Valparaíso;Partido Por La Integración Regional
+31;Corporación Municipal de Puerto Natales;Gobernación de última Esperanza;Partido Regionalista Independiente Demócrata (PRID)
+32;Corporación Municipal de Punta Arenas (CORMUPA);Gobierno Regional de Los Lagos (Gore Los Lagos);Partido de Trabajadores Revolucionarios
+33;Corporación Municipal de Quinchao;Instituto Forestal (INFOR);Poder Judicial
+34;Corporación Municipal de San Fernando (CORMUSAF);Instituto Nacional de Hidráulica (INH);Policía de Investigaciones (PDI)
+35;Corporación Municipal de San Jose De Maipo;Instituto de Investigaciones Agropecuarias (INIA);SERVIU Región del Ñuble
+36;Corporación Municipal de San Miguel;Intendencia Arica y Parinacota;Senado
+37;Corporación Municipal de Viña Del Mar;Intendencia Metropolitana;Servicio Aerofotogramétrico FACH (SAF)
+38;Corporación Municipal de deportes y recreación de Calama (CORMUDEP);Intendencia de Antofagasta;Servicio Electoral (SERVEL)
+39;Corporación Municipal del Desarrollo Social de Lampa;Intendencia de Atacama;Servicio Hidrográfico y Oceanográfico de La Armada (SHOA)
+40;Corporación Nacional Forestal (CONAF);Intendencia de Aysén;Servicio Local de Educación Pública Colchagua
+41;Corporación Regional de Desarrollo Productivo de la Región de Tarapacá;Intendencia de Coquimbo;Servicio Nacional de Discapacidad (SENADIS)
+42;Cámara de Diputados;Intendencia de La Araucanía;Servicio de Gobierno Interior
+43;Dirección General de Promoción de Exportaciones;Intendencia de Los Lagos;Servicio de Impuestos Internos (SII)
+44;Dirección General del Territorio Marítimo y Marina Mercante (DIRECTEMAR);Intendencia de Los Ríos;Sistema de Empresas Públicas (SEP)
+45;Fundación Chilenter;Intendencia de Magallanes;Subsecretaría de Relaciones Económicas Internacionales
+46;Fundación Integra;Intendencia de O Higgins;Subsecretaría del Interior
+47;Fundación de Orquestas Juveniles e Infantiles de Chile (FOJI);Intendencia de Tarapacá;Tribunal Constitucional (TC)
+48;Fundación de las Familias;Intendencia de Valparaíso;Tribunal de Propiedad Industrial (TDPI)
+49;Fundación para la Innovación Agraria (FIA);Intendencia de Ñuble;Universidad Arturo Prat (UNAP)
+50;Fundación para la Promoción y Desarrollo de la Mujer  (PROdeMU);Intendencia del Bío Bío;Universidad Metropolitana de Ciencias de la Educación (UMCE)
+51;Fábricas y Maestranzas del Ejército (FAMAE);Intendencia del Maule;Universidad Tecnológica Metropolitana (UTEM)
+52;Gobernación Provincial de Marga Marga;Municipalidad de Algarrobo;Universidad de Antofagasta
+53;Gobernación de Antofagasta;Municipalidad de Alto Hospicio;Universidad de Atacama
+54;Gobernación de Arauco;Municipalidad de Ancud;Universidad de Chile (UCHILE)
+55;Gobernación de Arica;Municipalidad de Arica;Universidad de La Frontera (UFRO)
+56;Gobernación de Bíobío;Municipalidad de Cabrero;Universidad de La Serena
+57;Gobernación de Cachapoal;Municipalidad de Calama;Universidad de Los Lagos
+58;Gobernación de Capitán Prat;Municipalidad de Castro;Universidad de Magallanes
+59;Gobernación de Cardenal Caro;Municipalidad de Chillán Viejo;Universidad de Playa Ancha (UPLA)
+60;Gobernación de Cauquenes;Municipalidad de Concón;Universidad de Santiago de Chile (USACH)
+61;Gobernación de Cautín;Municipalidad de Contulmo;Universidad de Talca (UTALCA)
+62;Gobernación de Chacabuco;Municipalidad de Copiapó;Universidad de Tarapacá
+63;Gobernación de Chañaral;Municipalidad de Curacaví;Universidad de Valparaíso
+64;Gobernación de Chiloé;Municipalidad de Curaco de Vélez;Universidad del Bío Bío (UBB)
+65;Gobernación de Choapa;Municipalidad de Curepto;ZOFRI S.A.  (ZOFRI)
+66;Gobernación de Colchagua;Municipalidad de Freire;
+67;Gobernación de Concepción;Municipalidad de Hualañé;
+68;Gobernación de Copiapó;Municipalidad de La Calera;
+69;Gobernación de Cordillera;Municipalidad de La Florida;
+70;Gobernación de Coyhaique;Municipalidad de La Serena;
+71;Gobernación de Curicó;Municipalidad de Las Condes;
+72;Gobernación de Diguillín;Municipalidad de Linares;
+73;Gobernación de El Loa;Municipalidad de Lo Barnechea;
+74;Gobernación de Elqui;Municipalidad de Longaví;

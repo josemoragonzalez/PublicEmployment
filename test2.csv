@@ -1,0 +1,682 @@
+;organismo_codigo;fecha;diff;Qpublica;indicador;Organismo
+578;MU229;2014-07-01;71.0;1;1.4;Municipalidad de Puchuncaví
+449;MU083;2015-06-01;60.0;1;1.7;Municipalidad de El Carmen
+298;CM007;2016-06-01;48.0;1;2.1;Corporación Municipal de Maipú (CODEDUC)
+670;MU335;2017-01-01;41.0;1;2.4;Municipalidad de Vicuña
+28;AD009;2014-04-01;74.0;2;2.7;Carabineros de Chile
+375;MA049;2017-06-01;36.0;1;2.8;Asociación de Municipalidades del Valle del Maipo
+357;MA025;2017-11-01;31.0;1;3.2;Asociación Municipalidades Provincia de Llanquihue Para Manejo Sustentable de Residuos y Gestión Ambiental
+346;MA011;2018-04-01;26.0;1;3.8;Asociación de Municipalidades Territorio de Riego Canal LajaDiguillín
+370;MA043;2018-12-01;18.0;1;5.6;Asociación de Municipalidades para la Preservación de la Biodiversidad en el Territorio de Nonguén y otros Ecosistemas
+557;MU206;2015-05-01;61.0;5;8.2;Municipalidad de Pelarco
+351;MA017;2019-06-01;12.0;1;8.3;Asociación de Municipalidades Desarrollo Apicultura Turismo y Medio Ambiente Zona de Amortiguación de la Región de Los Lagos
+644;MU307;2019-03-01;15.0;2;13.3;Municipalidad de Santa María
+272;AV001;2018-01-01;29.0;4;13.8;Ex Consejo Nacional de la Cultura y las Artes (CNCA)
+29;AD012;2018-04-01;26.0;4;15.4;Defensa Civil de Chile
+21;AC002;2017-11-01;31.0;5;16.1;Dirección General de Relaciones Económicas Internacionales (DIRECON)
+475;MU111;2020-01-01;5.0;1;20.0;Municipalidad de Independencia
+22;AC003;2019-08-01;10.0;3;30.0;Dirección Nacional de Fronteras y Límites del Estado (DIFROL)
+125;AN001;2018-12-01;18.0;6;33.3;Subsecretaría de Transportes (MTT)
+666;MU330;2015-06-01;60.0;22;36.7;Municipalidad de Valdivia
+263;AR009;2020-01-01;5.0;2;40.0;Fundación de Comunicación Capacitación y Cultura del Agro (FUCOA)
+347;MA012;2014-01-01;77.0;31;40.3;Asociación de Municipalidades Paisajes de Conservación para la Biodiversidad de la Región de Los Ríos
+349;MA015;2017-03-01;39.0;16;41.0;Asociación de Municipalidades de la Provincia de Arauco
+359;MA027;2018-01-01;29.0;13;44.8;Asociación Municipal para la sustentabilidad ambiental AMUSA
+350;MA016;2017-11-01;31.0;14;45.2;Asociación de Municipalidades Quinta Región Cordillera
+45;AE011;2020-04-01;2.0;1;50.0;Dirección de Compras y Contratación Pública (CHILECOMPRA)
+242;AP003;2020-04-01;2.0;1;50.0;SERVIU Región de Antofagasta
+229;AO102;2020-04-01;2.0;1;50.0;Hospital Exequiel González
+527;MU173;2019-01-01;17.0;10;58.8;Municipalidad de Melipilla
+619;MU278;2015-09-01;57.0;34;59.6;Municipalidad de Sagrada Familia
+502;MU143;2015-01-01;65.0;39;60.0;Municipalidad de Llay Llay
+418;MU046;2018-02-01;28.0;17;60.7;Municipalidad de Chonchi
+455;MU089;2014-06-01;72.0;46;63.9;Municipalidad de Estación Central
+373;MA047;2017-06-01;36.0;23;63.9;Asociación de Municipalidades con Centros de Montaña
+667;MU331;2019-01-01;17.0;11;64.7;Municipalidad de Vallenar
+318;CM032;2014-05-01;73.0;50;68.5;Corporación Municipal de Pudahuel
+340;MA003;2018-01-01;29.0;20;69.0;Asociación de Municipalidades Nahuelbuta (AMN)
+674;MU339;2014-10-01;68.0;48;70.6;Municipalidad de Villarrica
+511;MU154;2017-01-01;41.0;29;70.7;Municipalidad de Los Lagos
+454;MU088;2014-04-01;74.0;53;71.6;Municipalidad de Ercilla
+230;AO103;2018-01-01;29.0;21;72.4;Hospital El Pino
+57;AH008;2017-09-01;33.0;24;72.7;Servicio Nacional de Turismo (SERNATUR)
+154;AO027;2017-01-01;41.0;30;73.2;Servicio de Salud Concepción
+279;BA001;2017-01-01;41.0;30;73.2;Subsecretaría del Deporte
+277;AY001;2017-01-01;41.0;30;73.2;Instituto Nacional de Propiedad Industrial (INAPI)
+146;AO019;2017-01-01;41.0;30;73.2;Servicio de Salud Atacama
+43;AE008;2017-12-01;30.0;22;73.3;Superintendencia de Bancos e Instituciones Financieras (SBIF)
+605;MU262;2016-01-01;53.0;39;73.6;Municipalidad de Rauco
+96;AK006;2018-07-01;23.0;17;73.9;Gendarmería de Chile
+529;MU175;2017-10-01;32.0;24;75.0;Municipalidad de Monte Patria
+198;AO071;2017-01-01;41.0;31;75.6;Hospital San José
+139;AO012;2017-01-01;41.0;31;75.6;Servicio de Salud Metropolitano Sur Oriente
+327;CM048;2017-01-01;41.0;31;75.6;Corporación Municipal de Renca
+323;CM041;2018-01-01;29.0;22;75.9;Corporación Municipal de Macul
+536;MU182;2018-09-01;21.0;16;76.2;Municipalidad de Ninhue
+249;AP010;2017-02-01;40.0;31;77.5;SERVIU Región del Bío Bío
+596;MU250;2014-01-01;77.0;60;77.9;Municipalidad de Quilicura
+641;MU302;2014-01-01;77.0;60;77.9;Municipalidad de San Rosendo
+362;MA033;2017-01-01;41.0;32;78.0;Asociación de Municipios Costa Araucanía
+680;UN018;2016-01-01;53.0;42;79.2;Universidad de Ohiggins
+65;AI002;2018-01-01;29.0;23;79.3;Corporación Nacional de Desarrollo Indígena (CONADI)
+443;MU076;2015-02-01;64.0;51;79.7;Municipalidad de Curarrehue
+157;AO030;2017-12-01;30.0;24;80.0;Servicio de Salud Arauco
+640;MU301;2017-01-01;41.0;33;80.5;Municipalidad de San Ramón
+372;MA046;2016-11-01;43.0;35;81.4;Asociación de Municipalidades de la Provincia del Huasco
+473;MU109;2015-01-01;65.0;53;81.5;Municipalidad de Huechuraba
+166;AO039;2017-04-01;38.0;31;81.6;SEREMI de Salud  de Arica y Parinacota
+540;MU187;2014-06-01;72.0;59;81.9;Municipalidad de OHiggins
+273;AW002;2018-01-01;29.0;24;82.8;Subsecretaría del Medio Ambiente (MMA)
+568;MU218;2018-01-01;29.0;24;82.8;Municipalidad de Pichidegua
+14;AB086;2018-01-01;29.0;24;82.8;Gobierno Regional de Los Ríos (GORE de Los Ríos)
+378;MA054;2018-01-01;29.0;24;82.8;Asociación de Municipios Cordillera de la Costa CorralLa Unión
+474;MU110;2016-06-01;48.0;40;83.3;Municipalidad de Illapel
+630;MU289;2015-04-01;62.0;52;83.9;Municipalidad de San Ignacio
+524;MU170;2015-02-01;64.0;54;84.4;Municipalidad de Maullín
+409;MU036;2015-02-01;64.0;54;84.4;Municipalidad de Chaitén
+291;CF006;2019-05-01;13.0;11;84.6;CFT de la Región de Coquimbo
+637;MU296;2016-01-01;53.0;45;84.9;Municipalidad de San Pablo
+18;AB092;2018-10-01;20.0;17;85.0;Servicio Nacional para la Prevención y Rehabilitación del Consumo de Drogas y Alcohol (SENDA)
+410;MU037;2015-12-01;54.0;46;85.2;Municipalidad de Chanco
+515;MU160;2014-03-01;75.0;64;85.3;Municipalidad de Machalí
+353;MA020;2017-01-01;41.0;35;85.4;Asociación de Municipalidades del Norte de Chile
+5;AB077;2018-02-01;28.0;24;85.7;Gobierno Regional de Antofagasta
+335;FU002;2019-11-01;7.0;6;85.7;Fundación Tiempos Nuevos (MIM)
+274;AW003;2019-11-01;7.0;6;85.7;Superintendencia del Medio Ambiente (SMA)
+402;MU028;2015-09-01;57.0;49;86.0;Municipalidad de Carahue
+535;MU181;2018-01-01;29.0;25;86.2;Municipalidad de Negrete
+67;AI005;2018-01-01;29.0;25;86.2;Instituto Nacional de la Juventud (INJUV)
+366;MA037;2017-05-01;37.0;32;86.5;Asociación de Municipios Cordilleranos AMCORDI
+20;AC001;2017-12-01;30.0;26;86.7;Subsecretaría de Relaciones Exteriores (MINREL)
+464;MU099;2014-03-01;75.0;65;86.7;Municipalidad de Gorbea
+506;MU148;2014-02-01;76.0;66;86.8;Municipalidad de Loncoche
+244;AP005;2017-11-01;31.0;27;87.1;SERVIU Región de Coquimbo
+363;MA034;2017-03-01;39.0;34;87.2;Asociación de Municipalidades Rurales del Norte Chico
+376;MA050;2017-03-01;39.0;34;87.2;Asociación Metropolitana de Municipalidades de Santiago Sur para la Gestión Ambiental y de Residuos (MSUR)
+656;MU320;2015-02-01;64.0;56;87.5;Municipalidad de Timaukel
+295;CM003;2016-06-01;48.0;42;87.5;Corporación Municipal Isla de Maipo
+374;MA048;2017-02-01;40.0;35;87.5;Asociación de Municipalidades de Arauco y Curanilahue
+74;AJ004;2018-06-01;24.0;21;87.5;Comisión Administradora del Sistema de Créditos para Estudios Superiores (INGRESA)
+567;MU217;2019-10-01;8.0;7;87.5;Municipalidad de Pica
+285;BD001;2019-10-01;8.0;7;87.5;Subsecretaría de Ciencia Tecnología Conocimiento e Innovación
+391;MU015;2015-01-01;65.0;57;87.7;Municipalidad de Bulnes
+520;MU165;2014-03-01;75.0;66;88.0;Municipalidad de Marchige
+442;MU075;2016-04-01;50.0;44;88.0;Municipalidad de Curanilahue
+458;MU093;2014-11-01;67.0;59;88.1;Municipalidad de Fresia
+543;MU190;2014-07-01;71.0;63;88.7;Municipalidad de Olmué
+627;MU286;2014-07-01;71.0;63;88.7;Municipalidad de San Felipe
+438;MU069;2016-01-01;53.0;47;88.7;Municipalidad de Corral
+329;CM052;2019-09-01;9.0;8;88.9;Corporación Municipal de Talagante
+420;MU048;2015-01-01;65.0;58;89.2;Municipalidad de Cobquecura
+225;AO098;2017-04-01;38.0;34;89.5;Hospital Gustavo Fricke
+199;AO072;2018-01-01;29.0;26;89.7;Hospital Roberto del Río
+444;MU078;2018-01-01;29.0;26;89.7;Municipalidad de Curicó
+193;AO066;2018-01-01;29.0;26;89.7;Hospital La Serena
+504;MU146;2016-04-01;50.0;45;90.0;Municipalidad de Lo Prado
+90;AJ025;2019-08-01;10.0;9;90.0;Subsecretaría de Educación Superior
+63;AH015;2019-08-01;10.0;9;90.0;Instituto Nacional de Desarrollo Sustentable de la Pesca Artesanal y de la Acuicultura de Pequeña Escala (INDESPA)
+636;MU295;2019-08-01;10.0;9;90.0;Municipalidad de San Nicolás
+78;AJ011;2019-08-01;10.0;9;90.0;Superintendencia de Educación
+3;AB075;2019-08-01;10.0;9;90.0;Gobierno Regional de Arica y Parinacota
+344;MA008;2017-01-01;41.0;37;90.2;Asociación de Municipalidades Malleco Norte AMMN
+180;AO053;2017-11-01;31.0;28;90.3;SEREMI de Salud de Magallanes y Antártica Chilena
+175;AO048;2017-11-01;31.0;28;90.3;SEREMI de Salud del Bío Bío
+481;MU118;2016-02-01;52.0;47;90.4;Municipalidad de La Cruz
+316;CM029;2016-01-01;53.0;48;90.6;Corporación Municipal de Quinta Normal
+322;CM040;2016-01-01;53.0;48;90.6;Corporación Municipal de Lo Prado
+70;AI009;2018-08-01;22.0;20;90.9;Subsecretaría de la Niñez
+89;AJ024;2019-07-01;11.0;10;90.9;Servicio Local de Educación Pública Andalién Sur
+88;AJ023;2019-07-01;11.0;10;90.9;Servicio Local de Educación Pública Chinchorro
+24;AC005;2018-07-01;23.0;21;91.3;Instituto Antártico Chileno (INACH)
+332;CO005;2018-07-01;23.0;21;91.3;Defensoría de los Derechos de la Niñez
+632;MU291;2014-09-01;69.0;63;91.3;Municipalidad de San Joaquín
+333;CO006;2019-06-01;12.0;11;91.7;Consejo Fiscal Autónomo
+86;AJ021;2019-06-01;12.0;11;91.7;Superintendencia de Educación Superior
+379;MA056;2018-06-01;24.0;22;91.7;Asociación de Municipios Metropolitanos para la Seguridad Ciudadana (AMMSeguridad)
+11;AB083;2019-06-01;12.0;11;91.7;Gobierno Regional del Maule (Gore Maule)
+650;MU313;2018-06-01;24.0;22;91.7;Municipalidad de Talcahuano
+582;MU234;2019-06-01;12.0;11;91.7;Municipalidad de Puerto Natales
+13;AB085;2018-06-01;24.0;22;91.7;Gobierno Regional de La Araucanía (Gore Araucanía)
+68;AI006;2018-05-01;25.0;23;92.0;Servicio Nacional del Adulto Mayor (SENAMA)
+501;MU142;2017-04-01;38.0;35;92.1;Municipalidad de Llanquihue
+64;AI001;2019-05-01;13.0;12;92.3;Subsecretaria de Evaluación Social
+523;MU169;2015-01-01;65.0;60;92.3;Municipalidad de Maule
+591;MU244;2015-01-01;65.0;60;92.3;Municipalidad de Putre
+436;MU067;2015-01-01;65.0;60;92.3;Municipalidad de Coquimbo
+466;MU101;2015-01-01;65.0;60;92.3;Municipalidad de Guaitecas
+456;MU090;2016-01-01;53.0;49;92.5;Municipalidad de Florida
+625;MU284;2014-11-01;67.0;62;92.5;Municipalidad de San Esteban
+678;MU345;2016-01-01;53.0;49;92.5;Municipalidad de Zapallar
+30;AD013;2018-03-01;27.0;25;92.6;Dirección General de Movilización Nacional (DGMN)
+97;AK008;2018-03-01;27.0;25;92.6;Corporación de Asistencia Judicial de la Región Metropolitana (CAJMETRO)
+339;MA002;2017-01-01;41.0;38;92.7;Asociación de Municipalidades de la Región de Antofagasta
+184;AO057;2018-02-01;28.0;26;92.9;Hospital Mauricio Heyermann de Angol
+312;CM024;2016-12-01;42.0;39;92.9;Corporación Municipal de Ancud
+284;BC003;2019-04-01;14.0;13;92.9;Servicio Nacional del Patrimonio Cultural
+565;MU214;2015-09-01;57.0;53;93.0;Municipalidad de Perquenco
+183;AO056;2018-01-01;29.0;27;93.1;Hospital de Victoria
+240;AP001;2018-01-01;29.0;27;93.1;Subsecretaría de Vivienda y Urbanismo (MINVU)
+197;AO070;2018-01-01;29.0;27;93.1;Hospital San Borja Arriarán
+207;AO080;2018-01-01;29.0;27;93.1;Hospital Barros Luco
+137;AO010;2018-01-01;29.0;27;93.1;Servicio de Salud Metropolitano Oriente
+541;MU188;2015-07-01;59.0;55;93.2;Municipalidad de Olivar
+133;AO006;2017-12-01;30.0;28;93.3;Superintendencia de Salud (SdS)
+162;AO035;2017-12-01;30.0;28;93.3;Servicio de Salud de Chiloé
+330;CM055;2019-03-01;15.0;14;93.3;Corporación Municipal Cultural y Patrimonial de San Bernardo
+153;AO026;2017-12-01;30.0;28;93.3;Servicio de Salud Ñuble
+241;AP002;2017-12-01;30.0;28;93.3;SERVIU Región de Tarapacá
+255;AP016;2017-12-01;30.0;28;93.3;SERVIU Región de Arica y Parinacota
+628;MU287;2017-12-01;30.0;28;93.3;Municipalidad de San Fernando
+159;AO032;2017-12-01;30.0;28;93.3;Servicio de Salud Araucanía Sur
+87;AJ022;2019-03-01;15.0;14;93.3;Servicio Local de Educación Pública Gabriela Mistral
+550;MU198;2015-05-01;61.0;57;93.4;Municipalidad de Palena
+539;MU186;2015-05-01;61.0;57;93.4;Municipalidad de Ñuñoa
+2;AB004;2017-11-01;31.0;29;93.5;Oficina Nacional de Emergencia (ONEMI)
+178;AO051;2017-11-01;31.0;29;93.5;SEREMI de Salud de Los Lagos
+243;AP004;2017-11-01;31.0;29;93.5;SERVIU Región de Atacama
+254;AP015;2017-11-01;31.0;29;93.5;SERVIU Región de Los Ríos
+170;AO043;2017-11-01;31.0;29;93.5;SEREMI de Salud  de Coquimbo
+609;MU267;2014-01-01;77.0;72;93.5;Municipalidad de Requínoa
+82;AJ017;2017-11-01;31.0;29;93.5;Servicio Local de Educación Pública Puerto Cordillera
+652;MU316;2015-01-01;65.0;61;93.8;Municipalidad de Teno
+336;FU005;2019-02-01;16.0;15;93.8;Fundación Artesanías de Chile
+580;MU231;2015-01-01;65.0;61;93.8;Municipalidad de Pudahuel
+290;CF005;2017-10-01;32.0;30;93.8;CFT de la Región de los Lagos
+476;MU112;2016-06-01;48.0;45;93.8;Municipalidad de Iquique
+258;AR001;2017-08-01;34.0;32;94.1;Subsecretaría de Agricultura
+235;AO108;2019-01-01;17.0;16;94.1;Instituto Nacional del Cáncer
+288;CF003;2019-01-01;17.0;16;94.1;CFT de la Región del Tarapacá
+50;AG003;2019-01-01;17.0;16;94.1;Consejo Nacional de Televisión (CNTV)
+54;AH004;2019-01-01;17.0;16;94.1;Corporación de Fomento Para La Producción (CORFO)
+12;AB084;2019-01-01;17.0;16;94.1;Gobierno Regional del Bío Bío (Gore Bío Bío)
+100;AK011;2019-01-01;17.0;16;94.1;Corporación de Asistencia Judicial Región Bío Bío (CAJBIOBIO)
+10;AB082;2019-01-01;17.0;16;94.1;Gobierno Regional de OHiggins (Gore OHiggins)
+519;MU164;2014-10-01;68.0;64;94.1;Municipalidad de Malloa
+538;MU185;2014-10-01;68.0;64;94.1;Municipalidad de Ñiquén
+479;MU115;2019-01-01;17.0;16;94.1;Municipalidad de Juan Fernández
+564;MU213;2019-01-01;17.0;16;94.1;Municipalidad de Peralillo
+393;MU017;2019-01-01;17.0;16;94.1;Municipalidad de Cabo de Hornos y Antártica
+26;AD007;2019-01-01;17.0;16;94.1;Armada de Chile
+84;AJ019;2019-01-01;17.0;16;94.1;Servicio Local de Educación Pública Huasco
+588;MU240;2014-09-01;69.0;65;94.2;Municipalidad de Puqueldón
+500;MU141;2016-01-01;53.0;50;94.3;Municipalidad de Litueche
+399;MU025;2016-01-01;53.0;50;94.3;Municipalidad de Camiña
+537;MU183;2016-01-01;53.0;50;94.3;Municipalidad de Nogales
+610;MU268;2016-01-01;53.0;50;94.3;Municipalidad de Retiro
+275;AW004;2018-12-01;18.0;17;94.4;Servicio de Evaluación Ambiental (SEA)
+76;AJ009;2018-12-01;18.0;17;94.4;Junta Nacional de Auxilio Escolar y Becas (JUNAEB)
+337;FU008;2018-12-01;18.0;17;94.4;Fundación Cultural Providencia
+355;MA022;2017-05-01;37.0;35;94.6;Asociación de Municipalidades del Punilla
+127;AN003;2018-11-01;19.0;18;94.7;Junta de Aeronáutica Civil (JAC)
+484;MU122;2017-04-01;38.0;36;94.7;Municipalidad de La Higuera
+581;MU233;2018-11-01;19.0;18;94.7;Municipalidad de Puerto Montt
+53;AH003;2018-11-01;19.0;18;94.7;Agencia de Promoción de la Inversión Extranjera
+665;MU329;2018-11-01;19.0;18;94.7;Municipalidad de Tucapel
+23;AC004;2018-11-01;19.0;18;94.7;AGENCIA CHILENA DE COOPERACIÓN INTERNACIONAL PARA EL DESARROLLO (AGCID)
+7;AB079;2018-11-01;19.0;18;94.7;Gobierno Regional de Coquimbo
+664;MU328;2015-09-01;57.0;54;94.7;Municipalidad de Trehuaco
+55;AH005;2018-11-01;19.0;18;94.7;Fiscalía Nacional Económica (FNE)
+575;MU225;2014-01-01;77.0;73;94.8;Municipalidad de Porvenir
+584;MU236;2015-08-01;58.0;55;94.8;Municipalidad de Puerto Varas
+101;AK012;2018-10-01;20.0;19;95.0;Subsecretaria de Derechos Humanos
+91;AK001;2018-10-01;20.0;19;95.0;Subsecretaría de Justicia
+289;CF004;2018-10-01;20.0;19;95.0;CFT de la Región de los Ríos
+27;AD008;2018-10-01;20.0;19;95.0;Fuerza Aérea de Chile (Incluye al Servicio Aerofotogramétrico)
+52;AH002;2018-10-01;20.0;19;95.0;Subsecretaría de Pesca y Acuicultura
+266;AS004;2018-10-01;20.0;19;95.0;Servicio Nacional de Geología y Minería (SERNAGEOMIN)
+0;AA001;2018-10-01;20.0;19;95.0;Presidencia de la República
+669;MU333;2017-01-01;41.0;39;95.1;Municipalidad de Vichuquén
+369;MA042;2017-01-01;41.0;39;95.1;Asociación de Municipalidades de la Zona Central y Costa (AMUCC)
+19;AB098;2018-09-01;21.0;20;95.2;Gobierno Regional de Ñuble
+104;AL003;2018-09-01;21.0;20;95.2;Dirección del Trabajo (DT)
+105;AL004;2018-09-01;21.0;20;95.2;Dirección General de Crédito Prendario (DICREP)
+109;AL008;2018-09-01;21.0;20;95.2;Superintendencia de Pensiones (SP)
+114;AM003;2018-09-01;21.0;20;95.2;Dirección de Contabilidad y Finanzas (DCYF)
+115;AM004;2018-09-01;21.0;20;95.2;Dirección de Aeropuertos (DAP)
+15;AB088;2018-09-01;21.0;20;95.2;Gobierno Regional de Aysén (GORE Aysén)
+380;MA058;2018-09-01;21.0;20;95.2;Asociación de Municipalidades Cordilleranas de la Araucanía
+25;AD006;2018-09-01;21.0;20;95.2;Ejército de Chile
+35;AD022;2018-09-01;21.0;20;95.2;Subsecretaría para las Fuerzas Armadas (SSFFAA)
+321;CM037;2018-09-01;21.0;20;95.2;Corporación Municipal de Curaco De Velez
+283;BC002;2018-09-01;21.0;20;95.2;Subsecretaría del Patrimonio Cultural
+59;AH010;2018-09-01;21.0;20;95.2;Servicio Nacional de Pesca y Acuicultura (SERNAPESCA)
+239;AO117;2018-09-01;21.0;20;95.2;SEREMI de Salud del Ñuble
+517;MU162;2015-02-01;64.0;61;95.3;Municipalidad de Máfil
+533;MU179;2015-01-01;65.0;62;95.4;Municipalidad de Nancagua
+121;AM010;2018-08-01;22.0;21;95.5;Dirección de Vialidad (VIALIDAD)
+408;MU035;2018-08-01;22.0;21;95.5;Municipalidad de Cerro Navia
+4;AB076;2018-08-01;22.0;21;95.5;Gobierno Regional de Tarapacá
+66;AI004;2018-08-01;22.0;21;95.5;Fondo de Solidaridad e Inversión Social (FOSIS)
+124;AM014;2018-08-01;22.0;21;95.5;Dirección General de Concesiones de Obras Públicas (DGC)
+51;AH001;2018-08-01;22.0;21;95.5;Subsecretaría de Economía (MINECON)
+106;AL005;2018-08-01;22.0;21;95.5;Instituto de Previsión Social (IPS)
+280;BA002;2018-08-01;22.0;21;95.5;Instituto Nacional del Deporte (IND)
+119;AM008;2018-08-01;22.0;21;95.5;Dirección de Obras Portuarias (DOP)
+47;AE013;2018-08-01;22.0;21;95.5;Administradora de los Tribunales Tributarios y Aduaneros (ATTA)
+118;AM007;2018-07-01;23.0;22;95.7;Dirección de Obras Hidráulicas (DOH)
+123;AM013;2018-07-01;23.0;22;95.7;Fiscalía MOP
+62;AH013;2018-07-01;23.0;22;95.7;Superintendencia de Insolvencia y Reemprendimiento
+117;AM006;2018-07-01;23.0;22;95.7;Dirección General de Aguas (DGA)
+278;AZ001;2018-07-01;23.0;22;95.7;Comisión Nacional de Acreditación (CNA)
+270;AU003;2018-07-01;23.0;22;95.7;Comisión Chilena de Energía Nuclear (CCHEN)
+268;AU001;2018-07-01;23.0;22;95.7;Comisión Nacional de Energía (CNE)
+120;AM009;2018-07-01;23.0;22;95.7;Dirección de Planeamiento (DIRPLAN)
+116;AM005;2018-07-01;23.0;22;95.7;Dirección de Arquitectura (DARQ)
+387;MU010;2014-09-01;69.0;66;95.7;Municipalidad de Antuco
+34;AD021;2018-07-01;23.0;22;95.7;Subsecretaría de Defensa
+60;AH011;2018-07-01;23.0;22;95.7;Subsecretaría de Turismo
+113;AM002;2018-07-01;23.0;22;95.7;Dirección General de Obras Públicas (DGOP)
+77;AJ010;2018-07-01;23.0;22;95.7;Junta Nacional de Jardines Infantiles (JUNJI)
+79;AJ012;2018-07-01;23.0;22;95.7;Agencia de Calidad de la Educación
+80;AJ014;2018-07-01;23.0;22;95.7;Subsecretaría de Educación Parvularia
+559;MU208;2018-07-01;23.0;22;95.7;Municipalidad de Pemuco
+85;AJ020;2018-07-01;23.0;22;95.7;Servicio Local de Educación Pública Costa Araucanía
+112;AM001;2018-07-01;23.0;22;95.7;Subsecretaría de Obras Públicas (MOP)
+111;AL010;2018-07-01;23.0;22;95.7;Comisión del Sistema Nacional de Certificación de Competencias Laborales (CHILEVALORA)
+264;AS001;2018-07-01;23.0;22;95.7;Subsecretaría de Minería
+31;AD015;2018-07-01;23.0;22;95.7;Caja de Previsión de la Defensa Nacional (CAPREDENA)
+103;AL002;2018-07-01;23.0;22;95.7;Subsecretaría de Previsión Social (SPS)
+338;MA001;2018-07-01;23.0;22;95.7;Asociación de Municipalidades Rurales de la Región Metropolitana de Santiago (AMUR)
+8;AB080;2018-07-01;23.0;22;95.7;Gobierno Regional de Valparaíso  ( GORE Valparaíso)
+601;MU258;2018-07-01;23.0;22;95.7;Municipalidad de Quintero
+99;AK010;2018-06-01;24.0;23;95.8;Corporación de Asistencia Judicial Regiones Tarapacá y Antofagasta (CAJTA)
+72;AJ002;2018-06-01;24.0;23;95.8;Consejo de Rectores
+56;AH007;2018-06-01;24.0;23;95.8;Instituto Nacional de Estadisticas (INE)
+98;AK009;2018-06-01;24.0;23;95.8;Corporación de Asistencia Judicial Región Valparaíso (CAJVAL)
+108;AL007;2018-06-01;24.0;23;95.8;Servicio Nacional de Capacitación y Empleo (SENCE)
+61;AH012;2018-06-01;24.0;23;95.8;Servicio de Cooperación Técnica (SERCOTEC)
+257;AQ001;2018-06-01;24.0;23;95.8;Subsecretaría de Bienes Nacionales
+265;AS002;2018-06-01;24.0;23;95.8;Comisión Chilena del Cobre (COCHILCO)
+44;AE009;2018-06-01;24.0;23;95.8;Comisión para el Mercado Financiero (CMF  ex SVS)
+126;AN002;2018-06-01;24.0;23;95.8;Subsecretaría de Telecomunicaciones (SUBTEL)
+452;MU086;2016-05-01;49.0;47;95.9;Municipalidad de El Tabo
+421;MU049;2014-04-01;74.0;71;95.9;Municipalidad de Cochamó
+110;AL009;2018-05-01;25.0;24;96.0;Superintendencia de Seguridad Social (SUSESO)
+71;AJ001;2018-05-01;25.0;24;96.0;Subsecretaría de Educación (MINEDUC)
+271;AU004;2018-05-01;25.0;24;96.0;Superintendencia de Electricidad y Combustibles (SEC)
+310;CM020;2016-04-01;50.0;48;96.0;Corporación de Educación Salud y Atención de Menores Chonchi Chiloé
+292;CF007;2018-05-01;25.0;24;96.0;CFT de la Región de Valparaíso
+287;CF002;2018-05-01;25.0;24;96.0;CFT de la Región del Maule
+6;AB078;2018-05-01;25.0;24;96.0;Gobierno Regional de Atacama
+528;MU174;2016-01-01;53.0;51;96.2;Municipalidad de Molina
+510;MU153;2016-01-01;53.0;51;96.2;Municipalidad de Los Angeles
+1;AB002;2018-04-01;26.0;25;96.2;Subsecretaría de Desarrollo Regional (SUBDERE)
+212;AO085;2018-04-01;26.0;25;96.2;Hospital Regional de Talca
+498;MU138;2016-02-01;52.0;50;96.2;Municipalidad de Licantén
+616;MU275;2016-02-01;52.0;50;96.2;Municipalidad de Río Verde
+304;CM014;2016-01-01;53.0;51;96.2;Corporación Municipal de Pirque
+122;AM011;2018-04-01;26.0;25;96.2;Superintendencia de Servicios Sanitarios (SISS)
+526;MU172;2016-01-01;53.0;51;96.2;Municipalidad de Melipeuco
+81;AJ016;2018-03-01;27.0;26;96.3;Servicio Local de Educación Pública de Barrancas
+286;CF001;2018-03-01;27.0;26;96.3;CFT de la Región de la Araucanía
+461;MU096;2018-03-01;27.0;26;96.3;Municipalidad de Futrono
+152;AO025;2018-03-01;27.0;26;96.3;Servicio de Salud Maule
+49;AG001;2018-03-01;27.0;26;96.3;Subsecretaría General de Gobierno (SEGEGOB)
+36;AD023;2018-03-01;27.0;26;96.3;Estado Mayor Conjunto (EMCO)
+282;BC001;2018-03-01;27.0;26;96.3;Subsecretaría de las Culturas y las Artes
+261;AR005;2018-03-01;27.0;26;96.3;Oficinas de Estudios y Políticas Agrarias (ODEPA)
+425;MU053;2015-11-01;55.0;53;96.4;Municipalidad de Coihueco
+135;AO008;2018-02-01;28.0;27;96.4;Servicio de Salud Metropolitano Norte
+428;MU056;2015-10-01;56.0;54;96.4;Municipalidad de Colchane
+472;MU108;2015-08-01;58.0;56;96.6;Municipalidad de Huasco
+226;AO099;2018-01-01;29.0;28;96.6;Hospital San Martín de Quillota
+188;AO061;2018-01-01;29.0;28;96.6;Hospital Dr. Augusto Riffart de Castro
+583;MU235;2018-01-01;29.0;28;96.6;Municipalidad de Puerto Octay
+151;AO024;2018-01-01;29.0;28;96.6;Servicio de Salud OHiggins
+381;MU002;2018-01-01;29.0;28;96.6;Municipalidad de Alhué
+237;AO110;2018-01-01;29.0;28;96.6;Hospital Dr. Hernán Henríquez Aravena de Temuco
+389;MU013;2018-01-01;29.0;28;96.6;Municipalidad de Aysen
+223;AO096;2018-01-01;29.0;28;96.6;Hospital Eduardo Pereira de Valparaíso
+227;AO100;2018-01-01;29.0;28;96.6;Instituto Psiquiátrico
+33;AD020;2018-01-01;29.0;28;96.6;Dirección General de Aeronáutica Civil (DGAC)
+189;AO062;2018-01-01;29.0;28;96.6;Hospital San José de Coronel
+17;AB091;2018-01-01;29.0;28;96.6;Subsecretaría de Prevención del Delito
+513;MU157;2018-01-01;29.0;28;96.6;Municipalidad de Los Vilos
+422;MU050;2018-01-01;29.0;28;96.6;Municipalidad de Cochrane
+187;AO060;2018-01-01;29.0;28;96.6;Hospital Víctor Ríos Ruiz de Los Angeles
+492;MU131;2018-01-01;29.0;28;96.6;Municipalidad de Laja
+234;AO107;2018-01-01;29.0;28;96.6;Instituto Traumatológico
+233;AO106;2018-01-01;29.0;28;96.6;Hospital Luis Tisné
+185;AO058;2018-01-01;29.0;28;96.6;Hospital Juan Noé de Arica
+364;MA035;2018-01-01;29.0;28;96.6;Asociación de Municipalidades de la Región de  Coquimbo
+231;AO104;2018-01-01;29.0;28;96.6;Hospital Herminda Martin
+182;AO055;2018-01-01;29.0;28;96.6;Hospital Leonardo Guzmán de Antofagasta
+232;AO105;2018-01-01;29.0;28;96.6;Instituto Nacional del Tórax
+181;AO054;2018-01-01;29.0;28;96.6;Hospital de San Camilo
+236;AO109;2018-01-01;29.0;28;96.6;Hospital Luis Calvo Mackenna
+486;MU124;2018-01-01;29.0;28;96.6;Municipalidad de La Pintana
+224;AO097;2018-01-01;29.0;28;96.6;Hospital de Quilpué
+222;AO095;2018-01-01;29.0;28;96.6;Hospital Carlos Van Buren
+256;AP017;2018-01-01;29.0;28;96.6;Parque Metropolitano de Santiago
+210;AO083;2018-01-01;29.0;28;96.6;Hospital de Curicó
+219;AO092;2018-01-01;29.0;28;96.6;Hospital de las Higueras
+253;AP014;2018-01-01;29.0;28;96.6;SERVIU Región de Magallanes y la Antártica Chilena
+215;AO088;2018-01-01;29.0;28;96.6;Hospital Regional de Rancagua
+203;AO076;2018-01-01;29.0;28;96.6;Instituto Nacional de Rehabilitación Pedro Aguirre Cerda
+83;AJ018;2018-01-01;29.0;28;96.6;Dirección de Educación Pública
+204;AO077;2018-01-01;29.0;28;96.6;Instituto de Neurocirugía
+214;AO087;2018-01-01;29.0;28;96.6;Hospital San Juan de Dios de San Fernando
+73;AJ003;2018-01-01;29.0;28;96.6;Consejo Nacional de Educación (CNED)
+213;AO086;2018-01-01;29.0;28;96.6;Hospital de San Carlos
+217;AO090;2018-01-01;29.0;28;96.6;Hospital de Puerto Montt
+102;AL001;2018-01-01;29.0;28;96.6;Subsecretaría del Trabajo (MINTRAB)
+251;AP012;2018-01-01;29.0;28;96.6;SERVIU Región de Los Lagos
+205;AO078;2018-01-01;29.0;28;96.6;Instituto Nacional de Geriatría (ING)
+206;AO079;2018-01-01;29.0;28;96.6;Hospital del Salvador
+208;AO081;2018-01-01;29.0;28;96.6;Hospital Sótero del Río
+209;AO082;2018-01-01;29.0;28;96.6;Hospital Clínico Magallanes Dr Lautaro Navarro Aravia
+93;AK003;2018-01-01;29.0;28;96.6;Servicio Médico Legal (SML)
+94;AK004;2018-01-01;29.0;28;96.6;Servicio Nacional de Menores (SENAME)
+218;AO091;2018-01-01;29.0;28;96.6;Hospital de Tomé
+211;AO084;2018-01-01;29.0;28;96.6;Hospital de Linares
+195;AO068;2018-01-01;29.0;28;96.6;Hospital Ernesto Torres de Iquique
+196;AO069;2018-01-01;29.0;28;96.6;Hospital Urgencia Asistencia Pública (HUAP)
+238;AO111;2018-01-01;29.0;28;96.6;Hospital El Carmen Dr. Luis Valentín Ferrada
+675;MU342;2018-01-01;29.0;28;96.6;Municipalidad de Yerbas Buenas
+613;MU272;2018-01-01;29.0;28;96.6;Municipalidad de Río Hurtado
+191;AO064;2018-01-01;29.0;28;96.6;Hospital Guillermo Grant Benavente de Concepción
+221;AO094;2018-01-01;29.0;28;96.6;Hospital Claudio Vicuña de San Antonio
+194;AO067;2018-01-01;29.0;28;96.6;Hospital San Pablo de Coquimbo
+598;MU253;2018-01-01;29.0;28;96.6;Municipalidad de Quillota
+190;AO063;2018-01-01;29.0;28;96.6;Hospital de Lota
+623;MU282;2018-01-01;29.0;28;96.6;Municipalidad de San Carlos
+220;AO093;2018-01-01;29.0;28;96.6;Hospital Base de Valdivia
+216;AO089;2018-01-01;29.0;28;96.6;Hospital de Osorno
+192;AO065;2018-01-01;29.0;28;96.6;Hospital de Ovalle
+260;AR004;2017-12-01;30.0;29;96.7;Instituto de Desarrollo Agropecuario (INDAP)
+140;AO013;2017-12-01;30.0;29;96.7;Hospital Padre Hurtado
+259;AR002;2017-12-01;30.0;29;96.7;Comisión Nacional de Riego (CNR)
+138;AO011;2017-12-01;30.0;29;96.7;Servicio de Salud Metropolitano Sur
+131;AO004;2017-12-01;30.0;29;96.7;Fondo Nacional de Salud (FONASA)
+163;AO036;2017-12-01;30.0;29;96.7;Servicio de Salud Aysén
+134;AO007;2017-12-01;30.0;29;96.7;Servicio de Salud Metropolitano Central
+269;AU002;2017-12-01;30.0;29;96.7;Subsecretaría de Energía
+165;AO038;2017-12-01;30.0;29;96.7;Servicio de Salud Magallanes
+164;AO037;2017-12-01;30.0;29;96.7;Servicio de Salud del Reloncaví
+136;AO009;2017-12-01;30.0;29;96.7;Servicio de Salud Metropolitano Occidente
+267;AT001;2017-12-01;30.0;29;96.7;Servicio Nacional de la Mujer y la Equidad de Género (SERNAMEG)
+252;AP013;2017-12-01;30.0;29;96.7;SERVIU Región de Aysén del General Carlos Ibáñez del Campo
+161;AO034;2017-12-01;30.0;29;96.7;Servicio de Salud Osorno
+148;AO021;2017-12-01;30.0;29;96.7;Servicio de Salud Aconcagua
+141;AO014;2017-12-01;30.0;29;96.7;Centro de Referencia de Salud de Peñalolén Cordillera Oriente (CRSORIENTE)
+149;AO022;2017-12-01;30.0;29;96.7;Servicio de Salud Valparaíso  San Antonio
+150;AO023;2017-12-01;30.0;29;96.7;Servicio de Salud Viña del Mar  Quillota
+200;AO073;2017-12-01;30.0;29;96.7;Hospital Félix Bulnes
+201;AO074;2017-12-01;30.0;29;96.7;Hospital de Melipilla
+95;AK005;2017-12-01;30.0;29;96.7;Defensoría Penal Pública (DPP)
+202;AO075;2017-12-01;30.0;29;96.7;Hospital San Juan de Dios
+147;AO020;2017-12-01;30.0;29;96.7;Servicio de Salud Coquimbo
+92;AK002;2017-12-01;30.0;29;96.7;Servicio de Registro Civil e Identificación
+160;AO033;2017-12-01;30.0;29;96.7;Servicio de Salud Valdivia
+247;AP008;2017-12-01;30.0;29;96.7;SERVIU Región del Libertador Bernardo OHiggins
+145;AO018;2017-12-01;30.0;29;96.7;Servicio de Salud Antofagasta
+144;AO017;2017-12-01;30.0;29;96.7;Servicio de Salud Iquique
+155;AO028;2017-12-01;30.0;29;96.7;Servicio de Salud Talcahuano
+156;AO029;2017-12-01;30.0;29;96.7;Servicio de Salud Bíobío
+143;AO016;2017-12-01;30.0;29;96.7;Servicio de Salud Arica
+69;AI008;2017-12-01;30.0;29;96.7;Subsecretaría de Servicios Sociales
+142;AO015;2017-12-01;30.0;29;96.7;Centro de Referencia de Salud de Maipú (CRSM)
+158;AO031;2017-12-01;30.0;29;96.7;Servicio de Salud Araucanía Norte
+174;AO047;2017-12-01;30.0;29;96.7;SEREMI de Salud del Maule
+654;MU318;2015-06-01;60.0;58;96.7;Municipalidad de Tierra Amarilla
+248;AP009;2017-11-01;31.0;30;96.8;SERVIU Región del Maule
+246;AP007;2017-11-01;31.0;30;96.8;SERVIU Región Metropolitana de Santiago
+245;AP006;2017-11-01;31.0;30;96.8;SERVIU Región de Valparaíso
+48;AF001;2017-11-01;31.0;30;96.8;Subsecretaría General de La Presidencia (SEGPRES)
+250;AP011;2017-11-01;31.0;30;96.8;SERVIU Región de la Araucanía
+587;MU239;2015-04-01;62.0;60;96.8;Municipalidad de Punta Arenas
+167;AO040;2017-11-01;31.0;30;96.8;SEREMI de Salud  de Tarapacá
+177;AO050;2017-11-01;31.0;30;96.8;SEREMI de Salud de Los Ríos
+58;AH009;2017-11-01;31.0;30;96.8;Servicio Nacional del Consumidor (SERNAC)
+176;AO049;2017-11-01;31.0;30;96.8;SEREMI de Salud de La Araucanía
+377;MA053;2017-11-01;31.0;30;96.8;Asociación Chilena de Municipalidades con Farmacias Populares (ACHIFARP)
+173;AO046;2017-11-01;31.0;30;96.8;SEREMI de Salud de OHiggins
+172;AO045;2017-11-01;31.0;30;96.8;SEREMI de Salud  Metropolitano de Santiago
+38;AE002;2017-11-01;31.0;30;96.8;Dirección de Presupuestos (DIPRES)
+132;AO005;2017-11-01;31.0;30;96.8;Instituto de Salud Pública (ISP)
+186;AO059;2017-11-01;31.0;30;96.8;Hospital Regional Coyhaique
+40;AE004;2017-11-01;31.0;30;96.8;Dirección Nacional del Servicio Civil
+179;AO052;2017-11-01;31.0;30;96.8;SEREMI de Salud de Aysén
+171;AO044;2017-11-01;31.0;30;96.8;SEREMI de Salud  de Valparaíso
+41;AE005;2017-11-01;31.0;30;96.8;Unidad de Análisis Financiero
+168;AO041;2017-11-01;31.0;30;96.8;SEREMI de Salud  de Antofagasta
+37;AE001;2017-11-01;31.0;30;96.8;Subsecretaría de Hacienda
+42;AE007;2017-11-01;31.0;30;96.8;Servicio Nacional de Aduanas
+32;AD016;2017-11-01;31.0;30;96.8;Dirección de Previsión de Carabineros de Chile (DIPRECA)
+276;AX001;2017-11-01;31.0;30;96.8;Consejo de Defensa del Estado (CDE)
+407;MU034;2015-03-01;63.0;61;96.8;Municipalidad de Cerrillos
+128;AO001;2017-11-01;31.0;30;96.8;Subsecretaría de Salud Pública (MINSAL)
+129;AO002;2017-11-01;31.0;30;96.8;Subsecretaría de Redes Asistenciales
+130;AO003;2017-11-01;31.0;30;96.8;Central de Abastecimiento del Sistema Nacional de Servicios de Salud (CENABAST)
+169;AO042;2017-11-01;31.0;30;96.8;SEREMI de Salud  de Atacama
+39;AE003;2017-11-01;31.0;30;96.8;Tesorería General de la República (TGR)
+512;MU156;2015-01-01;65.0;63;96.9;Municipalidad de Los Sauces
+646;MU309;2015-01-01;65.0;63;96.9;Municipalidad de Santo Domingo
+663;MU327;2015-01-01;65.0;63;96.9;Municipalidad de Traiguén
+531;MU177;2015-01-01;65.0;63;96.9;Municipalidad de Mulchén
+487;MU125;2015-01-01;65.0;63;96.9;Municipalidad de La Reina
+471;MU107;2015-01-01;65.0;63;96.9;Municipalidad de Huara
+547;MU194;2015-01-01;65.0;63;96.9;Municipalidad de Padre Las Casas
+228;AO101;2017-10-01;32.0;31;96.9;Hospital San Juan de Dios de Los Andes
+352;MA018;2017-10-01;32.0;31;96.9;Asociación de Municipalidades de Chile AMUCH
+46;AE012;2017-09-01;33.0;32;97.0;Superintendencia de Casinos de Juego (SCJ)
+440;MU071;2017-08-01;34.0;33;97.1;Municipalidad de Cunco
+343;MA006;2017-07-01;35.0;34;97.1;Asociación de Municipalidades Parque Cordillera
+413;MU040;2017-07-01;35.0;34;97.1;Municipalidad de Chiguayante
+639;MU299;2014-07-01;71.0;69;97.2;Municipalidad de San Pedro De La Paz
+354;MA021;2017-06-01;36.0;35;97.2;Asociación de Municipalidades de la Región de OHiggins
+585;MU237;2014-07-01;71.0;69;97.2;Municipalidad de Pumanque
+368;MA040;2017-05-01;37.0;36;97.3;Asociación de Municipalidades del Valle del Itata
+361;MA031;2017-05-01;37.0;36;97.3;Asociación de Municipios Ciudad Sur
+348;MA014;2017-04-01;38.0;37;97.4;Asociación Regional de Municipios de Atacama
+392;MU016;2017-04-01;38.0;37;97.4;Municipalidad de Cabildo
+342;MA005;2017-04-01;38.0;37;97.4;Asociación de Municipalidades de la Región de Los Ríos para el Manejo sustentable de Residuos y la Gestión Ambiental
+635;MU294;2017-03-01;39.0;38;97.4;Municipalidad de San Miguel
+509;MU152;2014-01-01;77.0;75;97.4;Municipalidad de Los Andes
+365;MA036;2017-04-01;38.0;37;97.4;Asociación de Municipalidades de la Región del Biobío
+386;MU009;2014-01-01;77.0;75;97.4;Municipalidad de Antofagasta
+358;MA026;2016-12-01;42.0;41;97.6;Asociación de Municipalidades con Alcalde Mapuche
+521;MU167;2017-01-01;41.0;40;97.6;Municipalidad de María Pinto
+324;CM042;2017-01-01;41.0;40;97.6;Corporación Municipal de Melipilla
+397;MU023;2016-12-01;42.0;41;97.6;Municipalidad de Calle Larga
+620;MU279;2017-01-01;41.0;40;97.6;Municipalidad de Salamanca
+638;MU297;2016-12-01;42.0;41;97.6;Municipalidad de San Pedro
+612;MU271;2017-01-01;41.0;40;97.6;Municipalidad de Río Claro
+331;CO001;2017-01-01;41.0;40;97.6;Instituto Nacional de Derechos Humanos (INDH)
+607;MU265;2017-01-01;41.0;40;97.6;Municipalidad de Renca
+341;MA004;2017-01-01;41.0;40;97.6;Asociación de Municipios de La Región de Los Ríos
+382;MU003;2017-01-01;41.0;40;97.6;Municipalidad de Alto Biobío
+345;MA010;2017-01-01;41.0;40;97.6;Asociación de Municipalidades para el Desarrollo Económico Local
+371;MA044;2017-01-01;41.0;40;97.6;Asociación Nacional de Municipalidades de Ciudades Puerto Concesionados
+586;MU238;2017-01-01;41.0;40;97.6;Municipalidad de Punitaqui
+360;MA029;2016-12-01;42.0;41;97.6;Asociación de Municipalidades de Ciudades Puerto y Borde Costero
+542;MU189;2017-01-01;41.0;40;97.6;Municipalidad de Ollague
+426;MU054;2017-01-01;41.0;40;97.6;Municipalidad de Coinco
+356;MA024;2017-01-01;41.0;40;97.6;Asociación de Municipalidades de la Provincia de Osorno para el Manejo Sustentable de Residuos y la Gestión Ambiental
+450;MU084;2017-01-01;41.0;40;97.6;Municipalidad de El Monte
+447;MU081;2016-12-01;42.0;41;97.6;Municipalidad de Doñihue
+477;MU113;2017-01-01;41.0;40;97.6;Municipalidad de Isla de Maipo
+659;MU323;2017-01-01;41.0;40;97.6;Municipalidad de Toltén
+494;MU133;2016-10-01;44.0;43;97.7;Municipalidad de Lanco
+107;AL006;2016-10-01;44.0;43;97.7;Instituto de Seguridad Laboral (ISL)
+325;CM043;2016-10-01;44.0;43;97.7;Corporación Municipal de Panguipulli
+453;MU087;2016-08-01;46.0;45;97.8;Municipalidad de Empedrado
+503;MU145;2016-08-01;46.0;45;97.8;Municipalidad de Lo Espejo
+262;AR006;2016-09-01;45.0;44;97.8;Servicio Agrícola y Ganadero (SAG)
+651;MU314;2016-09-01;45.0;44;97.8;Municipalidad de Taltal
+424;MU052;2016-09-01;45.0;44;97.8;Municipalidad de Coelemu
+488;MU127;2016-09-01;45.0;44;97.8;Municipalidad de La Unión
+317;CM030;2016-08-01;46.0;45;97.8;Corporación Municipal de San Joaquin
+319;CM033;2016-09-01;45.0;44;97.8;Corporación Municipal de San Bernardo
+534;MU180;2016-09-01;45.0;44;97.8;Municipalidad de Navidad
+308;CM018;2016-09-01;45.0;44;97.8;Corporación Municipal de Desarrollo Social de Calama (COMDES)
+305;CM015;2016-07-01;47.0;46;97.9;Corporación Municipal de Valparaíso
+668;MU332;2016-07-01;47.0;46;97.9;Municipalidad de Valparaíso
+679;UN017;2016-07-01;47.0;46;97.9;Universidad de Aysén
+552;MU200;2016-07-01;47.0;46;97.9;Municipalidad de Panguipulli
+281;BB001;2016-06-01;48.0;47;97.9;Subsecretaría de la Mujer y la Equidad de Género
+676;MU343;2016-07-01;47.0;46;97.9;Municipalidad de Yumbel
+301;CM011;2016-06-01;48.0;47;97.9;Corporación Municipal de Castro
+303;CM013;2016-05-01;49.0;48;98.0;Corporación Municipal de Quellón
+631;MU290;2016-05-01;49.0;48;98.0;Municipalidad de San Javier
+441;MU072;2016-04-01;50.0;49;98.0;Municipalidad de Curacautín
+457;MU092;2016-05-01;49.0;48;98.0;Municipalidad de Freirina
+551;MU199;2016-04-01;50.0;49;98.0;Municipalidad de Palmilla
+460;MU095;2016-04-01;50.0;49;98.0;Municipalidad de Futaleufú
+16;AB089;2016-04-01;50.0;49;98.0;Gobierno Regional de Magallanes y de la Antártica Chilena (GORE Magallanes)
+307;CM017;2016-03-01;51.0;50;98.0;Corporación Municipal de La Reina
+313;CM025;2016-03-01;51.0;50;98.0;Corporación Municipal de Buin
+423;MU051;2016-03-01;51.0;50;98.0;Municipalidad de Codegua
+414;MU041;2016-03-01;51.0;50;98.0;Municipalidad de Chile Chico
+311;CM022;2016-01-01;53.0;52;98.1;Corporación Municipal de Cerro Navia
+554;MU203;2016-02-01;52.0;51;98.1;Municipalidad de Paredones
+306;CM016;2016-01-01;53.0;52;98.1;Corporación Municipal de Desarrollo Social de Til Til
+671;MU336;2016-01-01;53.0;52;98.1;Municipalidad de Vilcún
+558;MU207;2016-01-01;53.0;52;98.1;Municipalidad de Pelluhue
+9;AB081;2016-01-01;53.0;52;98.1;Gobierno Regional Metropolitano de Santiago  (GORE Metropolitano)
+446;MU080;2016-01-01;53.0;52;98.1;Municipalidad de Diego de Almagro
+497;MU137;2016-01-01;53.0;52;98.1;Municipalidad de Lebu
+649;MU312;2016-01-01;53.0;52;98.1;Municipalidad de Talca
+642;MU303;2016-02-01;52.0;51;98.1;Municipalidad de San Vicente de Tagua Tagua
+75;AJ008;2016-01-01;53.0;52;98.1;Comisión Nacional de Investigación Científica y Tecnológica (CONICYT)
+570;MU220;2015-12-01;54.0;53;98.1;Municipalidad de Pinto
+571;MU221;2016-01-01;53.0;52;98.1;Municipalidad de Pirque
+431;MU059;2015-12-01;54.0;53;98.1;Municipalidad de Coltauco
+463;MU098;2015-12-01;54.0;53;98.1;Municipalidad de General Lagos
+462;MU097;2016-01-01;53.0;52;98.1;Municipalidad de Galvarino
+451;MU085;2016-01-01;53.0;52;98.1;Municipalidad de El Quisco
+495;MU134;2016-01-01;53.0;52;98.1;Municipalidad de Las Cabras
+579;MU230;2016-01-01;53.0;52;98.1;Municipalidad de Pucón
+468;MU103;2016-02-01;52.0;51;98.1;Municipalidad de Hualaihué
+384;MU007;2016-01-01;53.0;52;98.1;Municipalidad de Andacollo
+326;CM044;2016-01-01;53.0;52;98.1;Corporación Municipal de Puente Alto
+309;CM019;2016-01-01;53.0;52;98.1;Corporación Municipal de Quilpué
+315;CM028;2016-01-01;53.0;52;98.1;Corporación Municipal de Maria Pinto
+489;MU128;2016-01-01;53.0;52;98.1;Municipalidad de Lago Ranco
+518;MU163;2016-01-01;53.0;52;98.1;Municipalidad de Maipú
+400;MU026;2016-01-01;53.0;52;98.1;Municipalidad de Canela
+320;CM034;2016-01-01;53.0;52;98.1;Corporación Municipal de Pozo Almonte
+300;CM009;2016-01-01;53.0;52;98.1;Corporación Municipal para el Desarrollo Social de Villa Alemana
+434;MU062;2016-01-01;53.0;52;98.1;Municipalidad de Conchalí
+621;MU280;2015-12-01;54.0;53;98.1;Municipalidad de San Antonio
+297;CM006;2016-01-01;53.0;52;98.1;Corporación Municipal de Puqueldón
+299;CM008;2015-12-01;54.0;53;98.1;Corporación Municipal de Rancagua (CORMUN)
+293;CM001;2016-01-01;53.0;52;98.1;Corporación Municipal de Desarrollo Social de Ñuñoa
+653;MU317;2016-01-01;53.0;52;98.1;Municipalidad de Teodoro Schmidt
+435;MU064;2016-01-01;53.0;52;98.1;Municipalidad de Constitución
+296;CM004;2016-01-01;53.0;52;98.1;Corporación Municipal de Queilen
+328;CM051;2016-01-01;53.0;52;98.1;Corporación Municipal de San Vicente
+672;MU337;2015-10-01;56.0;55;98.2;Municipalidad de Villa Alegre
+634;MU293;2015-09-01;57.0;56;98.2;Municipalidad de San Juan de la Costa
+432;MU060;2015-11-01;55.0;54;98.2;Municipalidad de Combarbalá
+629;MU288;2015-09-01;57.0;56;98.2;Municipalidad de San Gregorio
+576;MU226;2015-09-01;57.0;56;98.2;Municipalidad de Pozo Almonte
+661;MU325;2015-09-01;57.0;56;98.2;Municipalidad de Torres del Paine
+615;MU274;2015-09-01;57.0;56;98.2;Municipalidad de Río Negro
+618;MU277;2015-10-01;56.0;55;98.2;Municipalidad de Saavedra
+603;MU260;2015-09-01;57.0;56;98.2;Municipalidad de Rancagua
+367;MA038;2015-09-01;57.0;56;98.2;Asociación de Municipalidades Bio Bio Centro
+549;MU196;2015-09-01;57.0;56;98.2;Municipalidad de Paillaco
+491;MU130;2015-09-01;57.0;56;98.2;Municipalidad de Laguna Blanca
+499;MU139;2015-10-01;56.0;55;98.2;Municipalidad de Limache
+673;MU338;2015-08-01;58.0;57;98.3;Municipalidad de Villa Alemana
+658;MU322;2015-06-01;60.0;59;98.3;Municipalidad de Tocopilla
+606;MU264;2015-08-01;58.0;57;98.3;Municipalidad de Renaico
+459;MU094;2015-08-01;58.0;57;98.3;Municipalidad de Frutillar
+404;MU030;2015-07-01;59.0;58;98.3;Municipalidad de Casablanca
+469;MU105;2015-06-01;60.0;59;98.3;Municipalidad de Hualpén
+417;MU045;2015-06-01;60.0;59;98.3;Municipalidad de Cholchol
+545;MU192;2015-07-01;59.0;58;98.3;Municipalidad de Ovalle
+507;MU150;2015-08-01;58.0;57;98.3;Municipalidad de Lonquimay
+505;MU147;2015-06-01;60.0;59;98.3;Municipalidad de Lolol
+429;MU057;2015-07-01;59.0;58;98.3;Municipalidad de Colina
+480;MU117;2015-06-01;60.0;59;98.3;Municipalidad de La Cisterna
+496;MU136;2015-07-01;59.0;58;98.3;Municipalidad de Lautaro
+433;MU061;2015-07-01;59.0;58;98.3;Municipalidad de Concepción
+577;MU227;2015-05-01;61.0;60;98.4;Municipalidad de Primavera
+522;MU168;2015-04-01;62.0;61;98.4;Municipalidad de Mariquina
+514;MU159;2015-04-01;62.0;61;98.4;Municipalidad de Lumaco
+419;MU047;2015-05-01;61.0;60;98.4;Municipalidad de Cisnes
+427;MU055;2015-04-01;62.0;61;98.4;Municipalidad de Colbún
+530;MU176;2015-02-01;64.0;63;98.4;Municipalidad de Mostazal
+314;CM026;2015-03-01;63.0;62;98.4;Corporación Municipal de Colina
+677;MU344;2015-05-01;61.0;60;98.4;Municipalidad de Yungay
+560;MU209;2015-05-01;61.0;60;98.4;Municipalidad de Pencahue
+597;MU251;2015-05-01;61.0;60;98.4;Municipalidad de Quilleco
+448;MU082;2015-05-01;61.0;60;98.4;Municipalidad de El Bosque
+478;MU114;2015-04-01;62.0;61;98.4;Municipalidad de Isla de Pascua (Rapa Nui)
+589;MU242;2015-03-01;63.0;62;98.4;Municipalidad de Purranque
+482;MU119;2015-01-01;65.0;64;98.5;Municipalidad de La Estrella
+405;MU032;2014-10-01;68.0;67;98.5;Municipalidad de Catemu
+525;MU171;2015-01-01;65.0;64;98.5;Municipalidad de Mejillones
+406;MU033;2014-10-01;68.0;67;98.5;Municipalidad de Cauquenes
+411;MU038;2015-01-01;65.0;64;98.5;Municipalidad de Chañaral
+467;MU102;2015-01-01;65.0;64;98.5;Municipalidad de Hijuelas
+416;MU044;2015-01-01;65.0;64;98.5;Municipalidad de Chimbarongo
+645;MU308;2014-11-01;67.0;66;98.5;Municipalidad de Santiago
+470;MU106;2015-01-01;65.0;64;98.5;Municipalidad de Hualqui
+508;MU151;2015-01-01;65.0;64;98.5;Municipalidad de Los Alamos
+485;MU123;2015-01-01;65.0;64;98.5;Municipalidad de La Ligua
+445;MU079;2015-01-01;65.0;64;98.5;Municipalidad de Dalcahue
+439;MU070;2015-01-01;65.0;64;98.5;Municipalidad de Coyhaique
+294;CM002;2015-01-01;65.0;64;98.5;Corporación Municipal de Desarrollo Social de Antofagasta (CMDS)
+437;MU068;2015-01-01;65.0;64;98.5;Municipalidad de Coronel
+430;MU058;2014-11-01;67.0;66;98.5;Municipalidad de Collipulli
+655;MU319;2015-01-01;65.0;64;98.5;Municipalidad de Tiltil
+493;MU132;2015-01-01;65.0;64;98.5;Municipalidad de Lampa
+660;MU324;2015-01-01;65.0;64;98.5;Municipalidad de Tome
+490;MU129;2015-01-01;65.0;64;98.5;Municipalidad de Lago Verde
+648;MU311;2015-01-01;65.0;64;98.5;Municipalidad de Talagante
+657;MU321;2015-01-01;65.0;64;98.5;Municipalidad de Tirúa
+574;MU224;2015-01-01;65.0;64;98.5;Municipalidad de Portezuelo
+401;MU027;2015-01-01;65.0;64;98.5;Municipalidad de Cañete
+608;MU266;2015-01-01;65.0;64;98.5;Municipalidad de Rengo
+403;MU029;2015-01-01;65.0;64;98.5;Municipalidad de Cartagena
+555;MU204;2015-01-01;65.0;64;98.5;Municipalidad de Parral
+604;MU261;2014-10-01;68.0;67;98.5;Municipalidad de Ránquil
+556;MU205;2014-10-01;68.0;67;98.5;Municipalidad de Pedro Aguirre Cerda
+602;MU259;2015-01-01;65.0;64;98.5;Municipalidad de Quirihue
+383;MU004;2015-01-01;65.0;64;98.5;Municipalidad de Alto del Carmen
+600;MU257;2015-01-01;65.0;64;98.5;Municipalidad de Quinta Normal
+599;MU254;2015-01-01;65.0;64;98.5;Municipalidad de Quilpué
+561;MU210;2015-01-01;65.0;64;98.5;Municipalidad de Penco
+595;MU248;2015-01-01;65.0;64;98.5;Municipalidad de Quemchi
+594;MU247;2015-01-01;65.0;64;98.5;Municipalidad de Quellón
+593;MU246;2015-01-01;65.0;64;98.5;Municipalidad de Queilén
+592;MU245;2015-01-01;65.0;64;98.5;Municipalidad de Puyehue
+573;MU223;2015-01-01;65.0;64;98.5;Municipalidad de Placilla
+385;MU008;2015-01-01;65.0;64;98.5;Municipalidad de Angol
+614;MU273;2015-01-01;65.0;64;98.5;Municipalidad de Río Ibáñez
+569;MU219;2015-01-01;65.0;64;98.5;Municipalidad de Pichilemu
+626;MU285;2015-01-01;65.0;64;98.5;Municipalidad de San Fabián
+388;MU011;2015-01-01;65.0;64;98.5;Municipalidad de Arauco
+617;MU276;2015-01-01;65.0;64;98.5;Municipalidad de Romeral
+390;MU014;2015-01-01;65.0;64;98.5;Municipalidad de Buin
+532;MU178;2015-01-01;65.0;64;98.5;Municipalidad de Nacimiento
+398;MU024;2015-01-01;65.0;64;98.5;Municipalidad de Camarones
+395;MU021;2015-01-01;65.0;64;98.5;Municipalidad de Caldera
+622;MU281;2015-01-01;65.0;64;98.5;Municipalidad de San Bernardo
+396;MU022;2015-01-01;65.0;64;98.5;Municipalidad de Calera de Tango
+544;MU191;2015-01-01;65.0;64;98.5;Municipalidad de Osorno
+412;MU039;2014-07-01;71.0;70;98.6;Municipalidad de Chépica
+563;MU212;2014-06-01;72.0;71;98.6;Municipalidad de Peñalolén
+590;MU243;2014-09-01;69.0;68;98.6;Municipalidad de Putaendo
+633;MU292;2014-08-01;70.0;69;98.6;Municipalidad de San José de Maipo
+624;MU283;2014-09-01;69.0;68;98.6;Municipalidad de San Clemente
+548;MU195;2014-08-01;70.0;69;98.6;Municipalidad de Paihuano
+662;MU326;2014-09-01;69.0;68;98.6;Municipalidad de Tortel
+415;MU042;2014-09-01;69.0;68;98.6;Municipalidad de Chillán
+643;MU306;2014-09-01;69.0;68;98.6;Municipalidad de Santa Juana
+553;MU202;2014-09-01;69.0;68;98.6;Municipalidad de Papudo
+483;MU121;2014-01-01;77.0;76;98.7;Municipalidad de La Granja
+394;MU020;2014-01-01;77.0;76;98.7;Municipalidad de Calbuco
+302;CM012;2014-01-01;77.0;76;98.7;Corporación Municipal de Educación y Servicios Ramón Freire Dalcahue
+562;MU211;2014-01-01;77.0;76;98.7;Municipalidad de Peñaflor
+334;CT001;2014-02-01;76.0;75;98.7;Consejo para la Transparencia (CPLT)
+611;MU270;2014-01-01;77.0;76;98.7;Municipalidad de Rio Bueno
+566;MU216;2014-01-01;77.0;76;98.7;Municipalidad de Peumo
+572;MU222;2014-01-01;77.0;76;98.7;Municipalidad de Pitrufquén
+546;MU193;2014-01-01;77.0;76;98.7;Municipalidad de Padre Hurtado
+465;MU100;2014-01-01;77.0;76;98.7;Municipalidad de Graneros
+516;MU161;2014-01-01;77.0;76;98.7;Municipalidad de Macul
+647;MU310;2014-01-01;77.0;76;98.7;Municipalidad de Sierra Gorda
